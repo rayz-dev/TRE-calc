@@ -1759,6 +1759,11 @@ export function calculateFinalModsSMSSSV(
     desc.defenderAbility = defender.ability;
   }
 
+  if (defender.hasAbility('Ultimate Armor')) {
+    finalMods.push(2048);
+    desc.defenderAbility = defender.ability;
+  }
+
   if (attacker.hasItem('Expert Belt') && typeEffectiveness > 1 && !move.isZ) {
     finalMods.push(4915);
     desc.attackerItem = attacker.item;

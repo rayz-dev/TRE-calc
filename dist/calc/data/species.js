@@ -9000,18 +9000,22 @@ var PLA_PATCH = {
 var TRE_PATCH = {
     Absol: { bs: { df: 70, sa: 95, sd: 70, sp: 115 } },
     'Absol-Mega': { bs: { df: 90, sa: 135, sd: 90 } },
+    Aerodactyl: { otherFormes: ['Aerodactyl-Primal', 'Aerodactyl-Skeleton'] },
     Altaria: { bs: { at: 80, sa: 80, sd: 130, sp: 85 } },
     'Altaria-Mega': { bs: { at: 115, df: 115, sa: 115, sd: 135, sp: 85 } },
     Arbok: { bs: { at: 105, sa: 75, sd: 109, sp: 90 } },
+    Arceus: { otherFormes: ['Arceus-Primal'] },
     Ariados: { bs: { at: 100, sa: 35, sp: 75 } },
-    Articuno: { abilities: { 0: 'No Guard' } },
+    Armaldo: { otherFormes: ['Armaldo-Primal'] },
+    Articuno: { abilities: { 0: 'No Guard' }, otherFormes: ['Articuno-Primal'] },
     Azelf: { bs: { at: 80, sa: 135, sd: 95, sp: 125 } },
     Bastiodon: { bs: { hp: 70, at: 62, sa: 27, sd: 148, sp: 20 }, abilities: { 0: 'Steelworker' } },
-    Blastoise: { bs: { hp: 99, df: 120, sp: 58 } },
+    Blastoise: { bs: { hp: 99, df: 120, sp: 58 }, otherFormes: ['Blastoise-Z'] },
     'Blastoise-Mega': { bs: { hp: 99, at: 93, df: 130, sd: 125, sp: 68 } },
     Blacephalon: { bs: { hp: 127, at: 53 } },
     Braviary: { bs: { df: 85, sa: 58, sd: 85, sp: 90 }, abilities: { 0: 'Rock Head' } },
     'Braviary-Hisui': { bs: { df: 85, sa: 113, sd: 85 }, abilities: { 0: 'Magic Guard' } },
+    Butterfree: { otherFormes: ['Butterfree-&', 'Butterfree-Mega'] },
     Camerupt: { bs: { df: 100, sa: 145, sd: 105, sp: 20 }, abilities: { 0: 'Sheer Force' } },
     'Camerupt-Mega': { bs: { df: 140, sa: 175, sd: 125, sp: 10 } },
     Castform: { bs: { hp: 95, at: 105, sa: 105, sp: 105 } },
@@ -9020,98 +9024,733 @@ var TRE_PATCH = {
     Charizard: { bs: { sa: 114, sd: 95 } },
     'Charizard-Mega-X': { bs: { at: 135, sd: 95 } },
     'Charizard-Mega-Y': { bs: { df: 83, sp: 110 } },
+    Cradily: { otherFormes: ['Cradily-Primal'] },
+    Crobat: { otherFormes: ['Crobat-&', 'Crobat-&-Hero'] },
     Cursola: { bs: { at: 30, df: 95, sp: 50 } },
     Darkrai: { bs: { hp: 90, at: 70 } },
     Darmanitan: { types: ['Fire', 'Fighting'], bs: { df: 65, sd: 65 } },
     'Darmanitan-Galar': { bs: { df: 65, sd: 65 } },
+    Delphox: { otherFormes: ['Delphox-&'] },
     Dragalge: { bs: { hp: 75, at: 95, df: 95 } },
+    Dragonite: { otherFormes: ['Dragonite-&'] },
     Drampa: { bs: { hp: 88, df: 95, sd: 111 } },
-    Dusknoir: { bs: { hp: 55, df: 140, sa: 75, sd: 140, sp: 25 } },
-    Electivire: { bs: { df: 85, sa: 67, sd: 95 } },
-    Entei: { bs: { sa: 75, sd: 90 }, abilities: { 0: 'Rock Head' } },
+    Dusknoir: { bs: { hp: 55, df: 140, sa: 75, sd: 140, sp: 25 }, otherFormes: ['Dusknoir-Mega'] },
+    Eevee: { otherFormes: ['Eevee-&'] },
+    Electivire: { bs: { df: 85, sa: 67, sd: 95 }, otherFormes: ['Electivire-X'] },
+    Electrode: { otherFormes: ['Electrode-Y'] },
+    Entei: { bs: { sa: 75, sd: 90 }, abilities: { 0: 'Rock Head' }, otherFormes: ['Entei-&'] },
     Fearow: { abilities: { 0: 'Adaptability' } },
-    Feraligatr: { bs: { hp: 95, at: 115, sa: 64 } },
-    Flygon: { bs: { sa: 100, sp: 110 } },
+    Feraligatr: { bs: { hp: 95, at: 115, sa: 64 }, otherFormes: ['Feraligatr-&'] },
+    Flareon: { otherFormes: ['En'] },
+    Flygon: { bs: { sa: 100, sp: 110 }, otherFormes: ['Flygon-Mega'] },
     Furret: { bs: { at: 90, df: 70, sa: 35, sd: 70, sp: 100 } },
     Gallade: { abilities: { 0: 'Adaptability' } },
     'Gardevoir-Mega': { bs: { at: 65, df: 85 } },
     Gengar: { bs: { hp: 70, at: 75, sa: 140, sd: 97 }, abilities: { 0: 'Levitate' } },
     'Gengar-Mega': { bs: { hp: 70, at: 75, df: 90, sd: 117 } },
     'Glalie-Mega': { types: ['Ice', 'Ghost'], bs: { at: 130, df: 90, sa: 80, sd: 90, sp: 110 } },
-    Goodra: { abilities: { 0: 'Grassy Terrain' } },
+    Goodra: { abilities: { 0: 'Grassy Terrain' }, otherFormes: ['Goodra-&'] },
     Gothitelle: { bs: { hp: 80, df: 105, sa: 105 } },
-    Gyarados: { types: ['Water', 'Dragon'] },
+    Gyarados: { types: ['Water', 'Dragon'], otherFormes: ['Gyarados-Z'] },
     Hitmonchan: { bs: { hp: 60, df: 99 } },
     Hitmonlee: { bs: { hp: 60, df: 73 } },
     Hitmontop: { bs: { hp: 60, df: 115 } },
+    'Ho-Oh': { otherFormes: ['Ho-Oh-Primal'] },
     Honchkrow: { bs: { hp: 103, df: 82, sa: 52, sd: 82, sp: 81 } },
     Houndoom: { bs: { hp: 85, at: 80, df: 60 }, abilities: { 0: 'Sheer Force' } },
     'Houndoom-Mega': { bs: { hp: 85, at: 80, sa: 145, sd: 95 }, abilities: { 0: 'Sheer Force' } },
+    Hypno: { otherFormes: ['Hypno-&'] },
     Infernape: { bs: { hp: 77 } },
     Jellicent: { bs: { hp: 105, at: 70, sa: 105 } },
-    Jirachi: { bs: { at: 50, df: 125, sa: 110, sd: 125, sp: 90 } },
+    Jirachi: { bs: { at: 50, df: 125, sa: 110, sd: 125, sp: 90 }, otherFormes: ['Jirachi-&'] },
+    Jolteon: { otherFormes: ['Rai'] },
     Jumpluff: { bs: { sa: 95 } },
     Jynx: { bs: { hp: 75, df: 45, sd: 105 } },
+    Kabutops: { otherFormes: ['Kabutops-Skeleton'] },
     Kartana: { bs: { sa: 31, sd: 59 } },
-    Kingdra: { abilities: { 0: 'Adaptability' } },
+    Kingdra: { abilities: { 0: 'Adaptability' }, otherFormes: ['Kingdra-&'] },
     Klinklang: { bs: { sa: 100 }, abilities: { 0: 'No Guard' } },
+    Kyurem: { otherFormes: ['Kyurem-Primal'] },
     Lapras: { bs: { hp: 140, df: 80, sa: 95, sd: 105, sp: 45 } },
     'Latios-Mega': { bs: { at: 100, df: 110, sd: 130, sp: 120 } },
     Ledian: { bs: { at: 45, sp: 95 }, abilities: { 0: 'Huge Power' } },
+    Lugia: { otherFormes: ['Lugia-Primal'] },
     Lunatone: { bs: { hp: 100, df: 95, sa: 105, sd: 95 } },
     Luxray: { types: ['Electric', 'Dark'], bs: { sp: 90 } },
     Machamp: { bs: { hp: 100, at: 136, df: 110 } },
     Magcargo: { bs: { hp: 90, sd: 110 }, abilities: { 0: 'Solid Rock' } },
     Magearna: { bs: { hp: 95, at: 65, sp: 80 } },
-    Magmortar: { bs: { at: 67, df: 83, sp: 95 } },
-    Mamoswine: { bs: { df: 90, sa: 60, sd: 70 } },
+    Magmortar: { bs: { at: 67, df: 83, sp: 95 }, otherFormes: ['Magmortar-Y'] },
+    Mamoswine: { bs: { df: 90, sa: 60, sd: 70 }, otherFormes: ['Mamoswine-&'] },
     Marshadow: { bs: { df: 90, sa: 80 } },
     Meganium: { bs: { hp: 90, df: 112, sd: 116, sp: 50 }, abilities: { 0: 'Grassy Surge' } },
     Mew: { bs: { at: 50, sa: 125, sd: 125 }, abilities: { 0: 'Magic Guard' } },
-    Mewtwo: { abilities: { 0: 'Magic Guard' } },
-    Milotic: { types: ['Water', 'Fairy'], bs: { hp: 105, sa: 110, sd: 135 } },
+    Mewtwo: { abilities: { 0: 'Magic Guard' }, otherFormes: ['Mewtwo-Armored', 'Ultimate Project'] },
+    Milotic: { types: ['Water', 'Fairy'], bs: { hp: 105, sa: 110, sd: 135 }, otherFormes: ['Milotic-&', 'Milotic-Mega'] },
     Mismagius: { bs: { hp: 65, at: 65, df: 65, sa: 110, sd: 110, sp: 110 } },
-    Moltres: { bs: { at: 85, sd: 100 }, abilities: { 0: 'Sheer Force' } },
+    Moltres: { bs: { at: 85, sd: 100 }, abilities: { 0: 'Sheer Force' }, otherFormes: ['Moltres-Primal'] },
     Musharna: { abilities: { 0: 'Psychic Terrain' } },
-    Nidoking: { bs: { hp: 91, sa: 90, sp: 95 } },
-    Nidoqueen: { bs: { hp: 100, df: 92, sa: 80, sd: 90 } },
+    Nidoking: { bs: { hp: 91, sa: 90, sp: 95 }, otherFormes: ['Nidogod', 'Nidoking-X'] },
+    Nidoqueen: { bs: { hp: 100, df: 92, sa: 80, sd: 90 }, otherFormes: ['Nidoqueen-Y'] },
     Nihilego: { bs: { at: 47, df: 53 } },
+    Ninetales: { otherFormes: ['Ninetales-&'] },
     Noctowl: { types: ['Psychic', 'Flying'] },
-    'Porygon-Z': { bs: { sa: 145 } },
+    Noivern: { otherFormes: ['Noivern-Mega'] },
+    Poliwrath: { otherFormes: ['Poliwrath-&'] },
+    'Porygon-Z': { bs: { sa: 145 }, otherFormes: ['Porygon-Z-Mega', 'Porygon-Z-X', 'Porygon-Z-Y'] },
     Probopass: { bs: { at: 25, df: 175 } },
     Pyroar: { bs: { hp: 96, at: 88, sd: 76 } },
-    Raikou: { bs: { at: 75, df: 85 }, abilities: { 0: 'Sheer Force' } },
+    Raikou: { bs: { at: 75, df: 85 }, abilities: { 0: 'Sheer Force' }, otherFormes: ['Raikou-&'] },
+    Rapidash: { otherFormes: ['Rapidash-&'] },
     Regice: { abilities: { 0: 'Adaptability' } },
-    Regigigas: { abilities: { 0: 'Mold Breaker' } },
+    Regigigas: { abilities: { 0: 'Mold Breaker' }, otherFormes: ['Regigigas-Primal'] },
     Regirock: { abilities: { 0: 'Adaptability' } },
     Registeel: { abilities: { 0: 'Adaptability' } },
-    Rhyperior: { bs: { hp: 103, at: 145, df: 135, sa: 40, sp: 55 } },
+    Relicanth: { otherFormes: ['Relicanth-Primal'] },
+    Rhyperior: { bs: { hp: 103, at: 145, df: 135, sa: 40, sp: 55 }, otherFormes: ['Rhyperior-&'] },
     Scizor: { bs: { hp: 80, sd: 90, sp: 75 } },
     'Scizor-Mega': { bs: { hp: 80, at: 155, df: 145, sp: 85 } },
     Sharpedo: { bs: { at: 140, df: 70, sa: 75, sd: 70, sp: 115 } },
     'Sharpedo-Mega': { bs: { at: 155, df: 90, sd: 90, sp: 125 } },
+    Skarmory: { otherFormes: ['Skarmory-&'] },
     Solrock: { bs: { hp: 100, at: 105, df: 95, sd: 95 } },
+    Starmie: { otherFormes: ['Starmie-Mega'] },
     Stoutland: { bs: { hp: 105 } },
-    Suicune: { abilities: { 0: 'Magic Guard' } },
+    Suicune: { abilities: { 0: 'Magic Guard' }, otherFormes: ['Suicune-&'] },
     Sunflora: { types: ['Grass', 'Fire'], bs: { at: 55, df: 75, sa: 125, sd: 115 }, abilities: { 0: 'Solar Power' } },
     Swanna: { bs: { at: 92, df: 73, sa: 92, sd: 73 }, abilities: { 0: 'Gale Wings' } },
     Tangrowth: { abilities: { 0: 'Regenerator' } },
+    Tauros: { otherFormes: ['Tauros-X'] },
     Torterra: { bs: { hp: 105, at: 119, df: 115, sa: 65, sp: 46 }, abilities: { 0: 'Reckless' } },
     Torkoal: { bs: { at: 75, sd: 100, sp: 10 } },
     Toucannon: { bs: { hp: 100, df: 85, sd: 85, sp: 70 } },
+    Toxtricity: { otherFormes: ['Toxtricity-Mega'] },
     Tropius: { types: ['Grass', 'Dragon'], bs: { hp: 109, at: 78, df: 93, sa: 82, sd: 97, sp: 61 }, abilities: { 0: 'Contrary' } },
     Typhlosion: { types: ['Fire', 'Ground'], bs: { at: 69, sa: 119, sd: 90 } },
+    Unown: { otherFormes: ['Unown-Golden', 'Unown-King'] },
     Ursaring: { bs: { hp: 110, sa: 50, sp: 70 } },
+    Vaporeon: { otherFormes: ['Sui'] },
     Venusaur: { bs: { hp: 90, at: 85, df: 93, sa: 110, sd: 110, sp: 60 } },
     'Venusaur-Mega': { bs: { hp: 90, sa: 123, sd: 132 } },
     Victini: { bs: { at: 125, sa: 50, sp: 125 } },
     Vikavolt: { bs: { at: 42, df: 105, sp: 56 } },
-    Volcarona: { abilities: { 0: 'Magic Guard' } },
+    Volcarona: { abilities: { 0: 'Magic Guard' }, otherFormes: ['Volcarona-&'] },
     Wailord: { bs: { df: 90, sd: 90, sp: 20 } },
     Weezing: { bs: { df: 130, sa: 95, sd: 80 } },
     'Weezing-Galar': { bs: { df: 110, sa: 95, sd: 100 } },
     Xurkitree: { bs: { at: 71, df: 89 } },
-    Zapdos: { bs: { at: 85, df: 90 }, abilities: { 0: 'Download' } }
+    Zapdos: { bs: { at: 85, df: 90 }, abilities: { 0: 'Download' }, otherFormes: ['Zapdos-Primal', 'Zapdos-Z'] },
+    'Butterfree-Mega': {
+        types: ['Bug', 'Flying'],
+        bs: { hp: 60, at: 15, df: 50, sa: 140, sd: 108, sp: 122 },
+        weightkg: 32,
+        abilities: { 0: 'Adaptability' },
+        baseSpecies: 'Butterfree'
+    },
+    'Dusknoir-Mega': {
+        types: ['Ghost', 'Dark'],
+        bs: { hp: 55, at: 110, df: 170, sa: 105, sd: 170, sp: 25 },
+        weightkg: 106.6,
+        abilities: { 0: 'Magic Bounce' },
+        baseSpecies: 'Dusknoir'
+    },
+    'Flygon-Mega': {
+        types: ['Bug', 'Dragon'],
+        bs: { hp: 80, at: 90, df: 100, sa: 140, sd: 100, sp: 140 },
+        weightkg: 82,
+        abilities: { 0: 'Aerilate' },
+        baseSpecies: 'Flygon'
+    },
+    'Milotic-Mega': {
+        types: ['Water', 'Fairy'],
+        bs: { hp: 105, at: 65, df: 99, sa: 135, sd: 185, sp: 81 },
+        weightkg: 162,
+        abilities: { 0: 'Fairy Aura' },
+        baseSpecies: 'Milotic'
+    },
+    'Noivern-Mega': {
+        types: ['Flying', 'Dragon'],
+        bs: { hp: 85, at: 80, df: 100, sa: 127, sd: 90, sp: 153 },
+        weightkg: 85,
+        abilities: { 0: 'No Guard' },
+        baseSpecies: 'Noivern'
+    },
+    'Porygon-Z-Mega': {
+        types: ['Normal'],
+        bs: { hp: 85, at: 100, df: 90, sa: 165, sd: 95, sp: 110 },
+        weightkg: 34,
+        gender: 'N',
+        abilities: { 0: 'Huge Power' },
+        baseSpecies: 'Porygon-Z'
+    },
+    'Starmie-Mega': {
+        types: ['Ice', 'Psychic'],
+        bs: { hp: 60, at: 75, df: 105, sa: 130, sd: 105, sp: 145 },
+        weightkg: 80,
+        abilities: { 0: 'Refrigerate' },
+        baseSpecies: 'Starmie'
+    },
+    'Toxtricity-Mega': {
+        types: ['Electric', 'Poison'],
+        bs: { hp: 75, at: 78, df: 85, sa: 154, sd: 95, sp: 115 },
+        weightkg: 40,
+        abilities: { 0: 'Punk Rock' },
+        baseSpecies: 'Toxtricity'
+    },
+    'Aerodactyl-Skeleton': {
+        types: ['Flying', 'Ghost'],
+        bs: { hp: 80, at: 145, df: 95, sa: 70, sd: 105, sp: 120 },
+        weightkg: 59,
+        abilities: { 0: 'Shadow Tag' },
+        baseSpecies: 'Aerodactyl'
+    },
+    Akueria: {
+        types: ['Water', 'Dragon'],
+        bs: { hp: 122, at: 126, df: 102, sa: 135, sd: 74, sp: 82 },
+        abilities: { 0: 'No Guard' }
+    },
+    Blessparce: {
+        types: ['Dragon', 'Psychic'],
+        bs: { hp: 125, at: 60, df: 63, sa: 83, sd: 101, sp: 66 },
+        weightkg: 14,
+        abilities: { 0: 'Psychic Surge' }
+    },
+    Bomushikaa: {
+        types: ['Water', 'Fire'],
+        bs: { hp: 90, at: 65, df: 80, sa: 102, sd: 112, sp: 80 },
+        abilities: { 0: 'Water Absorb' }
+    },
+    Boohoo: {
+        types: ['Psychic', 'Flying'],
+        bs: { hp: 120, at: 55, df: 65, sa: 116, sd: 126, sp: 60 },
+        weightkg: 40.8,
+        abilities: { 0: 'Magic Guard' }
+    },
+    Dudunsparce: {
+        types: ['Normal', 'Ground'],
+        bs: { hp: 125, at: 100, df: 80, sa: 85, sd: 75, sp: 55 },
+        weightkg: 39.2,
+        abilities: { 0: 'Grassy Surge' }
+    },
+    Dun: {
+        types: ['Dragon', 'Psychic'],
+        bs: { hp: 153, at: 44, df: 66, sa: 117, sd: 122, sp: 99 },
+        weightkg: 14,
+        abilities: { 0: 'Psychic Surge' },
+        otherFormes: ['Dragón Sagrado']
+    },
+    'Kabutops-Skeleton': {
+        types: ['Rock', 'Ghost'],
+        bs: { hp: 60, at: 155, df: 125, sa: 75, sd: 80, sp: 100 },
+        weightkg: 59,
+        abilities: { 0: 'Shadow Tag' },
+        baseSpecies: 'Kabutops'
+    },
+    Ghost: {
+        types: ['Ghost', 'Normal'],
+        bs: { hp: 90, at: 60, df: 60, sa: 165, sd: 150, sp: 115 },
+        gender: 'N',
+        abilities: { 0: 'Levitate' },
+        otherFormes: ['Ghost-Primal']
+    },
+    Gorochu: {
+        types: ['Electric', 'Fighting'],
+        bs: { hp: 70, at: 100, df: 65, sa: 125, sd: 90, sp: 105 },
+        weightkg: 30,
+        abilities: { 0: 'Transistor' }
+    },
+    Guardia: {
+        types: ['Ground'],
+        bs: { hp: 105, at: 95, df: 145, sa: 60, sd: 95, sp: 60 },
+        weightkg: 45,
+        abilities: { 0: 'Scrappy' }
+    },
+    Ikary: {
+        types: ['Water', 'Steel'],
+        bs: { hp: 65, at: 125, df: 95, sa: 35, sd: 75, sp: 95 },
+        abilities: { 0: 'Steelworker' }
+    },
+    Madaamu: {
+        types: ['Grass', 'Flying'],
+        bs: { hp: 77, at: 145, df: 95, sa: 63, sd: 82, sp: 85 },
+        weightkg: 15,
+        abilities: { 0: 'Intimidate' }
+    },
+    Maroghost: {
+        types: ['Ground', 'Ghost'],
+        bs: { hp: 100, at: 140, df: 120, sa: 70, sd: 90, sp: 70 },
+        weightkg: 45,
+        abilities: { 0: 'Iron Fist' }
+    },
+    Purakkusu: {
+        types: ['Bug', 'Poison'],
+        bs: { hp: 85, at: 135, df: 110, sa: 45, sd: 80, sp: 95 },
+        weightkg: 55,
+        abilities: { 0: 'Intimidate' }
+    },
+    Shibirefugu: {
+        types: ['Water', 'Electric'],
+        bs: { hp: 95, at: 65, df: 85, sa: 115, sd: 85, sp: 65 },
+        weightkg: 3.9,
+        abilities: { 0: 'Electric Surge' }
+    },
+    Taaban: {
+        types: ['Water', 'Ghost'],
+        bs: { hp: 95, at: 95, df: 180, sa: 85, sd: 55, sp: 30 },
+        weightkg: 78.5,
+        abilities: { 0: 'Skill Link' }
+    },
+    Trxatu: {
+        types: ['Psychic', 'Flying'],
+        bs: { hp: 75, at: 75, df: 75, sa: 115, sd: 115, sp: 115 },
+        weightkg: 15,
+        abilities: { 0: 'Magic Bounce' }
+    },
+    'Unown-Golden': {
+        types: ['Psychic', 'Fairy'],
+        bs: { hp: 104, at: 104, df: 104, sa: 156, sd: 156, sp: 104 },
+        weightkg: 5,
+        gender: 'N',
+        abilities: { 0: 'Fairy Aura' },
+        baseSpecies: 'Unown'
+    },
+    'Unown-King': {
+        types: ['Dark', 'Poison'],
+        bs: { hp: 114, at: 171, df: 114, sa: 171, sd: 114, sp: 114 },
+        weightkg: 5,
+        gender: 'N',
+        abilities: { 0: 'Dark Aura' },
+        baseSpecies: 'Unown'
+    },
+    Wartillery: {
+        types: ['Water', 'Steel'],
+        bs: { hp: 85, at: 105, df: 105, sa: 105, sd: 105, sp: 35 },
+        weightkg: 28.5,
+        abilities: { 0: 'Mega Launcher' }
+    },
+    Wrongsparce: {
+        types: ['Normal', 'Ground'],
+        bs: { hp: 141, at: 131, df: 121, sa: 43, sd: 98, sp: 65 },
+        weightkg: 39.2,
+        abilities: { 0: 'Grassy Surge' }
+    },
+    'Arceus-Primal': {
+        types: ['Normal'],
+        bs: { hp: 150, at: 150, df: 150, sa: 150, sd: 150, sp: 150 },
+        weightkg: 320,
+        gender: 'N',
+        abilities: { 0: 'Protean' },
+        baseSpecies: 'Arceus'
+    },
+    'Articuno-Primal': {
+        types: ['Ice', 'Water'],
+        bs: { hp: 90, at: 85, df: 100, sa: 115, sd: 185, sp: 115 },
+        weightkg: 55.4,
+        gender: 'N',
+        abilities: { 0: 'Snow Warning' },
+        baseSpecies: 'Articuno'
+    },
+    'Dragón Original': {
+        types: ['Dragon'],
+        bs: { hp: 125, at: 195, df: 120, sa: 195, sd: 120, sp: 150 },
+        weightkg: 325,
+        gender: 'N',
+        abilities: { 0: 'No Guard' }
+    },
+    'Ghost-Primal': {
+        types: ['Ghost', 'Dark'],
+        bs: { hp: 90, at: 80, df: 80, sa: 205, sd: 150, sp: 135 },
+        gender: 'N',
+        abilities: { 0: 'Dark Aura' },
+        baseSpecies: 'Ghost'
+    },
+    'Ho-Oh-Primal': {
+        types: ['Fire', 'Fairy'],
+        bs: { hp: 106, at: 70, df: 120, sa: 150, sd: 194, sp: 140 },
+        weightkg: 199,
+        gender: 'N',
+        abilities: { 0: 'Magic Guard' },
+        baseSpecies: 'Ho-Oh'
+    },
+    'Kyurem-Primal': {
+        types: ['Dragon', 'Ice'],
+        bs: { hp: 125, at: 170, df: 120, sa: 170, sd: 120, sp: 95 },
+        weightkg: 325,
+        gender: 'N',
+        abilities: { 0: 'No Guard' },
+        baseSpecies: 'Kyurem'
+    },
+    'Lugia-Primal': {
+        types: ['Psychic', 'Water'],
+        bs: { hp: 106, at: 70, df: 150, sa: 120, sd: 194, sp: 140 },
+        weightkg: 216,
+        gender: 'N',
+        abilities: { 0: 'Multiscale' },
+        baseSpecies: 'Lugia'
+    },
+    'Moltres-Primal': {
+        types: ['Fire', 'Dragon'],
+        bs: { hp: 90, at: 85, df: 100, sa: 185, sd: 110, sp: 110 },
+        weightkg: 60,
+        gender: 'N',
+        abilities: { 0: 'Drought' },
+        baseSpecies: 'Moltres'
+    },
+    'Pokémon Esencia': {
+        types: ['Ghost', 'Fairy'],
+        bs: { hp: 128, at: 130, df: 129, sa: 196, sd: 156, sp: 156 },
+        gender: 'N',
+        abilities: { 0: 'Magic Guard' }
+    },
+    'Regigigas-Primal': {
+        types: ['Normal', 'Ground'],
+        bs: { hp: 165, at: 255, df: 150, sa: 50, sd: 150, sp: 50 },
+        weightkg: 420,
+        gender: 'N',
+        abilities: { 0: 'Mold Breaker' },
+        baseSpecies: 'Regigigas'
+    },
+    'Zapdos-Primal': {
+        types: ['Electric', 'Dark'],
+        bs: { hp: 90, at: 85, df: 100, sa: 175, sd: 100, sp: 130 },
+        weightkg: 52.6,
+        gender: 'N',
+        abilities: { 0: 'Electric Surge' },
+        baseSpecies: 'Zapdos'
+    },
+    'Butterfree-&': {
+        types: ['Psychic', 'Flying'],
+        bs: { hp: 60, at: 5, df: 80, sa: 140, sd: 125, sp: 110 },
+        weightkg: 32,
+        abilities: { 0: 'Adaptability' },
+        baseSpecies: 'Butterfree'
+    },
+    'Crobat-&': {
+        types: ['Poison', 'Steel'],
+        bs: { hp: 95, at: 160, df: 115, sa: 85, sd: 85, sp: 120 },
+        weightkg: 75,
+        abilities: { 0: 'Levitate' },
+        baseSpecies: 'Crobat'
+    },
+    'Crobat-&-Hero': {
+        types: ['Poison', 'Flying'],
+        bs: { hp: 95, at: 120, df: 95, sa: 85, sd: 105, sp: 160 },
+        weightkg: 75,
+        abilities: { 0: 'Compound Eyes' },
+        baseSpecies: 'Crobat'
+    },
+    'Delphox-&': {
+        types: ['Fire', 'Psychic'],
+        bs: { hp: 85, at: 79, df: 82, sa: 164, sd: 130, sp: 119 },
+        weightkg: 39,
+        abilities: { 0: 'Magic Bounce' },
+        baseSpecies: 'Delphox'
+    },
+    'Dragón Sagrado': {
+        types: ['Dragon', 'Psychic'],
+        bs: { hp: 163, at: 2, df: 103, sa: 157, sd: 193, sp: 109 },
+        weightkg: 14,
+        abilities: { 0: 'Psychic Surge' },
+        baseSpecies: 'Dun'
+    },
+    'Dragonite-&': {
+        types: ['Dragon', 'Fairy'],
+        bs: { hp: 101, at: 91, df: 115, sa: 154, sd: 154, sp: 110 },
+        weightkg: 210,
+        abilities: { 0: 'No Guard' },
+        baseSpecies: 'Dragonite'
+    },
+    'Eevee-&': {
+        types: ['Normal'],
+        bs: { hp: 130, at: 60, df: 110, sa: 130, sd: 110, sp: 110 },
+        weightkg: 6.5,
+        abilities: { 0: 'Protean' },
+        baseSpecies: 'Eevee'
+    },
+    En: {
+        types: ['Fire'],
+        bs: { hp: 85, at: 152, df: 75, sa: 116, sd: 137, sp: 85 },
+        weightkg: 25,
+        abilities: { 0: 'Sheer Force' },
+        baseSpecies: 'Flareon'
+    },
+    'Feraligatr-&': {
+        types: ['Water', 'Dark'],
+        bs: { hp: 95, at: 165, df: 130, sa: 79, sd: 103, sp: 88 },
+        weightkg: 88.8,
+        abilities: { 0: 'Strong Jaw' },
+        baseSpecies: 'Feraligatr'
+    },
+    'Goodra-&': {
+        types: ['Dragon', 'Poison'],
+        bs: { hp: 100, at: 125, df: 125, sa: 150, sd: 200, sp: 25 },
+        weightkg: 150.5,
+        abilities: { 0: 'Contrary' },
+        baseSpecies: 'Goodra'
+    },
+    'Hypno-&': {
+        types: ['Psychic'],
+        bs: { hp: 95, at: 63, df: 110, sa: 143, sd: 165, sp: 32 },
+        weightkg: 75.6,
+        abilities: { 0: 'Magic Bounce' },
+        baseSpecies: 'Hypno'
+    },
+    'Jirachi-&': {
+        types: ['Steel', 'Fairy'],
+        bs: { hp: 110, at: 50, df: 155, sa: 155, sd: 155, sp: 100 },
+        weightkg: 1.1,
+        gender: 'N',
+        abilities: { 0: 'Levitate' },
+        baseSpecies: 'Jirachi'
+    },
+    'Kingdra-&': {
+        types: ['Dark', 'Water'],
+        bs: { hp: 85, at: 120, df: 120, sa: 120, sd: 120, sp: 100 },
+        weightkg: 152,
+        abilities: { 0: 'Contrary' },
+        baseSpecies: 'Kingdra'
+    },
+    'Mamoswine-&': {
+        types: ['Ice', 'Ground'],
+        bs: { hp: 120, at: 170, df: 115, sa: 70, sd: 85, sp: 105 },
+        weightkg: 291,
+        abilities: { 0: 'Refrigerate' },
+        baseSpecies: 'Mamoswine'
+    },
+    'Milotic-&': {
+        types: ['Water', 'Psychic'],
+        bs: { hp: 115, at: 65, df: 79, sa: 150, sd: 195, sp: 91 },
+        weightkg: 162,
+        abilities: { 0: 'Volt Absorb' },
+        baseSpecies: 'Milotic'
+    },
+    'Ninetales-&': {
+        types: ['Fire', 'Ghost'],
+        bs: { hp: 83, at: 67, df: 90, sa: 121, sd: 140, sp: 129 },
+        weightkg: 19.9,
+        abilities: { 0: 'Fur Coat' },
+        baseSpecies: 'Ninetales'
+    },
+    'Poliwrath-&': {
+        types: ['Water', 'Fighting'],
+        bs: { hp: 100, at: 145, df: 140, sa: 80, sd: 110, sp: 80 },
+        weightkg: 54,
+        abilities: { 0: 'Iron Fist' },
+        baseSpecies: 'Poliwrath'
+    },
+    Rai: {
+        types: ['Electric'],
+        bs: { hp: 85, at: 85, df: 75, sa: 137, sd: 116, sp: 152 },
+        weightkg: 24.5,
+        abilities: { 0: 'No Guard' },
+        baseSpecies: 'Jolteon'
+    },
+    'Rapidash-&': {
+        types: ['Fire', 'Flying'],
+        bs: { hp: 75, at: 135, df: 90, sa: 80, sd: 100, sp: 145 },
+        weightkg: 95,
+        abilities: { 0: 'Fur Coat' },
+        baseSpecies: 'Rapidash'
+    },
+    'Rhyperior-&': {
+        types: ['Steel', 'Ground'],
+        bs: { hp: 125, at: 175, df: 175, sa: 65, sd: 65, sp: 55 },
+        weightkg: 282.8,
+        abilities: { 0: 'Speed Boost' },
+        baseSpecies: 'Rhyperior'
+    },
+    'Skarmory-&': {
+        types: ['Steel', 'Flying'],
+        bs: { hp: 75, at: 110, df: 160, sa: 45, sd: 100, sp: 100 },
+        weightkg: 50.5,
+        abilities: { 0: 'Volt Absorb' },
+        baseSpecies: 'Skarmory'
+    },
+    Sui: {
+        types: ['Water'],
+        bs: { hp: 152, at: 85, df: 75, sa: 137, sd: 116, sp: 85 },
+        weightkg: 29,
+        abilities: { 0: 'Magic Guard' },
+        baseSpecies: 'Vaporeon'
+    },
+    'Volcarona-&': {
+        types: ['Fire', 'Bug'],
+        bs: { hp: 95, at: 50, df: 75, sa: 190, sd: 130, sp: 135 },
+        weightkg: 46,
+        abilities: { 0: 'Magic Guard' },
+        baseSpecies: 'Volcarona'
+    },
+    'Aerodactyl-Primal': {
+        types: ['Rock', 'Dragon'],
+        bs: { hp: 80, at: 145, df: 105, sa: 60, sd: 85, sp: 140 },
+        weightkg: 59,
+        abilities: { 0: 'Levitate' },
+        baseSpecies: 'Aerodactyl'
+    },
+    'Armaldo-Primal': {
+        types: ['Rock', 'Bug'],
+        bs: { hp: 75, at: 155, df: 120, sa: 70, sd: 100, sp: 75 },
+        weightkg: 68.2,
+        abilities: { 0: 'Weak Armor' },
+        baseSpecies: 'Armaldo'
+    },
+    'Blastoise-Z': {
+        types: ['Water', 'Dark'],
+        bs: { hp: 119, at: 113, df: 160, sa: 145, sd: 125, sp: 38 },
+        weightkg: 85.5,
+        abilities: { 0: 'Mega Launcher' },
+        baseSpecies: 'Blastoise'
+    },
+    'Cradily-Primal': {
+        types: ['Rock', 'Grass'],
+        bs: { hp: 86, at: 41, df: 137, sa: 111, sd: 167, sp: 53 },
+        weightkg: 60.4,
+        abilities: { 0: 'Solid Rock' },
+        baseSpecies: 'Cradily'
+    },
+    'Electrode-Y': {
+        types: ['Electric', 'Steel'],
+        bs: { hp: 60, at: 10, df: 85, sa: 140, sd: 95, sp: 200 },
+        weightkg: 66.6,
+        abilities: { 0: 'Levitate' },
+        baseSpecies: 'Electrode'
+    },
+    'Electivire-X': {
+        types: ['Electric', 'Fighting'],
+        bs: { hp: 75, at: 153, df: 97, sa: 95, sd: 105, sp: 115 },
+        weightkg: 138.6,
+        abilities: { 0: 'Galvanize' },
+        baseSpecies: 'Electivire'
+    },
+    'Entei-&': {
+        types: ['Fire', 'Ground'],
+        bs: { hp: 125, at: 175, df: 105, sa: 90, sd: 95, sp: 115 },
+        weightkg: 198,
+        gender: 'N',
+        abilities: { 0: 'Desolate Land' },
+        baseSpecies: 'Entei'
+    },
+    'Gyarados-Z': {
+        types: ['Water', 'Flying'],
+        bs: { hp: 115, at: 165, df: 99, sa: 60, sd: 140, sp: 111 },
+        weightkg: 235,
+        abilities: { 0: 'Intimidate' },
+        baseSpecies: 'Gyarados'
+    },
+    'Magmortar-Y': {
+        types: ['Fire'],
+        bs: { hp: 75, at: 95, df: 97, sa: 165, sd: 105, sp: 103 },
+        weightkg: 68,
+        abilities: { 0: 'No Guard' },
+        baseSpecies: 'Magmortar'
+    },
+    'Mewtwo-Armored': {
+        types: ['Psychic', 'Steel'],
+        bs: { hp: 106, at: 120, df: 140, sa: 164, sd: 140, sp: 110 },
+        weightkg: 122,
+        gender: 'N',
+        abilities: { 0: 'Filter' },
+        baseSpecies: 'Mewtwo'
+    },
+    'Nidogod': {
+        types: ['Poison', 'Steel'],
+        bs: { hp: 111, at: 172, df: 147, sa: 85, sd: 115, sp: 50 },
+        weightkg: 62,
+        abilities: { 0: 'Sheer Force' },
+        baseSpecies: 'Nidoking'
+    },
+    'Nidoking-X': {
+        types: ['Poison', 'Dark'],
+        bs: { hp: 91, at: 142, df: 117, sa: 50, sd: 105, sp: 125 },
+        weightkg: 62,
+        abilities: { 0: 'Adaptability' },
+        baseSpecies: 'Nidoking'
+    },
+    'Nidoqueen-Y': {
+        types: ['Poison', 'Ground'],
+        bs: { hp: 100, at: 52, df: 107, sa: 135, sd: 150, sp: 86 },
+        weightkg: 62,
+        abilities: { 0: 'Fluffy' },
+        baseSpecies: 'Nidoqueen'
+    },
+    'Porygon-Z-X': {
+        types: ['Normal', 'Flying'],
+        bs: { hp: 85, at: 125, df: 70, sa: 95, sd: 85, sp: 185 },
+        weightkg: 34,
+        gender: 'N',
+        abilities: { 0: 'Adaptability' },
+        baseSpecies: 'Porygon-Z'
+    },
+    'Porygon-Z-Y': {
+        types: ['Normal', 'Electric'],
+        bs: { hp: 85, at: 70, df: 80, sa: 185, sd: 105, sp: 120 },
+        weightkg: 34,
+        gender: 'N',
+        abilities: { 0: 'Levitate' },
+        baseSpecies: 'Porygon-Z'
+    },
+    Porygon3: {
+        types: ['Normal', 'Ghost'],
+        bs: { hp: 95, at: 65, df: 70, sa: 155, sd: 95, sp: 135 },
+        weightkg: 36.5,
+        gender: 'N',
+        abilities: { 0: 'Adaptability' },
+        otherFormes: ['Porygon3.1']
+    },
+    'Porygon3.1': {
+        types: ['Normal', 'Psychic'],
+        bs: { hp: 105, at: 70, df: 65, sa: 165, sd: 115, sp: 145 },
+        weightkg: 36.5,
+        gender: 'N',
+        abilities: { 0: 'Fluffy' },
+        baseSpecies: 'Porygon3'
+    },
+    'Raikou-&': {
+        types: ['Electric', 'Ghost'],
+        bs: { hp: 100, at: 100, df: 90, sa: 155, sd: 115, sp: 145 },
+        weightkg: 178,
+        gender: 'N',
+        abilities: { 0: 'Primordial Sea' },
+        baseSpecies: 'Raikou'
+    },
+    'Relicanth-Primal': {
+        types: ['Water', 'Rock'],
+        bs: { hp: 110, at: 110, df: 140, sa: 55, sd: 75, sp: 105 },
+        weightkg: 23.4,
+        abilities: { 0: 'Rock Head' },
+        baseSpecies: 'Relicanth'
+    },
+    'Suicune-&': {
+        types: ['Water', 'Fairy'],
+        bs: { hp: 110, at: 85, df: 135, sa: 110, sd: 165, sp: 100 },
+        weightkg: 187,
+        gender: 'N',
+        abilities: { 0: 'Pixilate' },
+        baseSpecies: 'Suicune'
+    },
+    'Tauros-X': {
+        types: ['Rock', 'Normal'],
+        bs: { hp: 75, at: 155, df: 150, sa: 30, sd: 90, sp: 90 },
+        weightkg: 88.4,
+        abilities: { 0: 'Rock Head' },
+        baseSpecies: 'Tauros'
+    },
+    'Zapdos-Z': {
+        types: ['Electric', 'Steel'],
+        bs: { hp: 110, at: 115, df: 130, sa: 185, sd: 100, sp: 90 },
+        weightkg: 52.6,
+        gender: 'N',
+        abilities: { 0: 'Levitate' },
+        baseSpecies: 'Zapdos'
+    },
+    'Ultimate Project': {
+        types: ['Psychic', 'Steel'],
+        bs: { hp: 126, at: 90, df: 154, sa: 216, sd: 154, sp: 90 },
+        weightkg: 122,
+        gender: 'N',
+        abilities: { 0: 'Ultimate Armor' },
+        baseSpecies: 'Mewtwo'
+    }
 };
 var SS = (0, util_1.extend)(true, {}, SM, SS_PATCH, PLA_PATCH, TRE_PATCH);
 delete SS['Pikachu-Starter'];

@@ -256,7 +256,11 @@ const SM = XY.concat([
   'Wimp Out',
 ]);
 
-const SS = SM.concat([
+const TRE = [
+  'Ultimate Armor',
+]
+
+const SS = SM.concat(TRE, [
   'As One (Glastrier)',
   'As One (Spectrier)',
   'Ball Fetch',
