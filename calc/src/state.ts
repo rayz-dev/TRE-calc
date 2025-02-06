@@ -1,4 +1,4 @@
-import * as I from './data/interface';
+import type * as I from './data/interface';
 
 export namespace State {
   export interface Pokemon {
@@ -7,8 +7,10 @@ export namespace State {
     ability?: I.AbilityName;
     abilityOn?: boolean;
     isDynamaxed?: boolean;
+    dynamaxLevel?: number;
     isSaltCure?: boolean;
     alliesFainted?: number;
+    boostedStat?: I.StatIDExceptHP | 'auto';
     item?: I.ItemName;
     gender?: I.GenderName;
     nature?: I.NatureName;
@@ -28,6 +30,7 @@ export namespace State {
     useZ?: boolean;
     useMax?: boolean;
     isCrit?: boolean;
+    isStellarFirstUse?: boolean;
     hits?: number;
     timesUsed?: number;
     timesUsedWithMetronome?: number;
@@ -72,6 +75,7 @@ export namespace State {
     isAuroraVeil?: boolean;
     isBattery?: boolean;
     isPowerSpot?: boolean;
+    isSteelySpirit?: boolean;
     isSwitching?: 'out' | 'in';
   }
 }
