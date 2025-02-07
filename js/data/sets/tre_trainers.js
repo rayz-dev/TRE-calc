@@ -5,7 +5,6 @@ var SETDEX_TRE = {
     "Mareep": {
         "@ Consul": {
             "level": 11,
-            "ability": "Static",
             "item": "",
             "nature": "Modest",
             "ivs": {
@@ -31,8 +30,6 @@ var SETDEX_TRE = {
    "Meowth": {
         "@ Consul": {
             "level": 11,
-            "ability": "Technician",
-            "item": "",
             "nature": "Serious",
             "moves": ["Fake Out", "Scratch", "Growl"],
             "ivs": {
@@ -57,7 +54,6 @@ var SETDEX_TRE = {
     "Tentacool": {
         "@ Rival Andra #2": {
             "level": 14,
-            "ability": "Clear Body",
             "item": "Oran Berry",
             "nature": "Serious",
             "moves": ["Water Gun", "Supersonic", "Wrap", "Poison Sting"],
@@ -83,8 +79,6 @@ var SETDEX_TRE = {
     "Wooper": {
         "@ Consul": {
             "level": 11,
-            "ability": "Water Absorb",
-            "item": "",
             "nature": "Serious",
             "moves": ["Water Gun", "Pound", "Mud-Slap"],
             "ivs": {
@@ -109,9 +103,6 @@ var SETDEX_TRE = {
     "Zubat": {
         "@ Rival Andra #1": {
             "level": 7,
-            "ability": "Inner Focus",
-            "item": "",
-            "nature": "Serious",
             "ivs": {
                 "hp": 0,
                 "at": 0,
