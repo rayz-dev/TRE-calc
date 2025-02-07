@@ -392,7 +392,7 @@ $("#clearSets").click(function () {
 	localStorage.removeItem("customsets");
 	$(allPokemon("#importedSetsOptions")).hide();
 	loadDefaultLists();
-	for (let zone of document.getElementsByClassName("dropzone")){
+	for (let zone of document.getElementsByClassName("box-poke dropzone")){
 		zone.innerHTML="";
 	}
 
@@ -416,8 +416,6 @@ $(document).ready(function () {
 		updateDex(customSets);
 		selectFirstMon();
 		$(allPokemon("#importedSetsOptions")).css("display", "inline");
-	} else {
-		loadDefaultLists();
 	}
 	//adjust the side buttons that collapse the data wished to be hidden
 	setupSideCollapsers();
