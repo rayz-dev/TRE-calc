@@ -739,6 +739,9 @@ $(".forme").change(function () {
 		pokemonName = fullSetName.substring(0, fullSetName.indexOf(" (")),
 		setName = fullSetName.substring(fullSetName.indexOf("(") + 1, fullSetName.lastIndexOf(")"));
 
+	var id = $(this).closest(".poke-info").prop("id");
+	topPokemonIcon($(this).val(), $(`#${id}mon`)[0]);
+
 	$(this).parent().siblings().find(".type1").val(altForme.types[0]);
 	$(this).parent().siblings().find(".type2").val(altForme.types[1] ? altForme.types[1] : "");
 	for (var i = 0; i < LEGACY_STATS[9].length; i++) {
