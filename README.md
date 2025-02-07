@@ -1,13 +1,8 @@
-# Pokémon Damage Calculator
+# Pokémon Damage Calculator - Team Rocket Edition
 
-![Test Status](https://github.com/smogon/damage-calc/workflows/Tests/badge.svg)
-[![npm version](https://img.shields.io/npm/v/@smogon/calc.svg)](https://www.npmjs.com/package/@smogon/calc)&nbsp;
+*This calculator is based of Smogon [official Damage Calculator](https://github.com/smogon/damage-calc) and also from the fork for [Run & Bun](https://github.com/ForwardFeed/runbuncalc).
 
-Damage calculator for all generations of Pokémon battling.
-
-If you are currently looking at [smogon/damage-calc][0] and not
-a fork, this is the official repository for the Pokémon Showdown! damage calculator:
-https://calc.pokemonshowdown.com.
+Damage calculator for [Dragonsden](https://x.com/Dragonsden95) [ROM Hack](https://www.pokecommunity.com/threads/pok%C3%A9mon-team-rocket-edition-dragonsden-version-complete-kanto-and-sevii-included-johto-and-dlc-coming-soon.527368/), Pokémon Team Rocket Edition.
 
 This repository houses both the package implementing the core damage formula mechanics in each
 generation ([`@smogon/calc`][1]) as well as [logic and markup for the official UI][2].

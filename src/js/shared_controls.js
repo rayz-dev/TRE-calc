@@ -493,7 +493,7 @@ $(".set-selector").change(function () {
 				}//this ruined my day
 				var newPoke = document.createElement("img");
 				newPoke.className = "opposite-pok right-side";
-				newPoke.src = `https://raw.githubusercontent.com/May8th1995/sprites/master/${pok_name}.png`;
+				newPoke.src = `https://rayz-dev.github.io/TRE-calc/sprites/${pok_name}.png`;
 				newPoke.title = `${next_poks[i]}, ${next_poks[i]} BP`;
 				nextTrainer=`${next_poks[i]}`
 				newPoke.dataset.id = `${CURRENT_TRAINER_POKS[i].split("]")[1]}`;
@@ -638,7 +638,7 @@ q
 				pokeObj.find("." + LEGACY_STATS[gen][i] + " .dvs").val(15);
 			}
 			pokeObj.find(".nature").val("Hardy");
-			setSelectValueIfValid(abilityObj, pokemon.ab, "");
+			setSelectValueIfValid(abilityObj, pokemon.abilities[0], "");
 			itemObj.val("");
 			for (i = 0; i < 4; i++) {
 				moveObj = pokeObj.find(".move" + (i + 1) + " select.move-selector");
@@ -1478,9 +1478,9 @@ function getSrcImgPokemon(poke) {
 		return
 	}
 	if (poke.name == "Aegislash-Shield") {
-		return `https://raw.githubusercontent.com/May8th1995/sprites/master/Aegislash.png`
+		return `../sprites/Aegislash.png`
 	} else {
-		return `https://raw.githubusercontent.com/May8th1995/sprites/master/${poke.name}.png`
+		return `../sprites/${poke.name}.png`
 	}
 }
 
