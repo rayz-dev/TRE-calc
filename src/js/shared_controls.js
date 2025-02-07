@@ -1478,9 +1478,9 @@ function getSrcImgPokemon(poke) {
 		return
 	}
 	if (poke.name == "Aegislash-Shield") {
-		return `../sprites/Aegislash.png`
+		return `https://rayz-dev.github.io/TRE-calc/sprites/Aegislash.png`
 	} else {
-		return `../sprites/${poke.name}.png`
+		return `https://rayz-dev.github.io/TRE-calc/sprites/${poke.name}.png`
 	}
 }
 

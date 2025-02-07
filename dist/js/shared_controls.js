@@ -493,7 +493,7 @@ $(".set-selector").change(function () {
 				}//this ruined my day
 				var newPoke = document.createElement("img");
 				newPoke.className = "opposite-pok right-side";
-				newPoke.src = `https://raw.githubusercontent.com/rayz-dev/sprites/${pok_name}.png`;
+				newPoke.src = `https://rayz-dev.github.io/TRE-calc/sprites/${pok_name}.png`;
 				newPoke.title = `${next_poks[i]}, ${next_poks[i]} BP`;
 				nextTrainer=`${next_poks[i]}`
 				newPoke.dataset.id = `${CURRENT_TRAINER_POKS[i].split("]")[1]}`;
