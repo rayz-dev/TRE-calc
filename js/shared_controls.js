@@ -1441,7 +1441,7 @@ function loadCustomList(id) {
 }
 
 function get_trainer_names() {
-	var all_poks = SETDEX_SS
+	var all_poks = SETDEX_TRE
 	var trainer_names = []
 
 	for (const [pok_name, poks] of Object.entries(all_poks)) {
@@ -1547,15 +1547,15 @@ function selectFirstMon() {
 }
 
 function selectTrainer(value) {
-	document.getElementById("trainer-pok-list-opposing2").textContent="";
-	document.getElementById("trainer-pok-list-opposing").textContent="";
-	if(value >= 1620){
-		value = 1620;
-	}else if(value<=0){
-		value=1;
+	if (value > MAX_TRAINER_INDEX){
+		value = MAX_TRAINER_INDEX;
+		return
+	}else if (value < MIN_TRAINER_INDEX){
+		value = MIN_TRAINER_INDEX;
+		return
 	}
 	localStorage.setItem("lasttimetrainer", value);
-	all_poks = SETDEX_SS
+	all_poks = extend(true, SETDEX_SS, SETDEX_TRE);
 	for (const [pok_name, poks] of Object.entries(all_poks)) {
 		var pok_tr_names = Object.keys(poks)
 		for (i in pok_tr_names) {
@@ -1577,7 +1577,7 @@ function selectTrainer(value) {
 
 function nextTrainer() {
 	if (selectTrainer(nextTrainerId) == false) {
-		if(value >= 1620){
+		if (value > MAX_TRAINER_INDEX) {
 			return
 		}
 		nextTrainerId++
@@ -1587,7 +1587,7 @@ function nextTrainer() {
 
 function previousTrainer() {
 	if (selectTrainer(previousTrainerId) == false) {
-		if(value<=0){
+		if (value < MIN_TRAINER_INDEX){
 			return
 		}
 		previousTrainerId--
@@ -1596,11 +1596,11 @@ function previousTrainer() {
 }
 function resetTrainer() {
 	if (confirm(truckMessage())){
-		selectTrainer(1);
+		selectTrainer(MIN_TRAINER_INDEX);
 		localStorage.removeItem("customsets");
 		$(allPokemon("#importedSetsOptions")).hide();
 		loadDefaultLists();
-		for (let zone of document.getElementsByClassName("dropzone")){
+		for (let zone of document.getElementsByClassName("box-poke dropzone")){
 			zone.innerHTML="";
 		}
 	}
@@ -2099,7 +2099,7 @@ $(document).ready(function () {
 	//select last trainer
 	var last = parseInt(localStorage.getItem("lasttimetrainer"),10);
 	if (isNaN(last)) {
-		selectTrainer(1);
+		selectTrainer(MIN_TRAINER_INDEX);
 	}else{
 		selectTrainer(last);
 	}
