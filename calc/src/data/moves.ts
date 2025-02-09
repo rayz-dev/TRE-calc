@@ -4130,7 +4130,38 @@ const SS_PATCH: {[name: string]: DeepPartial<MoveData>} = {
   'Zing Zap': {maxPower: 130},
 };
 
-const SS: {[name: string]: MoveData} = extend(true, {}, SM, SS_PATCH);
+const TRE_PATCH: {[name: string]: DeepPartial<MoveData>} = {
+  'Aerial Ace': {bp: 75},
+  Aeroblast: {bp: 115},
+  'Blast Burn': {bp: 105},
+  Cut: {bp: 65, type: 'Bug', secondaries: true},
+  Dive: {bp: 110},
+  'Dragon Rage': {bp: 70, category: 'Physical', makesContact: true, secondaries: true},
+  'Fire Blast': {bp: 120},
+  'Fissure': {bp: 130, self: {boosts: {atk: -1, def: -1}}},
+  Flash: {bp: 60, category: 'Special', type: 'Electric', drain: [1, 2]},
+  Fly: {bp: 90},
+  'Frenzy Plant': {bp: 105},
+  'Giga Impact': {bp: 170},
+  'Guillotine': {bp: 180},
+  'Horn Drill': {bp: 150, recoil: [1, 2]},
+  'Hydro Cannon': {bp: 105},
+  'Hydro Pump': {bp: 120},
+  'Hyper Beam': {bp: 160},
+  'Leaf Storm': {bp: 140},
+  Octazooka: {bp: 100},
+  'Origin Pulse': {bp: 120},
+  Overheat: {bp: 140},
+  'Poison Tail': {bp: 90},
+  'Rock Smash': {bp: 65},
+  'Sheer Cold': {bp: 130, self: {boosts: {def: -1, spd: -1}}},
+  'Shock Wave': {bp: 75},
+  'Sky Attack': {bp: 140},
+  'Strength': {bp: 85, type: 'Rock'},
+  'Water Pulse': {bp: 75},
+}
+
+const SS: {[name: string]: MoveData} = extend(true, {}, SM, SS_PATCH, TRE_PATCH);
 
 const LGPE_MOVES = [
   'Baddy Bad',
