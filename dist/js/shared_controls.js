@@ -493,7 +493,7 @@ $(".set-selector").change(function () {
 				}//this ruined my day
 				var newPoke = document.createElement("img");
 				newPoke.className = "opposite-pok right-side";
-				newPoke.src = `https://rayz-dev.github.io/TRE-calc/sprite/${pok_name}.png`;
+				newPoke.src = getSrcImgPokemon(pok_name);
 				newPoke.title = `${next_poks[i]}, ${next_poks[i]} BP`;
 				nextTrainer=`${next_poks[i]}`
 				newPoke.dataset.id = `${CURRENT_TRAINER_POKS[i].split("]")[1]}`;
@@ -1232,7 +1232,11 @@ function getSetOptions(sets) {
 			}
 		} else {
 			if (pokeName in setdex) {
-				var setNames = Object.keys(setdex[pokeName]);
+				var setNames = Object.keys(setdex[pokeName]).sort((a, b) => {
+					if (a.startsWith('@') && !b.startsWith('@')) return -1;
+					if (!a.startsWith('@') && b.startsWith('@')) return 1;
+					return a.localeCompare(b);
+				});
 				for (var j = 0; j < setNames.length; j++) {
 					var setName = setNames[j];
 					setOptions.push({
@@ -1465,7 +1469,7 @@ function addBoxed(poke, box) {
 	var newPoke = document.createElement("img");
 	newPoke.id = `${poke.name}${poke.nameProp}`
 	newPoke.className = "trainer-pok left-side";
-	newPoke.src = getSrcImgPokemon(poke);
+	newPoke.src = getSrcImgPokemon(poke.name);
 	newPoke.dataset.id = `${poke.name} (${poke.nameProp})`
 	newPoke.addEventListener("dragstart", dragstart_handler);
 	if (!box){
@@ -1475,15 +1479,17 @@ function addBoxed(poke, box) {
 	}
 }
 
-function getSrcImgPokemon(poke) {
+function getSrcImgPokemon(pokeName) {
 	//edge case
-	if (!poke) {
+	if (!pokeName) {
 		return
 	}
-	if (poke.name == "Aegislash-Shield") {
+	if (pokeName.startsWith("Aegislash")) {
 		return `https://rayz-dev.github.io/TRE-calc/sprite/Aegislash.png`
+	} else if (pokeName == "Type: Null") {
+		return `https://rayz-dev.github.io/TRE-calc/sprite/Type_ Null.png`
 	} else {
-		return `https://rayz-dev.github.io/TRE-calc/sprite/${poke.name}.png`
+		return `https://rayz-dev.github.io/TRE-calc/sprite/${pokeName}.png`
 	}
 }
 
@@ -1501,7 +1507,7 @@ function get_trainer_poks(trainer_name) {
 
 function topPokemonIcon(fullname, node) {
 	var mon = { name: fullname.split(" (")[0] };
-	var src = getSrcImgPokemon(mon);
+	var src = getSrcImgPokemon(mon.name);
 	node.src = src;
 }
 
@@ -2073,6 +2079,8 @@ $(document).ready(function () {
 	$("#previous-trainer").click(previousTrainer);
 	$("#next-trainer").click(nextTrainer);
 	$("#reset-trainer").click(resetTrainer);
+	$("#load-kanto").click(() => selectTrainer(KANTO_TRAINER_INDEX));
+	$("#load-archi7").click(() => selectTrainer(ARCHI7_TRAINER_INDEX));
 	$('#show-cc').click(showColorCodes);
 	$('#hide-cc').click(hideColorCodes);
 	$('#refr-cc').click(refreshColorCode);
