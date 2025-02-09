@@ -2870,7 +2870,7 @@ var SETDEX_TRE = {
             "moves": [
                 "Tackle",
                 "Mega Drain",
-                ""
+                "Rock Throw"
             ],
             "index": 11
         },
