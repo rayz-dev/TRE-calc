@@ -9033,6 +9033,7 @@ var TRE_PATCH = {
     'Darmanitan-Galar-Zen': { bs: { df: 65, sd: 65 }, abilities: { 0: 'No Guard' } },
     'Darmanitan-Zen': { bs: { sa: 160 }, abilities: { 0: 'Sheer Force' } },
     Delphox: { otherFormes: ['Delphox-&'] },
+    Donphan: { bs: { sa: 40, sp: 70 } },
     Dragalge: { bs: { hp: 75, at: 95, df: 95 } },
     Dragonite: { otherFormes: ['Dragonite-&'] },
     Drampa: { bs: { hp: 88, df: 95, sd: 111 } },
@@ -9401,7 +9402,7 @@ var TRE_PATCH = {
         abilities: { 0: 'Drought' },
         baseSpecies: 'Moltres'
     },
-    'Pokémon Esencia': {
+    'Missingno': {
         types: ['Ghost', 'Fairy'],
         bs: { hp: 128, at: 130, df: 129, sa: 196, sd: 156, sp: 156 },
         gender: 'N',
