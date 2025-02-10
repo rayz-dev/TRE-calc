@@ -493,7 +493,30 @@ var SM = XY.filter(function (i) { return i !== 'Old Amber'; }).concat([
     'Water Memory',
     'Waterium Z',
 ]);
-var SS = SM.concat([
+var SV = SM.concat([
+    'Adamant Crystal',
+    'Auspicious Armor',
+    'Ability Shield',
+    'Booster Energy',
+    'Clear Amulet',
+    'Cornerstone Mask',
+    'Covert Cloak',
+    'Fairy Feather',
+    'Hearthflame Mask',
+    'Loaded Dice',
+    'Malicious Armor',
+    'Masterpiece Teacup',
+    'Metal Alloy',
+    'Mirror Herb',
+    'Punching Glove',
+    'Lustrous Globe',
+    'Griseous Core',
+    'Strange Ball',
+    'Syrupy Apple',
+    'Unremarkable Teacup',
+    'Wellspring Mask',
+]);
+var SS = SV.concat([
     'Berry Sweet',
     'Blunder Policy',
     'Chipped Pot',
@@ -525,29 +548,6 @@ for (var i = 0; i < 100; i++) {
 }
 SS.push('Utility Umbrella', 'Vile Vial');
 SS.push.apply(SS, __spreadArray(__spreadArray([], __read(GSC_ONLY), false), ['Old Amber'], false));
-var SV = SS.concat([
-    'Adamant Crystal',
-    'Auspicious Armor',
-    'Ability Shield',
-    'Booster Energy',
-    'Clear Amulet',
-    'Cornerstone Mask',
-    'Covert Cloak',
-    'Fairy Feather',
-    'Hearthflame Mask',
-    'Loaded Dice',
-    'Malicious Armor',
-    'Masterpiece Teacup',
-    'Metal Alloy',
-    'Mirror Herb',
-    'Punching Glove',
-    'Lustrous Globe',
-    'Griseous Core',
-    'Strange Ball',
-    'Syrupy Apple',
-    'Unremarkable Teacup',
-    'Wellspring Mask',
-]);
 var BERRIES = {
     'Aguav Berry': { t: 'Dragon', p: 80 },
     'Apicot Berry': { t: 'Ground', p: 100 },
