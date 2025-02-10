@@ -8975,12 +8975,6 @@ var PLA_PATCH = {
         baseSpecies: 'Voltorb',
         nfe: true
     },
-    Wyrdeer: {
-        types: ['Normal', 'Psychic'],
-        bs: { hp: 103, at: 105, df: 72, sa: 105, sd: 75, sp: 65 },
-        weightkg: 95.1,
-        abilities: { 0: 'Intimidate' }
-    },
     'Zoroark-Hisui': {
         types: ['Normal', 'Ghost'],
         bs: { hp: 55, at: 100, df: 60, sa: 125, sd: 60, sp: 110 },
@@ -9146,6 +9140,30 @@ var TRE_PATCH = {
     'Weezing-Galar': { bs: { df: 110, sa: 95, sd: 100 } },
     Xurkitree: { bs: { at: 71, df: 89 } },
     Zapdos: { bs: { at: 85, df: 90 }, abilities: { 0: 'Download' }, otherFormes: ['Zapdos-Primal', 'Zapdos-Z'] },
+    Annihilape: {
+        types: ['Fighting', 'Ghost'],
+        bs: { hp: 110, at: 115, df: 80, sa: 50, sd: 90, sp: 90 },
+        weightkg: 56,
+        abilities: { 0: 'Vital Spirit' }
+    },
+    Farigiraf: {
+        types: ['Normal', 'Psychic'],
+        bs: { hp: 120, at: 90, df: 70, sa: 110, sd: 70, sp: 60 },
+        weightkg: 160,
+        abilities: { 0: 'Cud Chew' }
+    },
+    Kingambit: {
+        types: ['Dark', 'Steel'],
+        bs: { hp: 100, at: 135, df: 120, sa: 60, sd: 85, sp: 50 },
+        weightkg: 120,
+        abilities: { 0: 'Defiant' }
+    },
+    Wyrdeer: {
+        types: ['Normal', 'Psychic'],
+        bs: { hp: 103, at: 105, df: 72, sa: 105, sd: 75, sp: 65 },
+        weightkg: 95.1,
+        abilities: { 0: 'Intimidate' }
+    },
     'Butterfree-Mega': {
         types: ['Bug', 'Flying'],
         bs: { hp: 60, at: 15, df: 50, sa: 140, sd: 108, sp: 122 },
@@ -9782,12 +9800,6 @@ var SV_PATCH = {
         abilities: { 0: 'Pixilate' },
         nfe: true
     },
-    Annihilape: {
-        types: ['Fighting', 'Ghost'],
-        bs: { hp: 110, at: 115, df: 80, sa: 50, sd: 90, sp: 90 },
-        weightkg: 56,
-        abilities: { 0: 'Vital Spirit' }
-    },
     Arboliva: {
         types: ['Grass', 'Normal'],
         bs: { hp: 78, at: 69, df: 90, sa: 125, sd: 109, sp: 39 },
@@ -9974,12 +9986,6 @@ var SV_PATCH = {
         bs: { hp: 95, at: 60, df: 60, sa: 101, sd: 60, sp: 105 },
         weightkg: 90,
         abilities: { 0: 'Opportunist' }
-    },
-    Farigiraf: {
-        types: ['Normal', 'Psychic'],
-        bs: { hp: 120, at: 90, df: 70, sa: 110, sd: 70, sp: 60 },
-        weightkg: 160,
-        abilities: { 0: 'Cud Chew' }
     },
     Fezandipiti: {
         types: ['Poison', 'Fairy'],
@@ -10206,12 +10212,6 @@ var SV_PATCH = {
         bs: { hp: 70, at: 70, df: 60, sa: 105, sd: 60, sp: 125 },
         weightkg: 38.6,
         abilities: { 0: 'Wind Power' }
-    },
-    Kingambit: {
-        types: ['Dark', 'Steel'],
-        bs: { hp: 100, at: 135, df: 120, sa: 60, sd: 85, sp: 50 },
-        weightkg: 120,
-        abilities: { 0: 'Defiant' }
     },
     Klawf: {
         types: ['Rock'],

@@ -454,7 +454,7 @@ function isMonFromCurrentTrainer(current, neew) {
 	if (current){
 		current = current.dataset.id.split("(")[1].split("\n")[0].trim();
 		neew = neew.split("(")[1].split("\n")[0].trim();
-		if ( current.substring(0,current.length -1 )== neew.substring(0,current.length -1 )) {
+		if ( current == neew) {
 			return true
 		} else{
 			return false
@@ -541,7 +541,7 @@ $(".set-selector").change(function () {
 		var itemObj = pokeObj.find(".item");
 		var randset = $("#randoms").prop("checked") ? randdex[pokemonName] : undefined;
 		var regSets = pokemonName in setdex && setName in setdex[pokemonName];
-q
+
 		if (randset) {
 			var listItems = randdex[pokemonName].items ? randdex[pokemonName].items : [];
 			var listAbilities = randdex[pokemonName].abilities ? randdex[pokemonName].abilities : [];
@@ -1570,9 +1570,6 @@ function selectTrainer(value) {
 		for (i in pok_tr_names) {
 			var index = (poks[pok_tr_names[i]]["index"])
 			if (index == value) {
-				if (window.CURRENT_TRAINER == pok_tr_names[0]){
-					return false
-				}
 				window.CURRENT_TRAINER = pok_tr_names[0]
 				var set = `${pok_name} (${pok_tr_names[i]})`;
 				$('.opposing').val(set);

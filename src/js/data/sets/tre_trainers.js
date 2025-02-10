@@ -2213,7 +2213,7 @@ var SETDEX_TRE = {
             ],
             "index": 205
         },
-        "@ Lt #2": {
+        "@ Lt. Surge": {
             "level": 100,
             "item": "Electirizer",
             "nature": "Naive",
@@ -2355,7 +2355,7 @@ var SETDEX_TRE = {
             ],
             "index": 302
         },
-        "@ Lt": {
+        "@ Lt. Surge Explosivos": {
             "level": 98,
             "item": "Choice Band",
             "nature": "Adamant",
@@ -8730,7 +8730,7 @@ var SETDEX_TRE = {
             ],
             "index": 416
         },
-        "@ Lt": {
+        "@ Lt. Surge Explosivos": {
             "level": 98,
             "item": "Focus Sash",
             "nature": "Adamant",
@@ -8983,7 +8983,7 @@ var SETDEX_TRE = {
             ],
             "index": 249
         },
-        "@ Lt #2": {
+        "@ Lt. Surge": {
             "level": 102,
             "item": "Rocky Helmet",
             "nature": "Bold",
@@ -11684,6 +11684,66 @@ var SETDEX_TRE = {
             "index": 624
         }
     },
+    "Porygon-Z-X": {
+        "@ Coleccionista Bill #4": {
+            "level": 107,
+            "item": "Power Herb",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 6,
+                "sp": 252
+            },
+            "moves": [
+                "Double-Edge",
+                "Sky Attack",
+                "Reflect",
+                "Iron Tail"
+            ],
+            "index": 622
+        }
+    },
+    "Porygon-Z-Y": {
+        "@ Coleccionista Bill #4": {
+            "level": 107,
+            "item": "Assault Vest",
+            "nature": "Timid",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 0,
+                "df": 0,
+                "sa": 252,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Tri Attack",
+                "Shadow Ball",
+                "Parabolic Charge",
+                "Aura Sphere"
+            ],
+            "index": 621
+        }
+    },
     "Porygon3": {
         "@ Coleccionista Bill #3": {
             "level": 75,
@@ -13708,7 +13768,7 @@ var SETDEX_TRE = {
             "index": 448
         }
     },
-    "Dragón-O": {
+    "Dragón Original": {
         "@ Dios Laireb": {
             "level": 100,
             "item": "Lum Berry",
@@ -14062,7 +14122,7 @@ var SETDEX_TRE = {
             "index": 474
         }
     },
-    "Ho-oh-Primal": {
+    "Ho-Oh-Primal": {
         "@ Legendario Ho": {
             "level": 99,
             "item": "Kebia Berry",
@@ -14584,7 +14644,7 @@ var SETDEX_TRE = {
             ],
             "index": 376
         },
-        "@ Lt #2": {
+        "@ Lt. Surge": {
             "level": 103,
             "item": "Manectite",
             "nature": "Jolly",
@@ -15263,7 +15323,7 @@ var SETDEX_TRE = {
             "index": 402
         }
     },
-    "Rey Unown": {
+    "Unown-King": {
         "@ Rey Unown": {
             "level": 99,
             "item": "Dread Plate",
@@ -15378,7 +15438,7 @@ var SETDEX_TRE = {
             "index": 341
         }
     },
-    "Silvally Acero": {
+    "Silvally-Steel": {
         "@ Ejecutivo Rocket Protón #2": {
             "level": 88,
             "item": "Steel Memory",
@@ -15846,7 +15906,7 @@ var SETDEX_TRE = {
             "index": 461
         }
     },
-    "Unown-Gold": {
+    "Unown-Golden": {
         "@ Unown Áureo": {
             "level": 96,
             "item": "Mind Plate",
@@ -16266,7 +16326,7 @@ var SETDEX_TRE = {
             "index": 523
         }
     },
-    "Booho": {
+    "Boohoo": {
         "@ Alto Mando Torre Dun #4": {
             "level": 99,
             "item": "Leftovers",
@@ -16294,9 +16354,7 @@ var SETDEX_TRE = {
                 "Reflect"
             ],
             "index": 528
-        }
-    },
-    "Boohoo": {
+        },
         "@ Viajero Eusine": {
             "level": 99,
             "item": "Life Orb",
@@ -16472,7 +16530,7 @@ var SETDEX_TRE = {
             "index": 532
         }
     },
-    "Deoxys-Skeleton": {
+    "Deoxys-Speed": {
         "@ Cabina Seguridad #5": {
             "level": 98,
             "item": "Light Clay",
@@ -16647,7 +16705,7 @@ var SETDEX_TRE = {
             ],
             "index": 498
         },
-        "@ Lt": {
+        "@ Lt. Surge Explosivos": {
             "level": 98,
             "item": "Choice Band",
             "nature": "Adamant",
@@ -16702,7 +16760,7 @@ var SETDEX_TRE = {
             ],
             "index": 557
         },
-        "@ Lt #2": {
+        "@ Lt. Surge": {
             "level": 103,
             "item": "Terrain Extender",
             "nature": "Timid",
@@ -16963,7 +17021,7 @@ var SETDEX_TRE = {
         }
     },
     "Golem-Alola": {
-        "@ Lt": {
+        "@ Lt. Surge Explosivos": {
             "level": 98,
             "item": "Focus Sash",
             "nature": "Adamant",
@@ -17076,7 +17134,7 @@ var SETDEX_TRE = {
         }
     },
     "Gorochu": {
-        "@ Lt #2": {
+        "@ Lt. Surge": {
             "level": 104,
             "item": "Assault Vest",
             "nature": "Modest",
@@ -17313,7 +17371,7 @@ var SETDEX_TRE = {
             "index": 515
         }
     },
-    "Mewtwo Armadura": {
+    "Mewtwo-Armored": {
         "@ Proyectos De Mewtwo": {
             "level": 100,
             "item": "Leftovers",
@@ -17547,66 +17605,6 @@ var SETDEX_TRE = {
             "index": 589
         }
     },
-    "PorygonZ-X": {
-        "@ Coleccionista Bill #4": {
-            "level": 107,
-            "item": "Power Herb",
-            "nature": "Adamant",
-            "ivs": {
-                "hp": 31,
-                "at": 31,
-                "df": 31,
-                "sa": 31,
-                "sd": 31,
-                "sp": 31
-            },
-            "evs": {
-                "hp": 0,
-                "at": 252,
-                "df": 0,
-                "sa": 0,
-                "sd": 6,
-                "sp": 252
-            },
-            "moves": [
-                "Double-Edge",
-                "Sky Attack",
-                "Reflect",
-                "Iron Tail"
-            ],
-            "index": 622
-        }
-    },
-    "PorygonZ-Y": {
-        "@ Coleccionista Bill #4": {
-            "level": 107,
-            "item": "Assault Vest",
-            "nature": "Timid",
-            "ivs": {
-                "hp": 31,
-                "at": 31,
-                "df": 31,
-                "sa": 31,
-                "sd": 31,
-                "sp": 31
-            },
-            "evs": {
-                "hp": 6,
-                "at": 0,
-                "df": 0,
-                "sa": 252,
-                "sd": 0,
-                "sp": 252
-            },
-            "moves": [
-                "Tri Attack",
-                "Shadow Ball",
-                "Parabolic Charge",
-                "Aura Sphere"
-            ],
-            "index": 621
-        }
-    },
     "Purakkusu": {
         "@ Alto Mando Torre Dun #2": {
             "level": 99,
@@ -17782,7 +17780,7 @@ var SETDEX_TRE = {
             "index": 566
         }
     },
-    "Rotom Lavadora": {
+    "Rotom-Wash": {
         "@ Científico Miguel #4": {
             "level": 105,
             "item": "Leftovers",
@@ -17813,7 +17811,7 @@ var SETDEX_TRE = {
         }
     },
     "Shibirefugu": {
-        "@ Lt #2": {
+        "@ Lt. Surge": {
             "level": 101,
             "item": "Terrain Extender",
             "nature": "Bold",
