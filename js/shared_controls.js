@@ -2081,6 +2081,8 @@ $(document).ready(function () {
 	$("#reset-trainer").click(resetTrainer);
 	$("#load-kanto").click(() => selectTrainer(KANTO_TRAINER_INDEX));
 	$("#load-archi7").click(() => selectTrainer(ARCHI7_TRAINER_INDEX));
+	$("#load-johto").click(() => selectTrainer(JOHTO_TRAINER_INDEX));
+	$("#load-dlc").click(() => selectTrainer(DLC_TRAINER_INDEX));
 	$('#show-cc').click(showColorCodes);
 	$('#hide-cc').click(hideColorCodes);
 	$('#refr-cc').click(refreshColorCode);
