@@ -4146,7 +4146,7 @@ const TRE_PATCH: {[name: string]: DeepPartial<MoveData>} = {
   'Freeze Shock': {bp: 130, recoil: [1, 3]},
   'Frenzy Plant': {bp: 105},
   'Giga Impact': {bp: 170},
-  'Guillotine': {bp: 170},
+  'Guillotine': {bp: 170, type: 'Dark'},
   'Head Charge': {bp: 130},
   'Horn Drill': {bp: 150, recoil: [1, 2]},
   'Hydro Cannon': {bp: 105},
