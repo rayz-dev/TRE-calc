@@ -256,48 +256,7 @@ const SM = XY.concat([
   'Wimp Out',
 ]);
 
-const TRE = [
-  'Ultimate Armor',
-]
-
-const SS = SM.concat(TRE, [
-  'As One (Glastrier)',
-  'As One (Spectrier)',
-  'Ball Fetch',
-  'Chilling Neigh',
-  'Cotton Down',
-  'Curious Medicine',
-  'Dauntless Shield',
-  'Dragon\'s Maw',
-  'Gorilla Tactics',
-  'Grim Neigh',
-  'Gulp Missile',
-  'Hunger Switch',
-  'Ice Face',
-  'Ice Scales',
-  'Intrepid Sword',
-  'Libero',
-  'Mimicry',
-  'Mirror Armor',
-  'Neutralizing Gas',
-  'Pastel Veil',
-  'Perish Body',
-  'Power Spot',
-  'Propeller Tail',
-  'Punk Rock',
-  'Quick Draw',
-  'Ripen',
-  'Sand Spit',
-  'Screen Cleaner',
-  'Stalwart',
-  'Steam Engine',
-  'Steely Spirit',
-  'Transistor',
-  'Unseen Fist',
-  'Wandering Spirit',
-]);
-
-const SV = SS.concat([
+const SV = SM.concat([
   'Anger Shell',
   'Armor Tail',
   'Beads of Ruin',
@@ -341,6 +300,47 @@ const SV = SS.concat([
   'Wind Power',
   'Wind Rider',
   'Zero to Hero',
+]);
+
+const TRE = SV.concat([
+  'Ultimate Armor',
+]);
+
+const SS = TRE.concat([
+  'As One (Glastrier)',
+  'As One (Spectrier)',
+  'Ball Fetch',
+  'Chilling Neigh',
+  'Cotton Down',
+  'Curious Medicine',
+  'Dauntless Shield',
+  'Dragon\'s Maw',
+  'Gorilla Tactics',
+  'Grim Neigh',
+  'Gulp Missile',
+  'Hunger Switch',
+  'Ice Face',
+  'Ice Scales',
+  'Intrepid Sword',
+  'Libero',
+  'Mimicry',
+  'Mirror Armor',
+  'Neutralizing Gas',
+  'Pastel Veil',
+  'Perish Body',
+  'Power Spot',
+  'Propeller Tail',
+  'Punk Rock',
+  'Quick Draw',
+  'Ripen',
+  'Sand Spit',
+  'Screen Cleaner',
+  'Stalwart',
+  'Steam Engine',
+  'Steely Spirit',
+  'Transistor',
+  'Unseen Fist',
+  'Wandering Spirit',
 ]);
 
 export const ABILITIES = [[], RBY, GSC, ADV, DPP, BW, XY, SM, SS, SV];

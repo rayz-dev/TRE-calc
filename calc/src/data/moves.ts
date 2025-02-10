@@ -4178,27 +4178,6 @@ const TRE_PATCH: {[name: string]: DeepPartial<MoveData>} = {
   'Water Pulse': {bp: 75},
 }
 
-const SS: {[name: string]: MoveData} = extend(true, {}, SM, SS_PATCH, TRE_PATCH);
-
-const LGPE_MOVES = [
-  'Baddy Bad',
-  'Bouncy Bubble',
-  'Buzzy Buzz',
-  'Freezy Frost',
-  'Glitzy Glow',
-  'Sappy Seed',
-  'Sizzly Slide',
-  'Sparkly Swirl',
-  'Zippy Zap',
-  'Floaty Fall',
-  'Pika Papow',
-  'Splishy Splash',
-  'Veevee Volley',
-];
-for (const m of LGPE_MOVES) {
-  delete SS[m];
-}
-
 const SV_PATCH: {[name: string]: DeepPartial<MoveData>} = {
   'Aerial Ace': {isSlicing: true},
   Aeroblast: {isWind: true},
@@ -4960,6 +4939,27 @@ const SV_PATCH: {[name: string]: DeepPartial<MoveData>} = {
     target: 'allAdjacentFoes',
   },
 };
+
+const SS: {[name: string]: MoveData} = extend(true, {}, SM, SS_PATCH, TRE_PATCH, SV_PATCH);
+
+const LGPE_MOVES = [
+  'Baddy Bad',
+  'Bouncy Bubble',
+  'Buzzy Buzz',
+  'Freezy Frost',
+  'Glitzy Glow',
+  'Sappy Seed',
+  'Sizzly Slide',
+  'Sparkly Swirl',
+  'Zippy Zap',
+  'Floaty Fall',
+  'Pika Papow',
+  'Splishy Splash',
+  'Veevee Volley',
+];
+for (const m of LGPE_MOVES) {
+  delete SS[m];
+}
 
 const SV: {[name: string]: MoveData} = extend(true, {}, SS, SV_PATCH);
 

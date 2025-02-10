@@ -440,7 +440,31 @@ const SM = XY.filter(i => i !== 'Old Amber').concat([
   'Waterium Z',
 ]);
 
-const SS = SM.concat([
+const SV = SM.concat([
+  'Adamant Crystal',
+  'Auspicious Armor',
+  'Ability Shield',
+  'Booster Energy',
+  'Clear Amulet',
+  'Cornerstone Mask',
+  'Covert Cloak',
+  'Fairy Feather',
+  'Hearthflame Mask',
+  'Loaded Dice',
+  'Malicious Armor',
+  'Masterpiece Teacup',
+  'Metal Alloy',
+  'Mirror Herb',
+  'Punching Glove',
+  'Lustrous Globe',
+  'Griseous Core',
+  'Strange Ball',
+  'Syrupy Apple',
+  'Unremarkable Teacup',
+  'Wellspring Mask',
+]);
+
+const SS = SV.concat([
   'Berry Sweet',
   'Blunder Policy',
   'Chipped Pot',
@@ -477,30 +501,6 @@ SS.push('Utility Umbrella', 'Vile Vial');
 
 // Because we support National Dex all Past items are added back in
 SS.push(...GSC_ONLY, 'Old Amber');
-
-const SV = SS.concat([
-  'Adamant Crystal',
-  'Auspicious Armor',
-  'Ability Shield',
-  'Booster Energy',
-  'Clear Amulet',
-  'Cornerstone Mask',
-  'Covert Cloak',
-  'Fairy Feather',
-  'Hearthflame Mask',
-  'Loaded Dice',
-  'Malicious Armor',
-  'Masterpiece Teacup',
-  'Metal Alloy',
-  'Mirror Herb',
-  'Punching Glove',
-  'Lustrous Globe',
-  'Griseous Core',
-  'Strange Ball',
-  'Syrupy Apple',
-  'Unremarkable Teacup',
-  'Wellspring Mask',
-]);
 
 const BERRIES: {[berry: string]: {t: I.TypeName; p: number}} = {
   'Aguav Berry': {t: 'Dragon', p: 80},

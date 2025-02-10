@@ -9121,31 +9121,6 @@ const TRE_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   'Weezing-Galar': {bs: {df: 110, sa: 95, sd: 100}},
   Xurkitree: {bs: {at: 71, df: 89}},
   Zapdos: {bs: {at: 85, df: 90}, abilities: {0: 'Download'}, otherFormes: ['Zapdos-Primal', 'Zapdos-Z']},
-  // ----------------------- SV species ------------------------- //
-  Annihilape: {
-    types: ['Fighting', 'Ghost'],
-    bs: {hp: 110, at: 115, df: 80, sa: 50, sd: 90, sp: 90},
-    weightkg: 56,
-    abilities: {0: 'Vital Spirit'},
-  },
-  Farigiraf: {
-    types: ['Normal', 'Psychic'],
-    bs: {hp: 120, at: 90, df: 70, sa: 110, sd: 70, sp: 60},
-    weightkg: 160,
-    abilities: {0: 'Cud Chew'},
-  },
-  Kingambit: {
-    types: ['Dark', 'Steel'],
-    bs: {hp: 100, at: 135, df: 120, sa: 60, sd: 85, sp: 50},
-    weightkg: 120,
-    abilities: {0: 'Defiant'},
-  },
-  Wyrdeer: {
-    types: ['Normal', 'Psychic'],
-    bs: {hp: 103, at: 105, df: 72, sa: 105, sd: 75, sp: 65},
-    weightkg: 95.1,
-    abilities: {0: 'Intimidate'},
-  },
   // ------------------- NEW Mega Evolutions ------------------- //
   'Butterfree-Mega': {
     types: ['Bug', 'Flying'],
@@ -9764,11 +9739,6 @@ const TRE_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
 };
 
-const SS: {[name: string]: SpeciesData} = extend(true, {}, SM, SS_PATCH, PLA_PATCH, TRE_PATCH);
-
-delete SS['Pikachu-Starter'];
-delete SS['Eevee-Starter'];
-
 const SV_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   Bisharp: {nfe: true},
   Cresselia: {bs: {df: 110, sd: 120}},
@@ -9789,6 +9759,12 @@ const SV_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
     weightkg: 3.5,
     abilities: {0: 'Pixilate'},
     nfe: true,
+  },
+  Annihilape: {
+    types: ['Fighting', 'Ghost'],
+    bs: {hp: 110, at: 115, df: 80, sa: 50, sd: 90, sp: 90},
+    weightkg: 56,
+    abilities: {0: 'Vital Spirit'},
   },
   Arboliva: {
     types: ['Grass', 'Normal'],
@@ -9976,6 +9952,12 @@ const SV_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
     bs: {hp: 95, at: 60, df: 60, sa: 101, sd: 60, sp: 105},
     weightkg: 90,
     abilities: {0: 'Opportunist'},
+  },
+  Farigiraf: {
+    types: ['Normal', 'Psychic'],
+    bs: {hp: 120, at: 90, df: 70, sa: 110, sd: 70, sp: 60},
+    weightkg: 160,
+    abilities: {0: 'Cud Chew'},
   },
   Fezandipiti: {
     types: ['Poison', 'Fairy'],
@@ -10202,6 +10184,12 @@ const SV_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
     bs: {hp: 70, at: 70, df: 60, sa: 105, sd: 60, sp: 125},
     weightkg: 38.6,
     abilities: {0: 'Wind Power'},
+  },
+  Kingambit: {
+    types: ['Dark', 'Steel'],
+    bs: {hp: 100, at: 135, df: 120, sa: 60, sd: 85, sp: 50},
+    weightkg: 120,
+    abilities: {0: 'Defiant'},
   },
   Klawf: {
     types: ['Rock'],
@@ -10787,7 +10775,18 @@ const SV_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
     weightkg: 5.4,
     abilities: {0: 'Gooey'},
   },
+  Wyrdeer: {
+    types: ['Normal', 'Psychic'],
+    bs: {hp: 103, at: 105, df: 72, sa: 105, sd: 75, sp: 65},
+    weightkg: 95.1,
+    abilities: {0: 'Intimidate'},
+  },
 };
+
+const SS: {[name: string]: SpeciesData} = extend(true, {}, SM, SS_PATCH, PLA_PATCH, TRE_PATCH, SV_PATCH);
+
+delete SS['Pikachu-Starter'];
+delete SS['Eevee-Starter'];
 
 const SV: {[name: string]: SpeciesData} = extend(true, {}, SS, SV_PATCH, PLA_PATCH);
 

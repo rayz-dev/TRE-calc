@@ -13122,7 +13122,7 @@ var SETDEX_TRE = {
             ],
             "index": 459
         },
-        "@ Legendario Ho": {
+        "@ Legendario Ho-Oh": {
             "level": 97,
             "item": "Lum Berry",
             "nature": "Jolly",
