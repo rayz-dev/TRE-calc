@@ -89,10 +89,38 @@ var SETDEX_TRE = {
                 "Fire Fang"
             ],
             "index": 244
+        },
+        "@ Guardián Alfa #2": {
+            "level": 95,
+            "item": "Lum Berry",
+            "nature": "Jolly",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Rock Slide",
+                "Fly",
+                "Aqua Tail",
+                "Earthquake"
+            ],
+            "index": 451
         }
     },
     "Alakazam": {
-        "@ Azul #2": {
+        "@ Entrenador Azul #2": {
             "level": 35,
             "item": "Twisted Spoon",
             "nature": "Serious",
@@ -176,7 +204,7 @@ var SETDEX_TRE = {
             ],
             "index": 123
         },
-        "@ Azul #3": {
+        "@ Entrenador Azul #3": {
             "level": 54,
             "item": "Light Clay",
             "nature": "Serious",
@@ -204,7 +232,7 @@ var SETDEX_TRE = {
             ],
             "index": 149
         },
-        "@ Azul #4": {
+        "@ Entrenador Azul #4": {
             "level": 65,
             "item": "Life Orb",
             "nature": "Serious",
@@ -231,6 +259,174 @@ var SETDEX_TRE = {
                 "Energy Ball"
             ],
             "index": 199
+        },
+        "@ Líder Gimnasio Jaden": {
+            "level": 92,
+            "item": "Alakazite",
+            "nature": "Timid",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 35,
+                "at": 35,
+                "df": 35,
+                "sa": 252,
+                "sd": 35,
+                "sp": 252
+            },
+            "moves": [
+                "Psychic",
+                "Shadow Ball",
+                "Reflect",
+                "Dazzling Gleam"
+            ],
+            "index": 396
+        },
+        "@ Base Caoba #3": {
+            "level": 84,
+            "item": "Twisted Spoon",
+            "nature": "Serious",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 100,
+                "at": 0,
+                "df": 100,
+                "sa": 100,
+                "sd": 100,
+                "sp": 110
+            },
+            "moves": [
+                "Drain Punch",
+                "Psycho Cut",
+                "Fire Punch",
+                "Shadow Sneak"
+            ],
+            "index": 421
+        },
+        "@ Viajero Eusine": {
+            "level": 97,
+            "item": "Focus Sash",
+            "nature": "Modest",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 0,
+                "df": 0,
+                "sa": 252,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Psyshock",
+                "Focus Blast",
+                "Shadow Ball",
+                "Psychic"
+            ],
+            "index": 499
+        },
+        "@ Alto Mando Torre Dun #4": {
+            "level": 101,
+            "item": "Alakazite",
+            "nature": "Timid",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 100,
+                "at": 100,
+                "df": 100,
+                "sa": 252,
+                "sd": 100,
+                "sp": 252
+            },
+            "moves": [
+                "Psychic",
+                "Thunderbolt",
+                "Dark Pulse",
+                "Dazzling Gleam"
+            ],
+            "index": 531
+        },
+        "@ Viajero Eusine #2": {
+            "level": 104,
+            "item": "Alakazite",
+            "nature": "Timid",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 0,
+                "df": 0,
+                "sa": 252,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Psyshock",
+                "Focus Blast",
+                "Dazzling Gleam",
+                "Reflect"
+            ],
+            "index": 607
+        },
+        "@ Entrenador Azul #5": {
+            "level": 96,
+            "item": "Focus Sash",
+            "nature": "Modest",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 0,
+                "df": 0,
+                "sa": 252,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Psychic",
+                "Shadow Ball",
+                "Reflect",
+                "Focus Blast"
+            ],
+            "index": 613
         }
     },
     "Arbok": {
@@ -320,7 +516,7 @@ var SETDEX_TRE = {
             ],
             "index": 129
         },
-        "@ Azul #3": {
+        "@ Entrenador Azul #3": {
             "level": 54,
             "item": "Life Orb",
             "nature": "Serious",
@@ -348,7 +544,7 @@ var SETDEX_TRE = {
             ],
             "index": 152
         },
-        "@ Azul #4": {
+        "@ Entrenador Azul #4": {
             "level": 65,
             "item": "Leftovers",
             "nature": "Serious",
@@ -431,6 +627,62 @@ var SETDEX_TRE = {
                 "Extreme Speed"
             ],
             "index": 280
+        },
+        "@ Ejecutivo Rocket Protón #2": {
+            "level": 87,
+            "item": "Rocky Helmet",
+            "nature": "Impish",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 6,
+                "df": 252,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "moves": [
+                "Morning Sun",
+                "Will-O-Wisp",
+                "Extreme Speed",
+                "Flare Blitz"
+            ],
+            "index": 374
+        },
+        "@ Entrenador Azul #5": {
+            "level": 97,
+            "item": "Life Orb",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Flare Blitz",
+                "Extreme Speed",
+                "Wild Charge",
+                "Outrage"
+            ],
+            "index": 614
         }
     },
     "Articuno": {
@@ -517,10 +769,66 @@ var SETDEX_TRE = {
                 "Knock Off"
             ],
             "index": 114
+        },
+        "@ Base Caoba": {
+            "level": 92,
+            "item": "Beedrillite",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "U-turn",
+                "Drill Run",
+                "Poison Jab",
+                "Knock Off"
+            ],
+            "index": 412
+        },
+        "@ Líder Fucsia Koga": {
+            "level": 103,
+            "item": "Beedrillite",
+            "nature": "Jolly",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 40,
+                "at": 40,
+                "df": 40,
+                "sa": 252,
+                "sd": 40,
+                "sp": 252
+            },
+            "moves": [
+                "U-turn",
+                "Poison Jab",
+                "Drill Run",
+                "Knock Off"
+            ],
+            "index": 596
         }
     },
     "Blastoise": {
-        "@ Azul #2": {
+        "@ Entrenador Azul #2": {
             "level": 38,
             "item": "Assault Vest",
             "nature": "Bold",
@@ -548,7 +856,7 @@ var SETDEX_TRE = {
             ],
             "index": 62
         },
-        "@ Azul #3": {
+        "@ Entrenador Azul #3": {
             "level": 55,
             "item": "Assault Vest",
             "nature": "Bold",
@@ -576,7 +884,7 @@ var SETDEX_TRE = {
             ],
             "index": 153
         },
-        "@ Azul #4": {
+        "@ Entrenador Azul #4": {
             "level": 67,
             "item": "Assault Vest",
             "nature": "Bold",
@@ -631,6 +939,34 @@ var SETDEX_TRE = {
                 "Dark Pulse"
             ],
             "index": 274
+        },
+        "@ Entrenador Azul #5": {
+            "level": 100,
+            "item": "Blastoisinite",
+            "nature": "Bold",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 100,
+                "at": 100,
+                "df": 100,
+                "sa": 252,
+                "sd": 252,
+                "sp": 100
+            },
+            "moves": [
+                "Water Pulse",
+                "Aura Sphere",
+                "Dark Pulse",
+                "Dragon Pulse"
+            ],
+            "index": 617
         }
     },
     "Chansey": {
@@ -741,6 +1077,62 @@ var SETDEX_TRE = {
                 "Blast Burn"
             ],
             "index": 275
+        },
+        "@ Entrenador Rojo": {
+            "level": 87,
+            "item": "Life Orb",
+            "nature": "Timid",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 0,
+                "df": 0,
+                "sa": 252,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Focus Blast",
+                "Air Slash",
+                "Blast Burn",
+                "Dragon Pulse"
+            ],
+            "index": 385
+        },
+        "@ Base Caoba #3": {
+            "level": 85,
+            "item": "White Herb",
+            "nature": "Serious",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 100,
+                "at": 0,
+                "df": 100,
+                "sa": 100,
+                "sd": 100,
+                "sp": 110
+            },
+            "moves": [
+                "Overheat",
+                "Dragon Pulse",
+                "Air Slash",
+                "Fire Blast"
+            ],
+            "index": 423
         }
     },
     "Clefable": {
@@ -881,6 +1273,34 @@ var SETDEX_TRE = {
                 "Icicle Spear"
             ],
             "index": 161
+        },
+        "@ Pokemaníaco Louis": {
+            "level": 76,
+            "item": "Assault Vest",
+            "nature": "Careful",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 0,
+                "df": 0,
+                "sa": 6,
+                "sd": 252,
+                "sp": 0
+            },
+            "moves": [
+                "Icicle Spear",
+                "Rock Blast",
+                "Ice Shard",
+                "Drill Run"
+            ],
+            "index": 309
         }
     },
     "Crawdaunt": {
@@ -911,6 +1331,34 @@ var SETDEX_TRE = {
                 "Ancient Power"
             ],
             "index": 22
+        },
+        "@ Capitán Barco Olivo": {
+            "level": 85,
+            "item": "Focus Sash",
+            "nature": "Serious",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Crabhammer",
+                "Knock Off",
+                "Aqua Jet",
+                "Dragon Dance"
+            ],
+            "index": 359
         }
     },
     "Crobat": {
@@ -997,6 +1445,87 @@ var SETDEX_TRE = {
                 "Steel Wing"
             ],
             "index": 207
+        },
+        "@ Ex Alto Mando Agatha": {
+            "level": 87,
+            "item": "Choice Band",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Brave Bird"
+            ],
+            "index": 391
+        },
+        "@ Base Caoba": {
+            "level": 82,
+            "item": "Black Sludge",
+            "nature": "Serious",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 100,
+                "at": 100,
+                "df": 100,
+                "sa": 0,
+                "sd": 100,
+                "sp": 110
+            },
+            "moves": [
+                "Leech Life",
+                "Fly",
+                "Cross Poison",
+                "Roost"
+            ],
+            "index": 411
+        },
+        "@ Líder Fucsia Koga": {
+            "level": 100,
+            "item": "Flying Gem",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "moves": [
+                "Acrobatics",
+                "U-turn",
+                "Roost",
+                "Super Fang"
+            ],
+            "index": 595
         }
     },
     "Dewgong": {
@@ -1311,6 +1840,59 @@ var SETDEX_TRE = {
                 "Dragon Rush"
             ],
             "index": 247
+        },
+        "@ Farero Kepler": {
+            "level": 84,
+            "item": "Assault Vest",
+            "nature": "Modest",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 0,
+                "df": 0,
+                "sa": 252,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Thunderbolt",
+                "Hurricane",
+                "Dragon Pulse",
+                "Surf"
+            ],
+            "index": 351
+        },
+        "@ Alto Mando Torre Dun": {
+            "level": 97,
+            "item": "Choice Band",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 252,
+                "df": 20,
+                "sa": 20,
+                "sd": 20,
+                "sp": 20
+            },
+            "moves": [
+                "Fly"
+            ],
+            "index": 513
         }
     },
     "Dratini": {
@@ -1542,6 +2124,34 @@ var SETDEX_TRE = {
                 "Fire Punch"
             ],
             "index": 103
+        },
+        "@ Chica Kimono #5": {
+            "level": 78,
+            "item": "Life Orb",
+            "nature": "Serious",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "moves": [
+                "Thunderbolt",
+                "Cross Chop",
+                "Psychic",
+                "Reflect"
+            ],
+            "index": 338
         }
     },
     "Electivire": {
@@ -1600,6 +2210,34 @@ var SETDEX_TRE = {
                 "Earthquake"
             ],
             "index": 205
+        },
+        "@ Lt #2": {
+            "level": 100,
+            "item": "Electirizer",
+            "nature": "Naive",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Plasma Fists",
+                "Fire Punch",
+                "Earthquake",
+                "Cross Chop"
+            ],
+            "index": 575
         }
     },
     "Electrode": {
@@ -1686,6 +2324,59 @@ var SETDEX_TRE = {
                 "Toxic"
             ],
             "index": 100
+        },
+        "@ Profesor Elm": {
+            "level": 77,
+            "item": "Light Clay",
+            "nature": "Modest",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 0,
+                "df": 0,
+                "sa": 252,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Thunderbolt",
+                "Reflect",
+                "Light Screen",
+                "Signal Beam"
+            ],
+            "index": 302
+        },
+        "@ Lt": {
+            "level": 98,
+            "item": "Choice Band",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Explosion"
+            ],
+            "index": 571
         }
     },
     "Entei": {
@@ -1716,6 +2407,34 @@ var SETDEX_TRE = {
                 "High Horsepower"
             ],
             "index": 192
+        },
+        "@ Viajero Eusine #2": {
+            "level": 106,
+            "item": "Assault Vest",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 252,
+                "df": 252,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "moves": [
+                "Sacred Fire",
+                "Stone Edge",
+                "Extreme Speed",
+                "High Horsepower"
+            ],
+            "index": 609
         }
     },
     "Espeon": {
@@ -1746,10 +2465,94 @@ var SETDEX_TRE = {
                 "Dazzling Gleam"
             ],
             "index": 185
+        },
+        "@ Maestro Torre Bellsprout": {
+            "level": 77,
+            "item": "Expert Belt",
+            "nature": "Serious",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 0,
+                "df": 0,
+                "sa": 252,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Psychic",
+                "Dazzling Gleam",
+                "Mystical Fire",
+                "Moonlight"
+            ],
+            "index": 293
+        },
+        "@ Chica Kimono #2": {
+            "level": 80,
+            "item": "Leftovers",
+            "nature": "Timid",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 0,
+                "df": 0,
+                "sa": 252,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Psychic",
+                "Dazzling Gleam",
+                "Grass Knot",
+                "Shadow Ball"
+            ],
+            "index": 331
+        },
+        "@ Entrenador Rojo": {
+            "level": 82,
+            "item": "Life Orb",
+            "nature": "Modest",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 0,
+                "df": 0,
+                "sa": 252,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Psychic",
+                "Dazzling Gleam",
+                "Aura Sphere",
+                "Shadow Ball"
+            ],
+            "index": 386
         }
     },
     "Exeggcute": {
-        "@ Azul #2": {
+        "@ Entrenador Azul #2": {
             "level": 35,
             "item": "Eviolite",
             "nature": "Serious",
@@ -1835,7 +2638,7 @@ var SETDEX_TRE = {
             ],
             "index": 122
         },
-        "@ Azul #3": {
+        "@ Entrenador Azul #3": {
             "level": 54,
             "item": "Leftovers",
             "nature": "Serious",
@@ -1862,6 +2665,34 @@ var SETDEX_TRE = {
                 "Bulldoze"
             ],
             "index": 151
+        },
+        "@ Entrenador Azul #5": {
+            "level": 96,
+            "item": "Assault Vest",
+            "nature": "Timid",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 0,
+                "df": 0,
+                "sa": 252,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Psychic",
+                "Leaf Storm",
+                "Giga Drain",
+                "Dragon Pulse"
+            ],
+            "index": 615
         }
     },
     "Feraligatr": {
@@ -1892,6 +2723,34 @@ var SETDEX_TRE = {
                 "Waterfall"
             ],
             "index": 147
+        },
+        "@ Profesor Elm": {
+            "level": 79,
+            "item": "Life Orb",
+            "nature": "Jolly",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Dragon Dance",
+                "Ice Punch",
+                "Crunch",
+                "Liquidation"
+            ],
+            "index": 305
         }
     },
     "Flareon": {
@@ -1950,6 +2809,31 @@ var SETDEX_TRE = {
                 "Quick Attack"
             ],
             "index": 127
+        },
+        "@ Chica Kimono": {
+            "level": 80,
+            "item": "Choice Scarf",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Flare Blitz"
+            ],
+            "index": 328
         }
     },
     "Gengar": {
@@ -2008,6 +2892,146 @@ var SETDEX_TRE = {
                 "Psychic"
             ],
             "index": 177
+        },
+        "@ Maestro Torre Bellsprout": {
+            "level": 77,
+            "item": "Life Orb",
+            "nature": "Timid",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 0,
+                "df": 0,
+                "sa": 252,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Shadow Ball",
+                "Sludge Bomb",
+                "Thunderbolt",
+                "Hypnosis"
+            ],
+            "index": 292
+        },
+        "@ Ex Alto Mando Agatha": {
+            "level": 86,
+            "item": "Focus Sash",
+            "nature": "Modest",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 0,
+                "df": 0,
+                "sa": 252,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Shadow Ball",
+                "Sludge Bomb",
+                "Thunderbolt",
+                "Hypnosis"
+            ],
+            "index": 389
+        },
+        " @ Ex Alto Mando Agatha": {
+            "level": 86,
+            "item": "Gengarite",
+            "nature": "Modest",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 30,
+                "at": 30,
+                "df": 30,
+                "sa": 252,
+                "sd": 30,
+                "sp": 252
+            },
+            "moves": [
+                "Shadow Ball",
+                "Sludge Bomb",
+                "Thunderbolt",
+                "Dazzling Gleam"
+            ],
+            "index": 394
+        },
+        "@ Líder Gimnasio Jaden": {
+            "level": 89,
+            "item": "Assault Vest",
+            "nature": "Timid",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 0,
+                "df": 252,
+                "sa": 0,
+                "sd": 6,
+                "sp": 0
+            },
+            "moves": [
+                "Shadow Ball",
+                "Sludge Bomb",
+                "Thunderbolt",
+                "Dazzling Gleam"
+            ],
+            "index": 399
+        },
+        "@ Guardián Alfa #4": {
+            "level": 95,
+            "item": "Lum Berry",
+            "nature": "Modest",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 252,
+                "sa": 0,
+                "sd": 6,
+                "sp": 252
+            },
+            "moves": [
+                "Shadow Ball",
+                "Thunderbolt",
+                "Sludge Bomb",
+                "Focus Blast"
+            ],
+            "index": 455
         }
     },
     "Golbat": {
@@ -2180,6 +3204,34 @@ var SETDEX_TRE = {
                 "Focus Blast"
             ],
             "index": 96
+        },
+        "@ Chica Kimono #4": {
+            "level": 78,
+            "item": "Life Orb",
+            "nature": "Serious",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "moves": [
+                "Surf",
+                "Ice Beam",
+                "Psychic",
+                "Yawn"
+            ],
+            "index": 335
         }
     },
     "Golem": {
@@ -2268,7 +3320,7 @@ var SETDEX_TRE = {
         }
     },
     "Growlithe": {
-        "@ Azul #2": {
+        "@ Entrenador Azul #2": {
             "level": 37,
             "item": "Eviolite",
             "nature": "Serious",
@@ -2409,6 +3461,34 @@ var SETDEX_TRE = {
                 "Power Whip"
             ],
             "index": 230
+        },
+        "@ Base Caoba #3": {
+            "level": 86,
+            "item": "Gyaradosite",
+            "nature": "Jolly",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Earthquake",
+                "Waterfall",
+                "Crunch",
+                "Dragon Rage"
+            ],
+            "index": 424
         }
     },
     "Haunter": {
@@ -2470,7 +3550,7 @@ var SETDEX_TRE = {
             ],
             "index": 158
         },
-        "@ Azul #4": {
+        "@ Entrenador Azul #4": {
             "level": 65,
             "item": "Focus Sash",
             "nature": "Serious",
@@ -2523,6 +3603,118 @@ var SETDEX_TRE = {
                 "Stone Edge"
             ],
             "index": 203
+        },
+        "@ Rival Andra #8": {
+            "level": 88,
+            "item": "Choice Scarf",
+            "nature": "Jolly",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Stone Edge",
+                "Megahorn",
+                "Close Combat",
+                "Earthquake"
+            ],
+            "index": 378
+        },
+        "@ Rival Andra #9": {
+            "level": 100,
+            "item": "Choice Scarf",
+            "nature": "Jolly",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Megahorn",
+                "Close Combat",
+                "Stone Edge",
+                "Earthquake"
+            ],
+            "index": 508
+        },
+        "@ Alto Mando Torre Dun #2": {
+            "level": 97,
+            "item": "Focus Sash",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 30,
+                "at": 252,
+                "df": 30,
+                "sa": 30,
+                "sd": 30,
+                "sp": 252
+            },
+            "moves": [
+                "Megahorn",
+                "Stone Edge",
+                "Close Combat",
+                "Earthquake"
+            ],
+            "index": 516
+        },
+        "@ Entrenador Azul #5": {
+            "level": 95,
+            "item": "Focus Sash",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Megahorn",
+                "Stone Edge",
+                "Close Combat",
+                "Knock Off"
+            ],
+            "index": 612
         }
     },
     "Hitmonchan": {
@@ -2611,6 +3803,34 @@ var SETDEX_TRE = {
                 "Rock Slide"
             ],
             "index": 168
+        },
+        "@ Base Caoba #2": {
+            "level": 81,
+            "item": "Life Orb",
+            "nature": "Serious",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 100,
+                "at": 100,
+                "df": 100,
+                "sa": 0,
+                "sd": 100,
+                "sp": 110
+            },
+            "moves": [
+                "Close Combat",
+                "Fake Out",
+                "Bullet Punch",
+                "Knock Off"
+            ],
+            "index": 413
         }
     },
     "Hitmontop": {
@@ -2668,6 +3888,90 @@ var SETDEX_TRE = {
                 "Dark Pulse"
             ],
             "index": 146
+        },
+        "@ Base Caoba #2": {
+            "level": 84,
+            "item": "Houndoominite",
+            "nature": "Bold",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Dark Pulse",
+                "Sludge Bomb",
+                "Flamethrower",
+                "Overheat"
+            ],
+            "index": 418
+        },
+        "@ Administrador Jefe Rocket Atlas #2": {
+            "level": 103,
+            "item": "Houndoominite",
+            "nature": "Timid",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 45,
+                "at": 45,
+                "df": 45,
+                "sa": 252,
+                "sd": 45,
+                "sp": 252
+            },
+            "moves": [
+                "Dark Pulse",
+                "Flamethrower",
+                "Sludge Bomb",
+                "Scorching Sands"
+            ],
+            "index": 567
+        },
+        "@ Motorista #3": {
+            "level": 99,
+            "item": "Focus Sash",
+            "nature": "Jolly",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 6,
+                "sp": 252
+            },
+            "moves": [
+                "Overheat",
+                "Sludge Bomb",
+                "Nasty Plot",
+                "Dark Pulse"
+            ],
+            "index": 590
         }
     },
     "Hypno": {
@@ -2698,6 +4002,34 @@ var SETDEX_TRE = {
                 "Drain Punch"
             ],
             "index": 120
+        },
+        "@ Viajero Eusine": {
+            "level": 96,
+            "item": "Leftovers",
+            "nature": "Bold",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 0,
+                "df": 128,
+                "sa": 0,
+                "sd": 128,
+                "sp": 0
+            },
+            "moves": [
+                "Reflect",
+                "Psychic",
+                "Foul Play",
+                "Thunder Wave"
+            ],
+            "index": 497
         }
     },
     "Jolteon": {
@@ -2784,6 +4116,62 @@ var SETDEX_TRE = {
                 "Signal Beam"
             ],
             "index": 272
+        },
+        "@ Chica Kimono #5": {
+            "level": 80,
+            "item": "Life Orb",
+            "nature": "Modest",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 0,
+                "df": 0,
+                "sa": 252,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Thunderbolt",
+                "Shadow Ball",
+                "Hyper Voice",
+                "Signal Beam"
+            ],
+            "index": 340
+        },
+        "@ Base Caoba #3": {
+            "level": 84,
+            "item": "Life Orb",
+            "nature": "Serious",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 100,
+                "at": 0,
+                "df": 100,
+                "sa": 100,
+                "sd": 100,
+                "sp": 110
+            },
+            "moves": [
+                "Thunderbolt",
+                "Shadow Ball",
+                "Hyper Voice",
+                "Volt Switch"
+            ],
+            "index": 420
         }
     },
     "Jumpluff": {
@@ -2958,10 +4346,38 @@ var SETDEX_TRE = {
                 "Aqua Jet"
             ],
             "index": 92
+        },
+        "@ Guardián Alfa": {
+            "level": 95,
+            "item": "Lum Berry",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Rock Slide",
+                "X-Scissor",
+                "Waterfall",
+                "Aqua Jet"
+            ],
+            "index": 449
         }
     },
     "Kadabra": {
-        "@ Azul": {
+        "@ Entrenador Azul": {
             "level": 18,
             "item": "Twisted Spoon",
             "nature": "Serious",
@@ -3074,6 +4490,34 @@ var SETDEX_TRE = {
                 "Zen Headbutt"
             ],
             "index": 87
+        },
+        "@ Base Caoba #3": {
+            "level": 83,
+            "item": "Leftovers",
+            "nature": "Serious",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 100,
+                "at": 100,
+                "df": 100,
+                "sa": 0,
+                "sd": 100,
+                "sp": 110
+            },
+            "moves": [
+                "Double-Edge",
+                "Fake Out",
+                "Drain Punch",
+                "Fire Punch"
+            ],
+            "index": 419
         }
     },
     "Kingdra": {
@@ -3104,6 +4548,34 @@ var SETDEX_TRE = {
                 "Waterfall"
             ],
             "index": 180
+        },
+        "@ Farero Kepler": {
+            "level": 84,
+            "item": "Life Orb",
+            "nature": "Modest",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 0,
+                "df": 0,
+                "sa": 252,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Dragon Pulse",
+                "Surf",
+                "Rain Dance",
+                "Ice Beam"
+            ],
+            "index": 350
         }
     },
     "Kingler": {
@@ -3164,6 +4636,34 @@ var SETDEX_TRE = {
                 "Shock Wave"
             ],
             "index": 102
+        },
+        "@ Farero Kepler": {
+            "level": 83,
+            "item": "Damp Rock",
+            "nature": "Bold",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 0,
+                "df": 128,
+                "sa": 0,
+                "sd": 128,
+                "sp": 0
+            },
+            "moves": [
+                "Thunder",
+                "Surf",
+                "Ice Beam",
+                "Rain Dance"
+            ],
+            "index": 348
         }
     },
     "Lapras": {
@@ -3222,6 +4722,34 @@ var SETDEX_TRE = {
                 "Thunder"
             ],
             "index": 187
+        },
+        "@ Entrenador Rojo": {
+            "level": 82,
+            "item": "Leftovers",
+            "nature": "Bold",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 0,
+                "df": 0,
+                "sa": 252,
+                "sd": 0,
+                "sp": 6
+            },
+            "moves": [
+                "Dive",
+                "Blizzard",
+                "Thunder",
+                "Psychic"
+            ],
+            "index": 384
         }
     },
     "Machamp": {
@@ -3280,6 +4808,90 @@ var SETDEX_TRE = {
                 "Bullet Punch"
             ],
             "index": 186
+        },
+        "@ Líder Gimnasio Aníbal": {
+            "level": 86,
+            "item": "White Herb",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 6
+            },
+            "moves": [
+                "Bullet Punch",
+                "Fissure",
+                "Close Combat",
+                "Stone Edge"
+            ],
+            "index": 365
+        },
+        "@ Entrenador Rojo": {
+            "level": 83,
+            "item": "Assault Vest",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 252,
+                "df": 252,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "moves": [
+                "Dynamic Punch",
+                "Bullet Punch",
+                "Knock Off",
+                "Stone Edge"
+            ],
+            "index": 388
+        },
+        "@ Motorista #3": {
+            "level": 100,
+            "item": "Assault Vest",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 6,
+                "sp": 0
+            },
+            "moves": [
+                "Dynamic Punch",
+                "Stone Edge",
+                "Bullet Punch",
+                "Earthquake"
+            ],
+            "index": 591
         }
     },
     "Magcargo": {
@@ -3340,6 +4952,33 @@ var SETDEX_TRE = {
                 "Focus Blast"
             ],
             "index": 128
+        },
+        "@ Chica Kimono": {
+            "level": 78,
+            "item": "Life Orb",
+            "nature": "Serious",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "moves": [
+                "Flamethrower",
+                "Focus Blast",
+                "Psychic"
+            ],
+            "index": 326
         }
     },
     "Magneton": {
@@ -3480,6 +5119,62 @@ var SETDEX_TRE = {
                 "Thunder Punch"
             ],
             "index": 41
+        },
+        "@ Guardián Alfa #3": {
+            "level": 95,
+            "item": "Sitrus Berry",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 128,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 128,
+                "sp": 0
+            },
+            "moves": [
+                "Bonemerang",
+                "Shadow Bone",
+                "Ice Punch",
+                "Shadow Sneak"
+            ],
+            "index": 454
+        },
+        "@ Unown Áureo": {
+            "level": 95,
+            "item": "Sitrus Berry",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 128,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 128,
+                "sp": 0
+            },
+            "moves": [
+                "Bonemerang",
+                "Shadow Bone",
+                "Ice Punch",
+                "Shadow Sneak"
+            ],
+            "index": 460
         }
     },
     "Marowak": {
@@ -3538,6 +5233,62 @@ var SETDEX_TRE = {
                 "Shadow Bone"
             ],
             "index": 176
+        },
+        "@ Ex Alto Mando Agatha": {
+            "level": 88,
+            "item": "Choice Band",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 252,
+                "df": 128,
+                "sa": 0,
+                "sd": 128,
+                "sp": 0
+            },
+            "moves": [
+                "Bonemerang",
+                "Shadow Bone",
+                "Fire Punch",
+                "Knock Off"
+            ],
+            "index": 392
+        },
+        "@ Guardián Alfa #3": {
+            "level": 95,
+            "item": "Thick Club",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 128,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 128,
+                "sp": 0
+            },
+            "moves": [
+                "Bonemerang",
+                "Knock Off",
+                "Poltergeist",
+                "Rock Slide"
+            ],
+            "index": 453
         }
     },
     "Meowth": {
@@ -3769,6 +5520,34 @@ var SETDEX_TRE = {
                 "Acid Armor"
             ],
             "index": 133
+        },
+        "@ Motorista": {
+            "level": 98,
+            "item": "Poison Gem",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 6,
+                "sp": 0
+            },
+            "moves": [
+                "Gunk Shot",
+                "Drain Punch",
+                "Knock Off",
+                "Shadow Sneak"
+            ],
+            "index": 581
         }
     },
     "Nidorina": {
@@ -3854,6 +5633,34 @@ var SETDEX_TRE = {
                 "Fire Blast"
             ],
             "index": 124
+        },
+        "@ Chica Kimono": {
+            "level": 79,
+            "item": "Leftovers",
+            "nature": "Serious",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "moves": [
+                "Flamethrower",
+                "Extrasensory",
+                "Will-O-Wisp",
+                "Energy Ball"
+            ],
+            "index": 327
         }
     },
     "Noctowl": {
@@ -3884,6 +5691,62 @@ var SETDEX_TRE = {
                 "Roost"
             ],
             "index": 134
+        },
+        "@ Maestro Torre Bellsprout": {
+            "level": 76,
+            "item": "Leftovers",
+            "nature": "Modest",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 0,
+                "df": 0,
+                "sa": 252,
+                "sd": 0,
+                "sp": 6
+            },
+            "moves": [
+                "Psychic",
+                "Air Slash",
+                "Heat Wave",
+                "Moonblast"
+            ],
+            "index": 291
+        },
+        "@ Farero Kepler": {
+            "level": 83,
+            "item": "Expert Belt",
+            "nature": "Timid",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 0,
+                "df": 252,
+                "sa": 0,
+                "sd": 0,
+                "sp": 6
+            },
+            "moves": [
+                "Psychic",
+                "Hurricane",
+                "Shadow Ball",
+                "Moonblast"
+            ],
+            "index": 349
         }
     },
     "Octillery": {
@@ -4054,7 +5917,7 @@ var SETDEX_TRE = {
         }
     },
     "Pidgeot": {
-        "@ Azul #2": {
+        "@ Entrenador Azul #2": {
             "level": 36,
             "item": "Sitrus Berry",
             "nature": "Serious",
@@ -4082,7 +5945,7 @@ var SETDEX_TRE = {
             ],
             "index": 58
         },
-        "@ Azul #3": {
+        "@ Entrenador Azul #3": {
             "level": 53,
             "item": "Power Herb",
             "nature": "Serious",
@@ -4110,7 +5973,7 @@ var SETDEX_TRE = {
             ],
             "index": 148
         },
-        "@ Azul #4": {
+        "@ Entrenador Azul #4": {
             "level": 64,
             "item": "Choice Band",
             "nature": "Serious",
@@ -4137,10 +6000,66 @@ var SETDEX_TRE = {
                 "Giga Impact"
             ],
             "index": 196
+        },
+        "@ Líder Gimnasio Pegaso": {
+            "level": 80,
+            "item": "Pidgeotite",
+            "nature": "Timid",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 0,
+                "df": 0,
+                "sa": 252,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Hurricane",
+                "Heat Wave",
+                "Hyper Beam",
+                "Roost"
+            ],
+            "index": 298
+        },
+        "@ Líder Gimnasio Pegaso #2": {
+            "level": 99,
+            "item": "Pidgeotite",
+            "nature": "Timid",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 45,
+                "at": 45,
+                "df": 45,
+                "sa": 252,
+                "sd": 45,
+                "sp": 252
+            },
+            "moves": [
+                "Hurricane",
+                "Heat Wave",
+                "Hyper Beam",
+                "Tailwind"
+            ],
+            "index": 490
         }
     },
     "Pidgeotto": {
-        "@ Azul": {
+        "@ Entrenador Azul": {
             "level": 19,
             "item": "Silk Scarf",
             "nature": "Serious",
@@ -4224,6 +6143,34 @@ var SETDEX_TRE = {
                 "Extreme Speed"
             ],
             "index": 184
+        },
+        "@ Entrenador Rojo": {
+            "level": 87,
+            "item": "Light Ball",
+            "nature": "Hasty",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 252,
+                "df": 252,
+                "sa": 252,
+                "sd": 252,
+                "sp": 252
+            },
+            "moves": [
+                "Fake Out",
+                "Volt Tackle",
+                "Surf",
+                "Extreme Speed"
+            ],
+            "index": 383
         }
     },
     "Piloswine": {
@@ -4284,6 +6231,34 @@ var SETDEX_TRE = {
                 "Leech Life"
             ],
             "index": 138
+        },
+        "@ Líder Gimnasio César": {
+            "level": 83,
+            "item": "Pinsirite",
+            "nature": "Jolly",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 10,
+                "at": 252,
+                "df": 10,
+                "sa": 10,
+                "sd": 10,
+                "sp": 252
+            },
+            "moves": [
+                "Thrash",
+                "Earthquake",
+                "Knock Off",
+                "Close Combat"
+            ],
+            "index": 318
         }
     },
     "Poliwrath": {
@@ -4427,6 +6402,34 @@ var SETDEX_TRE = {
                 "Recover"
             ],
             "index": 90
+        },
+        "@ Coleccionista Bill #4": {
+            "level": 104,
+            "item": "Eviolite",
+            "nature": "Bold",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 252,
+                "sa": 6,
+                "sd": 252,
+                "sp": 0
+            },
+            "moves": [
+                "Tri Attack",
+                "Psychic",
+                "Recover",
+                "Thunder Wave"
+            ],
+            "index": 619
         }
     },
     "Primeape": {
@@ -4457,6 +6460,34 @@ var SETDEX_TRE = {
                 "Thrash"
             ],
             "index": 139
+        },
+        "@ Motorista #2": {
+            "level": 97,
+            "item": "Life Orb",
+            "nature": "Jolly",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 6,
+                "sp": 0
+            },
+            "moves": [
+                "Earthquake",
+                "Rock Slide",
+                "Thrash",
+                "Close Combat"
+            ],
+            "index": 584
         }
     },
     "Pupitar": {
@@ -4631,6 +6662,34 @@ var SETDEX_TRE = {
                 "Surf"
             ],
             "index": 104
+        },
+        "@ Chica Kimono #5": {
+            "level": 79,
+            "item": "Life Orb",
+            "nature": "Serious",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "moves": [
+                "Grass Knot",
+                "Thunderbolt",
+                "Surf",
+                "Focus Blast"
+            ],
+            "index": 339
         }
     },
     "Raikou": {
@@ -4661,6 +6720,34 @@ var SETDEX_TRE = {
                 "Shadow Ball"
             ],
             "index": 193
+        },
+        "@ Viajero Eusine #2": {
+            "level": 106,
+            "item": "Air Balloon",
+            "nature": "Timid",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 50,
+                "at": 50,
+                "df": 50,
+                "sa": 252,
+                "sd": 50,
+                "sp": 252
+            },
+            "moves": [
+                "Thunderbolt",
+                "Aura Sphere",
+                "Extrasensory",
+                "Scald"
+            ],
+            "index": 610
         }
     },
     "Rapidash": {
@@ -4750,7 +6837,7 @@ var SETDEX_TRE = {
             ],
             "index": 10
         },
-        "@ Azul": {
+        "@ Entrenador Azul": {
             "level": 16,
             "item": "Silk Scarf",
             "nature": "Serious",
@@ -4865,7 +6952,7 @@ var SETDEX_TRE = {
             ],
             "index": 83
         },
-        "@ Azul #3": {
+        "@ Entrenador Azul #3": {
             "level": 54,
             "item": "Focus Sash",
             "nature": "Serious",
@@ -4892,6 +6979,34 @@ var SETDEX_TRE = {
                 "Crunch"
             ],
             "index": 150
+        },
+        "@ Base Caoba #2": {
+            "level": 82,
+            "item": "Eviolite",
+            "nature": "Serious",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 100,
+                "at": 100,
+                "df": 100,
+                "sa": 0,
+                "sd": 100,
+                "sp": 110
+            },
+            "moves": [
+                "Earthquake",
+                "Hammer Arm",
+                "Stone Edge",
+                "Megahorn"
+            ],
+            "index": 414
         }
     },
     "Scyther": {
@@ -5151,6 +7266,118 @@ var SETDEX_TRE = {
                 "Slack Off"
             ],
             "index": 162
+        },
+        "@ Pokemaníaco Louis": {
+            "level": 75,
+            "item": "Leftovers",
+            "nature": "Bold",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 0,
+                "df": 0,
+                "sa": 252,
+                "sd": 6,
+                "sp": 0
+            },
+            "moves": [
+                "Scald",
+                "Psychic",
+                "Yawn",
+                "Slack Off"
+            ],
+            "index": 308
+        },
+        " @ Pokemaníaco Louis": {
+            "level": 77,
+            "item": "Rocky Helmet",
+            "nature": "Bold",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 0,
+                "df": 252,
+                "sa": 6,
+                "sd": 0,
+                "sp": 0
+            },
+            "moves": [
+                "Slack Off",
+                "Psychic",
+                "Scald",
+                "Foul Play"
+            ],
+            "index": 310
+        },
+        "  @ Pokemaníaco Louis": {
+            "level": 77,
+            "item": "Assault Vest",
+            "nature": "Careful",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 0,
+                "df": 0,
+                "sa": 252,
+                "sd": 252,
+                "sp": 0
+            },
+            "moves": [
+                "Future Sight",
+                "Scald",
+                "Focus Blast",
+                "Flamethrower"
+            ],
+            "index": 311
+        },
+        "   @ Pokemaníaco Louis": {
+            "level": 78,
+            "item": "Slowbronite",
+            "nature": "Bold",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 0,
+                "df": 252,
+                "sa": 0,
+                "sd": 6,
+                "sp": 0
+            },
+            "moves": [
+                "Scald",
+                "Slack Off",
+                "Psyshock",
+                "Amnesia"
+            ],
+            "index": 313
         }
     },
     "Sneasel": {
@@ -5209,6 +7436,34 @@ var SETDEX_TRE = {
                 "Fake Out"
             ],
             "index": 156
+        },
+        "@ Chica Kimono #3": {
+            "level": 78,
+            "item": "Life Orb",
+            "nature": "Serious",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "moves": [
+                "Ice Punch",
+                "Fake Out",
+                "Knock Off",
+                "Brick Break"
+            ],
+            "index": 332
         }
     },
     "Snorlax": {
@@ -5239,6 +7494,34 @@ var SETDEX_TRE = {
                 "Sleep Talk"
             ],
             "index": 188
+        },
+        "@ Entrenador Rojo": {
+            "level": 82,
+            "item": "Leftovers",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 252,
+                "sp": 6
+            },
+            "moves": [
+                "Body Slam",
+                "Zen Headbutt",
+                "Earthquake",
+                "Double-Edge"
+            ],
+            "index": 387
         }
     },
     "Starmie": {
@@ -5269,6 +7552,34 @@ var SETDEX_TRE = {
                 "Recover"
             ],
             "index": 99
+        },
+        "@ Líder Gimnasio Fredo": {
+            "level": 93,
+            "item": "Starmietite",
+            "nature": "Modest",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 40,
+                "at": 40,
+                "df": 40,
+                "sa": 252,
+                "sd": 40,
+                "sp": 252
+            },
+            "moves": [
+                "Scald",
+                "Thunderbolt",
+                "Tri Attack",
+                "Psychic"
+            ],
+            "index": 426
         }
     },
     "Steelix": {
@@ -5327,6 +7638,34 @@ var SETDEX_TRE = {
                 "Stealth Rock"
             ],
             "index": 166
+        },
+        "@ Líder Gimnasio Crom": {
+            "level": 87,
+            "item": "Steelixite",
+            "nature": "Careful",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 20,
+                "df": 20,
+                "sa": 20,
+                "sd": 252,
+                "sp": 20
+            },
+            "moves": [
+                "Earthquake",
+                "Rock Slide",
+                "Stealth Rock",
+                "Iron Tail"
+            ],
+            "index": 357
         }
     },
     "Suicune": {
@@ -5417,6 +7756,34 @@ var SETDEX_TRE = {
                 "Rock Slide"
             ],
             "index": 144
+        },
+        "@ Base Caoba #2": {
+            "level": 83,
+            "item": "Life Orb",
+            "nature": "Serious",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 100,
+                "at": 100,
+                "df": 100,
+                "sa": 0,
+                "sd": 100,
+                "sp": 110
+            },
+            "moves": [
+                "Body Slam",
+                "Iron Head",
+                "Zen Headbutt",
+                "Rock Slide"
+            ],
+            "index": 415
         }
     },
     "Teddiursa": {
@@ -5701,6 +8068,62 @@ var SETDEX_TRE = {
                 "Rest"
             ],
             "index": 135
+        },
+        "@ Chica Kimono #3": {
+            "level": 80,
+            "item": "Leftovers",
+            "nature": "Bold",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 0,
+                "df": 6,
+                "sa": 0,
+                "sd": 252,
+                "sp": 0
+            },
+            "moves": [
+                "Dark Pulse",
+                "Yawn",
+                "Moonlight",
+                "Aura Sphere"
+            ],
+            "index": 334
+        },
+        "@ Ejecutivo Rocket Protón #2": {
+            "level": 86,
+            "item": "Lum Berry",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 0,
+                "df": 6,
+                "sa": 0,
+                "sd": 252,
+                "sp": 0
+            },
+            "moves": [
+                "Curse",
+                "Crunch",
+                "Yawn",
+                "Rest"
+            ],
+            "index": 372
         }
     },
     "Ursaring": {
@@ -5815,6 +8238,90 @@ var SETDEX_TRE = {
                 "Close Combat"
             ],
             "index": 206
+        },
+        "@ Rival Andra #8": {
+            "level": 89,
+            "item": "Eviolite",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 252,
+                "df": 128,
+                "sa": 0,
+                "sd": 128,
+                "sp": 0
+            },
+            "moves": [
+                "Thrash",
+                "Earthquake",
+                "Fire Punch",
+                "Drain Punch"
+            ],
+            "index": 379
+        },
+        "@ Base Caoba #2": {
+            "level": 83,
+            "item": "Flame Orb",
+            "nature": "Serious",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 100,
+                "at": 100,
+                "df": 100,
+                "sa": 0,
+                "sd": 100,
+                "sp": 110
+            },
+            "moves": [
+                "Facade",
+                "Close Combat",
+                "Shadow Claw",
+                "Earthquake"
+            ],
+            "index": 417
+        },
+        "@ Motorista": {
+            "level": 97,
+            "item": "Assault Vest",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 6,
+                "sp": 0
+            },
+            "moves": [
+                "Earthquake",
+                "Rock Slide",
+                "Thrash",
+                "Close Combat"
+            ],
+            "index": 580
         }
     },
     "Vaporeon": {
@@ -5845,6 +8352,34 @@ var SETDEX_TRE = {
                 "Rest"
             ],
             "index": 88
+        },
+        "@ Chica Kimono #4": {
+            "level": 80,
+            "item": "Assault Vest",
+            "nature": "Bold",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 0,
+                "df": 6,
+                "sa": 0,
+                "sd": 252,
+                "sp": 0
+            },
+            "moves": [
+                "Scald",
+                "Ice Beam",
+                "Shadow Ball",
+                "Hydro Pump"
+            ],
+            "index": 337
         }
     },
     "Venomoth": {
@@ -5991,6 +8526,34 @@ var SETDEX_TRE = {
                 "Sleep Powder"
             ],
             "index": 110
+        },
+        "@ Maestro Torre Bellsprout": {
+            "level": 75,
+            "item": "Life Orb",
+            "nature": "Timid",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 0,
+                "df": 0,
+                "sa": 252,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Sludge Bomb",
+                "Giga Drain",
+                "Reflect",
+                "Sleep Powder"
+            ],
+            "index": 290
         }
     },
     "Vileplume": {
@@ -6023,7 +8586,7 @@ var SETDEX_TRE = {
         }
     },
     "Wartortle": {
-        "@ Azul": {
+        "@ Entrenador Azul": {
             "level": 20,
             "item": "Sitrus Berry",
             "nature": "Bold",
@@ -6136,6 +8699,115 @@ var SETDEX_TRE = {
                 "Dark Pulse"
             ],
             "index": 141
+        },
+        "@ Base Caoba #2": {
+            "level": 82,
+            "item": "Black Sludge",
+            "nature": "Serious",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 100,
+                "at": 0,
+                "df": 100,
+                "sa": 100,
+                "sd": 100,
+                "sp": 110
+            },
+            "moves": [
+                "Will-O-Wisp",
+                "Pain Split",
+                "Sludge Bomb",
+                "Flamethrower"
+            ],
+            "index": 416
+        },
+        "@ Lt": {
+            "level": 98,
+            "item": "Focus Sash",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 6,
+                "sp": 252
+            },
+            "moves": [
+                "Explosion"
+            ],
+            "index": 572
+        },
+        "@ Motorista #2": {
+            "level": 98,
+            "item": "Poison Gem",
+            "nature": "Modest",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 6,
+                "sp": 252
+            },
+            "moves": [
+                "Sludge Bomb",
+                "Fire Blast",
+                "Thunderbolt",
+                "Shadow Ball"
+            ],
+            "index": 585
+        },
+        "@ Líder Fucsia Koga": {
+            "level": 105,
+            "item": "Gas Condenser",
+            "nature": "Modest",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 80,
+                "at": 80,
+                "df": 80,
+                "sa": 252,
+                "sd": 252,
+                "sp": 80
+            },
+            "moves": [
+                "Sludge Bomb",
+                "Will-O-Wisp",
+                "Fire Blast",
+                "Dark Pulse"
+            ],
+            "index": 599
         }
     },
     "Wooper": {
@@ -6195,6 +8867,61 @@ var SETDEX_TRE = {
                 "Reflect"
             ],
             "index": 39
+        },
+        "@ Chica Kimono #2": {
+            "level": 79,
+            "item": "Assault Vest",
+            "nature": "Serious",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "moves": [
+                "Psychic",
+                "Air Slash",
+                "Shadow Ball"
+            ],
+            "index": 330
+        },
+        "@ Guardián Alfa #5": {
+            "level": 95,
+            "item": "Wacan Berry",
+            "nature": "Timid",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 0,
+                "df": 252,
+                "sa": 6,
+                "sd": 0,
+                "sp": 0
+            },
+            "moves": [
+                "Psychic",
+                "Heat Wave",
+                "Air Slash",
+                "Dazzling Gleam"
+            ],
+            "index": 457
         }
     },
     "Zapdos": {
@@ -6253,6 +8980,34 @@ var SETDEX_TRE = {
                 "Roost"
             ],
             "index": 249
+        },
+        "@ Lt #2": {
+            "level": 102,
+            "item": "Rocky Helmet",
+            "nature": "Bold",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 0,
+                "df": 252,
+                "sa": 0,
+                "sd": 0,
+                "sp": 6
+            },
+            "moves": [
+                "Discharge",
+                "Heat Wave",
+                "Roost",
+                "Toxic"
+            ],
+            "index": 577
         }
     },
     "Zubat": {
@@ -6339,6 +9094,34 @@ var SETDEX_TRE = {
                 "Flash Cannon"
             ],
             "index": 209
+        },
+        "@ Viajero Zeus #2": {
+            "level": 83,
+            "item": "Iron Plate",
+            "nature": "Modest",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 0,
+                "df": 128,
+                "sa": 0,
+                "sd": 128,
+                "sp": 0
+            },
+            "moves": [
+                "Flash Cannon",
+                "Shadow Ball",
+                "Sacred Sword",
+                "King's Shield"
+            ],
+            "index": 342
         }
     },
     "Aerodactyl-Primal": {
@@ -6369,6 +9152,62 @@ var SETDEX_TRE = {
                 "Sky Attack"
             ],
             "index": 285
+        },
+        "@ Cabina Seguridad #3": {
+            "level": 98,
+            "item": "Focus Sash",
+            "nature": "Jolly",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Dual Wingbeat",
+                "Stone Edge",
+                "Dragon Claw",
+                "Earthquake"
+            ],
+            "index": 550
+        },
+        "@ Científico Miguel #4": {
+            "level": 107,
+            "item": "Assault Vest",
+            "nature": "Jolly",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 50,
+                "at": 252,
+                "df": 50,
+                "sa": 50,
+                "sd": 50,
+                "sp": 252
+            },
+            "moves": [
+                "Dual Wingbeat",
+                "Rock Slide",
+                "Aqua Tail",
+                "Dragon Claw"
+            ],
+            "index": 629
         }
     },
     "Azelf": {
@@ -6429,6 +9268,34 @@ var SETDEX_TRE = {
                 "Brave Bird"
             ],
             "index": 213
+        },
+        "@ Administrador Devon Rubí": {
+            "level": 102,
+            "item": "Blazikenite",
+            "nature": "Jolly",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Close Combat",
+                "Flare Blitz",
+                "Protect",
+                "Stone Edge"
+            ],
+            "index": 541
         }
     },
     "Blissey": {
@@ -6605,6 +9472,34 @@ var SETDEX_TRE = {
                 "Mystical Fire"
             ],
             "index": 268
+        },
+        "@ Team Rocket Líder Giovanni #2": {
+            "level": 110,
+            "item": "Focus Sash",
+            "nature": "Timid",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 55,
+                "at": 55,
+                "df": 55,
+                "sa": 252,
+                "sd": 55,
+                "sp": 252
+            },
+            "moves": [
+                "Grass Knot",
+                "Psyshock",
+                "Mystical Fire",
+                "Earth Power"
+            ],
+            "index": 635
         }
     },
     "Cursola": {
@@ -6665,6 +9560,34 @@ var SETDEX_TRE = {
                 "Psychic"
             ],
             "index": 264
+        },
+        "@ Líder Secta Laireb #2": {
+            "level": 96,
+            "item": "Wide Lens",
+            "nature": "Modest",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 0,
+                "df": 0,
+                "sa": 252,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Spacial Rend",
+                "Dark Pulse",
+                "Dark Void",
+                "Sludge Bomb"
+            ],
+            "index": 441
         }
     },
     "Darmanitan": {
@@ -6785,6 +9708,34 @@ var SETDEX_TRE = {
                 "Psycho Boost"
             ],
             "index": 287
+        },
+        "@ Cabina Seguridad #5": {
+            "level": 98,
+            "item": "Focus Sash",
+            "nature": "Modest",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 0,
+                "df": 0,
+                "sa": 252,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Psychic",
+                "Ice Beam",
+                "Aura Sphere",
+                "Shadow Ball"
+            ],
+            "index": 556
         }
     },
     "Deoxys-Defense": {
@@ -6815,6 +9766,34 @@ var SETDEX_TRE = {
                 "Cosmic Power"
             ],
             "index": 288
+        },
+        "@ Cabina Seguridad #5": {
+            "level": 98,
+            "item": "Rocky Helmet",
+            "nature": "Bold",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 0,
+                "df": 252,
+                "sa": 0,
+                "sd": 6,
+                "sp": 0
+            },
+            "moves": [
+                "Toxic",
+                "Cosmic Power",
+                "Night Shade",
+                "Recover"
+            ],
+            "index": 555
         }
     },
     "Deoxys-Speed": {
@@ -6875,6 +9854,90 @@ var SETDEX_TRE = {
                 "Psychic Fangs"
             ],
             "index": 258
+        },
+        "@ Líder Gimnasio Jaden": {
+            "level": 91,
+            "item": "White Herb",
+            "nature": "Modest",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 0,
+                "df": 0,
+                "sa": 252,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Shadow Ball",
+                "Thunderbolt",
+                "Draco Meteor",
+                "Flamethrower"
+            ],
+            "index": 397
+        },
+        "@ Líder Gimnasio M": {
+            "level": 95,
+            "item": "Power Herb",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Shadow Force",
+                "Dragon Darts",
+                "U-turn",
+                "Steel Wing"
+            ],
+            "index": 446
+        },
+        "@ Alto Mando Torre Dun #3": {
+            "level": 100,
+            "item": "Light Clay",
+            "nature": "Jolly",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 40,
+                "df": 40,
+                "sa": 40,
+                "sd": 40,
+                "sp": 252
+            },
+            "moves": [
+                "Light Screen",
+                "Reflect",
+                "Dragon Darts",
+                "U-turn"
+            ],
+            "index": 526
         }
     },
     "Dudunsparce": {
@@ -6935,6 +9998,34 @@ var SETDEX_TRE = {
                 "Will-O-Wisp"
             ],
             "index": 254
+        },
+        "@ Alto Mando Torre Dun #3": {
+            "level": 100,
+            "item": "Dusknoirite",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 80,
+                "df": 252,
+                "sa": 80,
+                "sd": 80,
+                "sp": 80
+            },
+            "moves": [
+                "Drain Punch",
+                "Will-O-Wisp",
+                "Poltergeist",
+                "Leech Life"
+            ],
+            "index": 525
         }
     },
     "Floette-Eternal": {
@@ -6965,6 +10056,59 @@ var SETDEX_TRE = {
                 "Synthesis"
             ],
             "index": 210
+        },
+        "@ Viajero Zeus #2": {
+            "level": 83,
+            "item": "Life Orb",
+            "nature": "Modest",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 6,
+                "sa": 252,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Moonblast",
+                "Aura Sphere",
+                "Psychic",
+                "Mystical Fire"
+            ],
+            "index": 343
+        },
+        "@ Zeus": {
+            "level": 94,
+            "item": "Choice Scarf",
+            "nature": "Modest",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 0,
+                "df": 0,
+                "sa": 252,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Light of Ruin"
+            ],
+            "index": 472
         }
     },
     "Flygon": {
@@ -6995,6 +10139,62 @@ var SETDEX_TRE = {
                 "Fire Punch"
             ],
             "index": 243
+        },
+        "@ Capitán Barco Olivo": {
+            "level": 87,
+            "item": "Flygonite",
+            "nature": "Timid",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 30,
+                "at": 30,
+                "df": 30,
+                "sa": 252,
+                "sd": 30,
+                "sp": 252
+            },
+            "moves": [
+                "Bug Buzz",
+                "Boomburst",
+                "Flamethrower",
+                "Quiver Dance"
+            ],
+            "index": 364
+        },
+        "@ Científico Miguel #4": {
+            "level": 107,
+            "item": "Flygonite",
+            "nature": "Modest",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 25,
+                "at": 25,
+                "df": 128,
+                "sa": 25,
+                "sd": 128,
+                "sp": 252
+            },
+            "moves": [
+                "Boomburst",
+                "Bug Buzz",
+                "Dragon Pulse",
+                "Roost"
+            ],
+            "index": 628
         }
     },
     "Ghost": {
@@ -7025,6 +10225,118 @@ var SETDEX_TRE = {
                 "Dream Eater"
             ],
             "index": 252
+        },
+        "@ Guardián Alfa #4": {
+            "level": 95,
+            "item": "Colbur Berry",
+            "nature": "Modest",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 0,
+                "df": 0,
+                "sa": 252,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Shadow Ball",
+                "Hyper Voice",
+                "Psychic",
+                "Aura Sphere"
+            ],
+            "index": 456
+        },
+        "@ Unown Áureo": {
+            "level": 95,
+            "item": "Lum Berry",
+            "nature": "Bold",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 0,
+                "df": 252,
+                "sa": 6,
+                "sd": 0,
+                "sp": 0
+            },
+            "moves": [
+                "Shadow Ball",
+                "Hyper Voice",
+                "Pain Split",
+                "Will-O-Wisp"
+            ],
+            "index": 463
+        },
+        "@ Rey Unown": {
+            "level": 97,
+            "item": "Spooky Plate",
+            "nature": "Timid",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 0,
+                "df": 0,
+                "sa": 252,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Moongeist Beam",
+                "Hyper Voice",
+                "Dark Void",
+                "Aura Sphere"
+            ],
+            "index": 477
+        },
+        "@ Ghost Primigenio": {
+            "level": 110,
+            "item": "Ominous Orb",
+            "nature": "Modest",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "moves": [
+                "Dark Void",
+                "Moonlight",
+                "Moongeist Beam",
+                "Night Daze"
+            ],
+            "index": 618
         }
     },
     "Groudon": {
@@ -7055,6 +10367,90 @@ var SETDEX_TRE = {
                 "Rock Polish"
             ],
             "index": 223
+        },
+        "@ Viajero Zeus #2": {
+            "level": 85,
+            "item": "Leftovers",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 252,
+                "sp": 0
+            },
+            "moves": [
+                "Earthquake",
+                "Rock Slide",
+                "Fire Punch",
+                "Thunder Wave"
+            ],
+            "index": 345
+        },
+        "@ Viajero Zeus #3": {
+            "level": 90,
+            "item": "Assault Vest",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Earthquake",
+                "Fire Punch",
+                "Rock Slide",
+                "Dragon Claw"
+            ],
+            "index": 405
+        },
+        "@ Administrador Devon Rubí": {
+            "level": 103,
+            "item": "White Herb",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Fissure",
+                "Stone Edge",
+                "Heat Crash",
+                "Rock Polish"
+            ],
+            "index": 545
         }
     },
     "Honchkrow": {
@@ -7085,6 +10481,58 @@ var SETDEX_TRE = {
                 "Tailwind"
             ],
             "index": 266
+        },
+        "@ Chica Kimono #3": {
+            "level": 79,
+            "item": "Assault Vest",
+            "nature": "Serious",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "moves": [
+                "Drill Peck",
+                "Night Slash",
+                "Heat Wave"
+            ],
+            "index": 333
+        },
+        "@ Ex Alto Mando Agatha": {
+            "level": 88,
+            "item": "Choice Specs",
+            "nature": "Jolly",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Night Slash"
+            ],
+            "index": 393
         }
     },
     "Hoopa": {
@@ -7145,6 +10593,90 @@ var SETDEX_TRE = {
                 "Iron Tail"
             ],
             "index": 260
+        },
+        "@ Líder Gimnasio Valeria": {
+            "level": 83,
+            "item": "Steel Gem",
+            "nature": "Timid",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 0,
+                "df": 0,
+                "sa": 252,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Dark Pulse",
+                "Flamethrower",
+                "Flash Cannon",
+                "Dragon Pulse"
+            ],
+            "index": 321
+        },
+        "@ Líder Secta Laireb #2": {
+            "level": 93,
+            "item": "White Herb",
+            "nature": "Naughty",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 128,
+                "df": 0,
+                "sa": 128,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Sludge Bomb",
+                "Night Daze",
+                "Flamethrower",
+                "U-turn"
+            ],
+            "index": 440
+        },
+        "@ Motorista #3": {
+            "level": 100,
+            "item": "Life Orb",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 6,
+                "sp": 252
+            },
+            "moves": [
+                "Draco Meteor",
+                "Roost",
+                "Superpower",
+                "Iron Tail"
+            ],
+            "index": 592
         }
     },
     "Kyogre": {
@@ -7175,12 +10707,96 @@ var SETDEX_TRE = {
                 "Rest"
             ],
             "index": 235
+        },
+        "@ Viajero Zeus #2": {
+            "level": 85,
+            "item": "Splash Plate",
+            "nature": "Bold",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Surf",
+                "Thunder",
+                "Ice Beam",
+                "Water Spout"
+            ],
+            "index": 344
+        },
+        "@ Viajero Zeus #3": {
+            "level": 90,
+            "item": "Splash Plate",
+            "nature": "Bold",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 0,
+                "df": 0,
+                "sa": 252,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Thunder",
+                "Ice Beam",
+                "Surf",
+                "Water Spout"
+            ],
+            "index": 404
+        },
+        "@ Administrador Devon Amatista": {
+            "level": 99,
+            "item": "Assault Vest",
+            "nature": "Modest",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 0,
+                "df": 252,
+                "sa": 252,
+                "sd": 0,
+                "sp": 0
+            },
+            "moves": [
+                "Origin Pulse",
+                "Thunder",
+                "Ice Beam",
+                "Ancient Power"
+            ],
+            "index": 488
         }
     },
     "Lugia": {
         "@ Legendario Lugia": {
             "level": 85,
-            "item": "",
+            "item": "Silver Wing",
             "nature": "Modest",
             "ivs": {
                 "hp": 31,
@@ -7205,6 +10821,34 @@ var SETDEX_TRE = {
                 "Aeroblast"
             ],
             "index": 265
+        },
+        "@ Viajero Zeus #3": {
+            "level": 89,
+            "item": "Silver Wing",
+            "nature": "Bold",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 128,
+                "at": 0,
+                "df": 128,
+                "sa": 128,
+                "sd": 0,
+                "sp": 128
+            },
+            "moves": [
+                "Aeroblast",
+                "Hydro Pump",
+                "Psychic",
+                "Recover"
+            ],
+            "index": 401
         }
     },
     "Magmortar": {
@@ -7293,6 +10937,34 @@ var SETDEX_TRE = {
                 "Dynamic Punch"
             ],
             "index": 283
+        },
+        "@ Cabina Seguridad #2": {
+            "level": 98,
+            "item": "Life Orb",
+            "nature": "Modest",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 0,
+                "df": 0,
+                "sa": 252,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Zap Cannon",
+                "Focus Blast",
+                "Inferno",
+                "Dynamic Punch"
+            ],
+            "index": 549
         }
     },
     "Magnezone": {
@@ -7323,6 +10995,62 @@ var SETDEX_TRE = {
                 "Flash Cannon"
             ],
             "index": 236
+        },
+        "@ Profesor Elm": {
+            "level": 78,
+            "item": "Leftovers",
+            "nature": "Modest",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 0,
+                "df": 0,
+                "sa": 252,
+                "sd": 0,
+                "sp": 6
+            },
+            "moves": [
+                "Thunderbolt",
+                "Flash Cannon",
+                "Steel Beam",
+                "Thunder Wave"
+            ],
+            "index": 303
+        },
+        "@ Líder Gimnasio Crom": {
+            "level": 85,
+            "item": "Light Clay",
+            "nature": "Modest",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 0,
+                "df": 0,
+                "sa": 252,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Discharge",
+                "Light Screen",
+                "Volt Switch",
+                "Flash Cannon"
+            ],
+            "index": 354
         }
     },
     "Metagross": {
@@ -7353,6 +11081,62 @@ var SETDEX_TRE = {
                 "Earthquake"
             ],
             "index": 279
+        },
+        "@ Administrador Devon Amatista": {
+            "level": 98,
+            "item": "Air Balloon",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 252,
+                "df": 252,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "moves": [
+                "Meteor Mash",
+                "Zen Headbutt",
+                "Ice Punch",
+                "Bullet Punch"
+            ],
+            "index": 486
+        },
+        "@ Administrador Devon Rubí": {
+            "level": 101,
+            "item": "Air Balloon",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Agility",
+                "Meteor Mash",
+                "Earthquake",
+                "Explosion"
+            ],
+            "index": 544
         }
     },
     "Mew": {
@@ -7383,6 +11167,34 @@ var SETDEX_TRE = {
                 "Recover"
             ],
             "index": 263
+        },
+        "@ Líder Secta Laireb #2": {
+            "level": 95,
+            "item": "Leftovers",
+            "nature": "Timid",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 0,
+                "df": 0,
+                "sa": 252,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Psychic",
+                "Recover",
+                "Flamethrower",
+                "Barrier"
+            ],
+            "index": 438
         }
     },
     "Mewtwo": {
@@ -7413,6 +11225,90 @@ var SETDEX_TRE = {
                 "Aura Sphere"
             ],
             "index": 289
+        },
+        "@ Proyectos De Mewtwo": {
+            "level": 100,
+            "item": "Life Orb",
+            "nature": "Timid",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 0,
+                "df": 0,
+                "sa": 252,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Psystrike",
+                "Ice Beam",
+                "Aura Sphere",
+                "Shadow Ball"
+            ],
+            "index": 560
+        },
+        " @ Proyectos De Mewtwo": {
+            "level": 100,
+            "item": "Mewtwonite X",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 128,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 128,
+                "sp": 0
+            },
+            "moves": [
+                "Drain Punch",
+                "Zen Headbutt",
+                "Stone Edge",
+                "Bulk Up"
+            ],
+            "index": 561
+        },
+        "@ Team Rocket Líder Giovanni #2": {
+            "level": 109,
+            "item": "Mewtwonite Y",
+            "nature": "Timid",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 0,
+                "df": 0,
+                "sa": 252,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Psystrike",
+                "Aura Sphere",
+                "Barrier",
+                "Recover"
+            ],
+            "index": 636
         }
     },
     "Moltres": {
@@ -7501,6 +11397,90 @@ var SETDEX_TRE = {
                 "Recover"
             ],
             "index": 270
+        },
+        "@ Cabina Seguridad": {
+            "level": 98,
+            "item": "Life Orb",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Poison Jab",
+                "Night Slash",
+                "Earthquake",
+                "Head Smash"
+            ],
+            "index": 546
+        },
+        "@ Líder Fucsia Koga": {
+            "level": 104,
+            "item": "Black Sludge",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Poison Jab",
+                "Sucker Punch",
+                "Earthquake",
+                "Head Smash"
+            ],
+            "index": 598
+        },
+        "@ Team Rocket Líder Giovanni #2": {
+            "level": 108,
+            "item": "Life Orb",
+            "nature": "Jolly",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 6,
+                "sp": 252
+            },
+            "moves": [
+                "Poison Jab",
+                "Night Slash",
+                "Earthquake",
+                "Sucker Punch"
+            ],
+            "index": 633
         }
     },
     "Nidoqueen": {
@@ -7561,6 +11541,31 @@ var SETDEX_TRE = {
                 "Psychic"
             ],
             "index": 224
+        },
+        "@ Chica Kimono #4": {
+            "level": 79,
+            "item": "Choice Specs",
+            "nature": "Serious",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "moves": [
+                "Hydro Pump"
+            ],
+            "index": 336
         }
     },
     "Porygon-Z": {
@@ -7591,6 +11596,90 @@ var SETDEX_TRE = {
                 "Ice Beam"
             ],
             "index": 246
+        },
+        "@ Cabina Seguridad #4": {
+            "level": 98,
+            "item": "Dubious Disc",
+            "nature": "Modest",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Thunderbolt",
+                "Ice Beam",
+                "Hyper Beam",
+                "Shadow Ball"
+            ],
+            "index": 552
+        },
+        "@ Coleccionista Bill #4": {
+            "level": 105,
+            "item": "Dubious Disc",
+            "nature": "Modest",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 0,
+                "df": 0,
+                "sa": 252,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Thunderbolt",
+                "Ice Beam",
+                "Recover",
+                "Tri Attack"
+            ],
+            "index": 620
+        },
+        " @ Coleccionista Bill #4": {
+            "level": 108,
+            "item": "Porygonite",
+            "nature": "Jolly",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Double-Edge",
+                "Zen Headbutt",
+                "Iron Tail",
+                "Shift Gear"
+            ],
+            "index": 624
         }
     },
     "Porygon3": {
@@ -7621,6 +11710,62 @@ var SETDEX_TRE = {
                 "Recover"
             ],
             "index": 251
+        },
+        "@ Cabina Seguridad #4": {
+            "level": 98,
+            "item": "Life Orb",
+            "nature": "Timid",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Shadow Ball",
+                "Psychic",
+                "Tri Attack",
+                "Aura Sphere"
+            ],
+            "index": 553
+        },
+        "@ Coleccionista Bill #4": {
+            "level": 106,
+            "item": "Focus Sash",
+            "nature": "Timid",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 0,
+                "df": 0,
+                "sa": 252,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Moongeist Beam",
+                "Tri Attack",
+                "Thunderbolt",
+                "Aura Sphere"
+            ],
+            "index": 623
         }
     },
     "Rayquaza": {
@@ -7651,6 +11796,34 @@ var SETDEX_TRE = {
                 "V-create"
             ],
             "index": 211
+        },
+        "@ Viajero Zeus #3": {
+            "level": 92,
+            "item": "Life Orb",
+            "nature": "Jolly",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 30,
+                "at": 30,
+                "df": 30,
+                "sa": 252,
+                "sd": 30,
+                "sp": 252
+            },
+            "moves": [
+                "Dragon Ascent",
+                "V-create",
+                "Draco Meteor",
+                "Extreme Speed"
+            ],
+            "index": 406
         }
     },
     "Relicanth": {
@@ -7681,6 +11854,34 @@ var SETDEX_TRE = {
                 "Zen Headbutt"
             ],
             "index": 240
+        },
+        "@ Administrador Devon Amatista": {
+            "level": 96,
+            "item": "Focus Sash",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 252,
+                "sp": 0
+            },
+            "moves": [
+                "Head Smash",
+                "Liquidation",
+                "Earthquake",
+                "Stealth Rock"
+            ],
+            "index": 483
         }
     },
     "Rhyperior": {
@@ -7769,6 +11970,34 @@ var SETDEX_TRE = {
                 "Heat Crash"
             ],
             "index": 271
+        },
+        "@ Team Rocket Líder Giovanni #2": {
+            "level": 111,
+            "item": "White Herb",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 110,
+                "at": 252,
+                "df": 110,
+                "sa": 110,
+                "sd": 252,
+                "sp": 110
+            },
+            "moves": [
+                "Fissure",
+                "Iron Head",
+                "Stone Edge",
+                "Heat Crash"
+            ],
+            "index": 637
         }
     },
     "Salamence": {
@@ -7855,6 +12084,59 @@ var SETDEX_TRE = {
                 "Earthquake"
             ],
             "index": 281
+        },
+        "@ Capitán Barco Olivo": {
+            "level": 86,
+            "item": "Choice Band",
+            "nature": "Serious",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Fly"
+            ],
+            "index": 361
+        },
+        "@ Líder Gimnasio M": {
+            "level": 97,
+            "item": "Salamencite",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 50,
+                "at": 252,
+                "df": 50,
+                "sa": 50,
+                "sd": 50,
+                "sp": 252
+            },
+            "moves": [
+                "Double-Edge",
+                "Dragon Dance",
+                "Dragon Claw",
+                "Earthquake"
+            ],
+            "index": 444
         }
     },
     "Sharpedo": {
@@ -7913,6 +12195,34 @@ var SETDEX_TRE = {
                 "Aqua Jet"
             ],
             "index": 233
+        },
+        "@ Motorista #3": {
+            "level": 101,
+            "item": "Sharpedonite",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 6,
+                "sp": 0
+            },
+            "moves": [
+                "Crunch",
+                "Liquidation",
+                "Psychic Fangs",
+                "Ice Fang"
+            ],
+            "index": 593
         }
     },
     "Spectrier": {
@@ -7973,6 +12283,34 @@ var SETDEX_TRE = {
                 "Rock Blast"
             ],
             "index": 259
+        },
+        "@ Líder Secta Laireb #2": {
+            "level": 94,
+            "item": "Focus Sash",
+            "nature": "Sassy",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 128,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 128,
+                "sp": 0
+            },
+            "moves": [
+                "Stealth Rock",
+                "Gyro Ball",
+                "Body Press",
+                "Rock Blast"
+            ],
+            "index": 437
         }
     },
     "Swampert": {
@@ -8003,6 +12341,34 @@ var SETDEX_TRE = {
                 "Stealth Rock"
             ],
             "index": 225
+        },
+        "@ Administrador Devon Amatista": {
+            "level": 98,
+            "item": "Swampertite",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 40,
+                "at": 252,
+                "df": 40,
+                "sa": 40,
+                "sd": 40,
+                "sp": 252
+            },
+            "moves": [
+                "Earthquake",
+                "Waterfall",
+                "Stone Edge",
+                "Ice Punch"
+            ],
+            "index": 487
         }
     },
     "Tauros-X": {
@@ -8033,6 +12399,59 @@ var SETDEX_TRE = {
                 "Wild Charge"
             ],
             "index": 277
+        },
+        "@ Cabina Seguridad #3": {
+            "level": 98,
+            "item": "Assault Vest",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Head Smash",
+                "Flare Blitz",
+                "Head Charge",
+                "Wild Charge"
+            ],
+            "index": 551
+        },
+        "@ Administrador Jefe Rocket Atlas #2": {
+            "level": 102,
+            "item": "Choice Scarf",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 6,
+                "sp": 0
+            },
+            "moves": [
+                "Head Smash"
+            ],
+            "index": 564
         }
     },
     "Torkoal": {
@@ -8148,10 +12567,38 @@ var SETDEX_TRE = {
                 "Eruption"
             ],
             "index": 282
+        },
+        "@ Profesor Elm": {
+            "level": 79,
+            "item": "Assault Vest",
+            "nature": "Timid",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 0,
+                "df": 0,
+                "sa": 252,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Blast Burn",
+                "Focus Blast",
+                "Earth Power",
+                "Burn Up"
+            ],
+            "index": 306
         }
     },
     "Tyranitar": {
-        "@ Azul #4": {
+        "@ Entrenador Azul #4": {
             "level": 66,
             "item": "Sitrus Berry",
             "nature": "Serious",
@@ -8206,6 +12653,90 @@ var SETDEX_TRE = {
                 "Thunder Wave"
             ],
             "index": 284
+        },
+        "@ Profesor Elm": {
+            "level": 81,
+            "item": "Tyranitarite",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Crunch",
+                "Rock Slide",
+                "Dragon Dance",
+                "Iron Head"
+            ],
+            "index": 307
+        },
+        "@ Capitán Barco Olivo": {
+            "level": 84,
+            "item": "Life Orb",
+            "nature": "Serious",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 252,
+                "df": 128,
+                "sa": 0,
+                "sd": 128,
+                "sp": 0
+            },
+            "moves": [
+                "Rock Slide",
+                "Crunch",
+                "Aerial Ace",
+                "Flamethrower"
+            ],
+            "index": 363
+        },
+        "@ Entrenador Azul #5": {
+            "level": 98,
+            "item": "Assault Vest",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 252,
+                "sp": 0
+            },
+            "moves": [
+                "Crunch",
+                "Stone Edge",
+                "Earthquake",
+                "Pursuit"
+            ],
+            "index": 616
         }
     },
     "Wailord": {
@@ -8294,6 +12825,62 @@ var SETDEX_TRE = {
                 "Low Kick"
             ],
             "index": 202
+        },
+        "@ Rival Andra #8": {
+            "level": 89,
+            "item": "Focus Sash",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Fake Out",
+                "Triple Axel",
+                "Knock Off",
+                "Low Kick"
+            ],
+            "index": 377
+        },
+        "@ Rival Andra #9": {
+            "level": 99,
+            "item": "Focus Sash",
+            "nature": "Jolly",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Triple Axel",
+                "Knock Off",
+                "Fake Out",
+                "Low Kick"
+            ],
+            "index": 504
         }
     },
     "Wishiwashi": {
@@ -8384,6 +12971,5373 @@ var SETDEX_TRE = {
                 "Sludge Bomb"
             ],
             "index": 256
+        }
+    },
+    "Absol": {
+        "@ Líder Gimnasio Valeria": {
+            "level": 85,
+            "item": "Absolite",
+            "nature": "Jolly",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 15,
+                "at": 252,
+                "df": 15,
+                "sa": 15,
+                "sd": 15,
+                "sp": 252
+            },
+            "moves": [
+                "Knock Off",
+                "Stone Edge",
+                "Close Combat",
+                "Psycho Cut"
+            ],
+            "index": 323
+        }
+    },
+    "Aerodactyl-Skeleton": {
+        "@ Guardián Alfa #2": {
+            "level": 95,
+            "item": "Colbur Berry",
+            "nature": "Jolly",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Rock Slide",
+                "Cross Chop",
+                "Shadow Bone",
+                "Cross Poison"
+            ],
+            "index": 452
+        },
+        "@ Unown Áureo": {
+            "level": 95,
+            "item": "Spooky Plate",
+            "nature": "Jolly",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 0,
+                "df": 128,
+                "sa": 0,
+                "sd": 128,
+                "sp": 0
+            },
+            "moves": [
+                "Stealth Rock",
+                "Stone Edge",
+                "Shadow Bone",
+                "Aqua Tail"
+            ],
+            "index": 459
+        },
+        "@ Legendario Ho": {
+            "level": 97,
+            "item": "Lum Berry",
+            "nature": "Jolly",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Rock Slide",
+                "Earthquake",
+                "Shadow Bone",
+                "Fly"
+            ],
+            "index": 465
+        }
+    },
+    "Ampharos": {
+        "@ Farero Kepler": {
+            "level": 82,
+            "item": "Light Clay",
+            "nature": "Bold",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 0,
+                "df": 0,
+                "sa": 252,
+                "sd": 0,
+                "sp": 6
+            },
+            "moves": [
+                "Thunderbolt",
+                "Reflect",
+                "Focus Blast",
+                "Light Screen"
+            ],
+            "index": 347
+        },
+        " @ Farero Kepler": {
+            "level": 85,
+            "item": "Ampharosite",
+            "nature": "Timid",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 252,
+                "sd": 0,
+                "sp": 6
+            },
+            "moves": [
+                "Agility",
+                "Thunderbolt",
+                "Focus Blast",
+                "Dragon Pulse"
+            ],
+            "index": 352
+        }
+    },
+    "Annihilape": {
+        "@ Líder Gimnasio Aníbal": {
+            "level": 87,
+            "item": "Life Orb",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Close Combat",
+                "Gunk Shot",
+                "Poltergeist",
+                "High Horsepower"
+            ],
+            "index": 366
+        },
+        "@ Alto Mando Torre Dun #3": {
+            "level": 101,
+            "item": "Coba Berry",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 100,
+                "at": 252,
+                "df": 100,
+                "sa": 100,
+                "sd": 100,
+                "sp": 252
+            },
+            "moves": [
+                "Drain Punch",
+                "Poltergeist",
+                "Gunk Shot",
+                "Stone Edge"
+            ],
+            "index": 527
+        },
+        "@ Motorista #2": {
+            "level": 99,
+            "item": "Life Orb",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 6,
+                "sp": 0
+            },
+            "moves": [
+                "Poltergeist",
+                "Close Combat",
+                "Gunk Shot",
+                "Stone Edge"
+            ],
+            "index": 587
+        },
+        "@ Administrador Petrel": {
+            "level": 103,
+            "item": "Coba Berry",
+            "nature": "Careful",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 6,
+                "df": 0,
+                "sa": 0,
+                "sd": 252,
+                "sp": 0
+            },
+            "moves": [
+                "Gunk Shot",
+                "Drain Punch",
+                "Poltergeist",
+                "Bulk Up"
+            ],
+            "index": 603
+        }
+    },
+    "Arceus": {
+        "@ Zeus": {
+            "level": 95,
+            "item": "Lum Berry",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 252,
+                "df": 6,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "moves": [
+                "Extreme Speed",
+                "Earthquake",
+                "Swords Dance",
+                "Shadow Claw"
+            ],
+            "index": 471
+        }
+    },
+    "Arceus-Primal": {
+        "@ Dios Laireb": {
+            "level": 100,
+            "item": "Life Orb",
+            "nature": "Modest",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 0,
+                "df": 0,
+                "sa": 252,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Spacial Rend",
+                "Flash Cannon",
+                "Recover",
+                "Secret Sword"
+            ],
+            "index": 480
+        }
+    },
+    "Articuno-Galar": {
+        "@ Líder Gimnasio Jaden": {
+            "level": 90,
+            "item": "Leftovers",
+            "nature": "Timid",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 0,
+                "df": 0,
+                "sa": 252,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Hurricane",
+                "Freezing Glare",
+                "Roost",
+                "Mystical Fire"
+            ],
+            "index": 395
+        }
+    },
+    "Articuno-Primal": {
+        "@ Líder Gimnasio Fredo": {
+            "level": 94,
+            "item": "Leftovers",
+            "nature": "Timid",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 100,
+                "at": 0,
+                "df": 100,
+                "sa": 100,
+                "sd": 100,
+                "sp": 110
+            },
+            "moves": [
+                "Hydro Pump",
+                "Sheer Cold",
+                "Aeroblast",
+                "Ancient Power"
+            ],
+            "index": 429
+        }
+    },
+    "Baxcalibur": {
+        "@ Líder Gimnasio Fredo": {
+            "level": 92,
+            "item": "Focus Sash",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Earthquake",
+                "Outrage",
+                "Dragon Dance",
+                "Icicle Crash"
+            ],
+            "index": 427
+        }
+    },
+    "Bellsprout": {
+        "@ Maestro Torre Bellsprout": {
+            "level": 79,
+            "item": "Eviolite",
+            "nature": "Bold",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 252,
+                "df": 252,
+                "sa": 252,
+                "sd": 252,
+                "sp": 252
+            },
+            "moves": [
+                "Giga Drain",
+                "Mystical Fire",
+                "Sludge Bomb",
+                "Earth Power"
+            ],
+            "index": 295
+        }
+    },
+    "Braviary": {
+        "@ Líder Gimnasio Pegaso": {
+            "level": 79,
+            "item": "Leftovers",
+            "nature": "Jolly",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 128,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 128
+            },
+            "moves": [
+                "Brave Bird",
+                "U-turn",
+                "Close Combat",
+                "Rock Slide"
+            ],
+            "index": 297
+        }
+    },
+    "Breloom": {
+        "@ Base Caoba": {
+            "level": 81,
+            "item": "Choice Scarf",
+            "nature": "Serious",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 100,
+                "at": 100,
+                "df": 100,
+                "sa": 0,
+                "sd": 100,
+                "sp": 110
+            },
+            "moves": [
+                "Seed Bomb"
+            ],
+            "index": 408
+        }
+    },
+    "Butterfree-&": {
+        "@ Líder Gimnasio César": {
+            "level": 84,
+            "item": "Life Orb",
+            "nature": "Timid",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 20,
+                "at": 20,
+                "df": 20,
+                "sa": 252,
+                "sd": 20,
+                "sp": 252
+            },
+            "moves": [
+                "Psychic",
+                "Bug Buzz",
+                "Heat Wave",
+                "Giga Drain"
+            ],
+            "index": 319
+        }
+    },
+    "Cobalion": {
+        "@ Líder Gimnasio Crom": {
+            "level": 86,
+            "item": "Lum Berry",
+            "nature": "Jolly",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Iron Head",
+                "Sacred Sword",
+                "Zen Headbutt",
+                "Rest"
+            ],
+            "index": 356
+        }
+    },
+    "Crobat-&": {
+        "@ Rival Andra #8": {
+            "level": 92,
+            "item": "Assault Vest",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 60,
+                "at": 252,
+                "df": 60,
+                "sa": 60,
+                "sd": 60,
+                "sp": 252
+            },
+            "moves": [
+                "Gunk Shot",
+                "Fly",
+                "Leech Life",
+                "Iron Head"
+            ],
+            "index": 382
+        },
+        "@ Rival Andra #9": {
+            "level": 102,
+            "item": "Assault Vest",
+            "nature": "Bold",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 110,
+                "at": 252,
+                "df": 252,
+                "sa": 110,
+                "sd": 110,
+                "sp": 110
+            },
+            "moves": [
+                "Fly",
+                "Gunk Shot",
+                "Behemoth Blade",
+                "Leech Life"
+            ],
+            "index": 509
+        }
+    },
+    "Darmanitan-Galar-Zen": {
+        "@ Líder Gimnasio Fredo": {
+            "level": 91,
+            "item": "Life Orb",
+            "nature": "Jolly",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Icicle Crash",
+                "Flare Blitz",
+                "Zen Headbutt",
+                "U-turn"
+            ],
+            "index": 428
+        }
+    },
+    "Dialga-Origin": {
+        "@ Legendario Ho": {
+            "level": 98,
+            "item": "Draco Plate",
+            "nature": "Timid",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 0,
+                "df": 0,
+                "sa": 252,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Roar of Time",
+                "Flash Cannon",
+                "Flamethrower",
+                "Earth Power"
+            ],
+            "index": 466
+        }
+    },
+    "Dragonite-&": {
+        "@ Líder Gimnasio M": {
+            "level": 98,
+            "item": "Kebia Berry",
+            "nature": "Bold",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 100,
+                "at": 100,
+                "df": 100,
+                "sa": 252,
+                "sd": 100,
+                "sp": 252
+            },
+            "moves": [
+                "Zap Cannon",
+                "Moonblast",
+                "Fire Blast",
+                "Blizzard"
+            ],
+            "index": 448
+        }
+    },
+    "Dragón-O": {
+        "@ Dios Laireb": {
+            "level": 100,
+            "item": "Lum Berry",
+            "nature": "Naive",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 252,
+                "df": 0,
+                "sa": 6,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Dragon Rush",
+                "Blue Flare",
+                "Iron Tail",
+                "Bolt Strike"
+            ],
+            "index": 481
+        }
+    },
+    "Eevee-&": {
+        "@ Líder Gimnasio Jaden": {
+            "level": 93,
+            "item": "Lum Berry",
+            "nature": "Modest",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 70,
+                "at": 70,
+                "df": 70,
+                "sa": 252,
+                "sd": 70,
+                "sp": 252
+            },
+            "moves": [
+                "Boomburst",
+                "Flamethrower",
+                "Psyshock",
+                "Vacuum Wave"
+            ],
+            "index": 400
+        }
+    },
+    "Electivire-X": {
+        "@ Rival Andra #8": {
+            "level": 90,
+            "item": "Life Orb",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Double-Edge",
+                "Cross Chop",
+                "Ice Punch",
+                "Quick Attack"
+            ],
+            "index": 381
+        },
+        "@ Rival Andra #9": {
+            "level": 100,
+            "item": "Air Balloon",
+            "nature": "Jolly",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Double-Edge",
+                "Ice Punch",
+                "Reflect",
+                "Cross Chop"
+            ],
+            "index": 506
+        },
+        "@ Cabina Seguridad #2": {
+            "level": 98,
+            "item": "Life Orb",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Giga Impact",
+                "Ice Punch",
+                "Fire Punch",
+                "Cross Chop"
+            ],
+            "index": 548
+        }
+    },
+    "Empoleon": {
+        "@ Líder Gimnasio Crom": {
+            "level": 85,
+            "item": "Assault Vest",
+            "nature": "Modest",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 0,
+                "df": 0,
+                "sa": 252,
+                "sd": 6,
+                "sp": 0
+            },
+            "moves": [
+                "Hydro Cannon",
+                "Flash Cannon",
+                "Ice Beam",
+                "Grass Knot"
+            ],
+            "index": 355
+        }
+    },
+    "Gallade": {
+        "@ Líder Gimnasio Aníbal": {
+            "level": 89,
+            "item": "Galladite",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 25,
+                "at": 252,
+                "df": 25,
+                "sa": 25,
+                "sd": 25,
+                "sp": 252
+            },
+            "moves": [
+                "Drain Punch",
+                "Leaf Blade",
+                "Psycho Cut",
+                "Knock Off"
+            ],
+            "index": 369
+        },
+        "@ Base Caoba": {
+            "level": 81,
+            "item": "Assault Vest",
+            "nature": "Serious",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 100,
+                "at": 100,
+                "df": 100,
+                "sa": 0,
+                "sd": 100,
+                "sp": 110
+            },
+            "moves": [
+                "Drain Punch",
+                "Psycho Cut",
+                "Fire Punch",
+                "Shadow Sneak"
+            ],
+            "index": 409
+        }
+    },
+    "Girafarig": {
+        "@ Chica Kimono #2": {
+            "level": 78,
+            "item": "Life Orb",
+            "nature": "Serious",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "moves": [
+                "Psychic",
+                "Hyper Voice",
+                "Shadow Ball",
+                "Grass Knot"
+            ],
+            "index": 329
+        }
+    },
+    "Giratina-Origin": {
+        "@ Rey Unown": {
+            "level": 98,
+            "item": "Griseous Orb",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 0,
+                "df": 0,
+                "sa": 252,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Shadow Force",
+                "Draco Meteor",
+                "Will-O-Wisp",
+                "Shadow Sneak"
+            ],
+            "index": 478
+        }
+    },
+    "Golisopod": {
+        "@ Líder Gimnasio César": {
+            "level": 82,
+            "item": "Assault Vest",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 252,
+                "df": 128,
+                "sa": 0,
+                "sd": 128,
+                "sp": 0
+            },
+            "moves": [
+                "Leech Life",
+                "Knock Off",
+                "Liquidation",
+                "First Impression"
+            ],
+            "index": 317
+        }
+    },
+    "Groudon-Primal": {
+        "@ Zeus": {
+            "level": 96,
+            "item": "Red Orb",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 6
+            },
+            "moves": [
+                "Precipice Blades",
+                "Rock Slide",
+                "Overheat",
+                "Rock Polish"
+            ],
+            "index": 474
+        }
+    },
+    "Ho-oh-Primal": {
+        "@ Legendario Ho": {
+            "level": 99,
+            "item": "Kebia Berry",
+            "nature": "Timid",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 0,
+                "df": 0,
+                "sa": 252,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Blue Flare",
+                "Moonblast",
+                "Giga Drain",
+                "Ancient Power"
+            ],
+            "index": 467
+        }
+    },
+    "Hoopa-Unbound": {
+        "@ Líder Secta Laireb #2": {
+            "level": 96,
+            "item": "Choice Scarf",
+            "nature": "Modest",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 0,
+                "df": 0,
+                "sa": 252,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Hyperspace Hole"
+            ],
+            "index": 439
+        }
+    },
+    "Kabutops-Skeleton": {
+        "@ Guardián Alfa": {
+            "level": 95,
+            "item": "Colbur Berry",
+            "nature": "Jolly",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Rock Slide",
+                "Cross Chop",
+                "Shadow Bone",
+                "Cross Poison"
+            ],
+            "index": 450
+        },
+        "@ Unown Áureo": {
+            "level": 95,
+            "item": "Colbur Berry",
+            "nature": "Jolly",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Rock Slide",
+                "Cross Chop",
+                "Shadow Bone",
+                "Leech Life"
+            ],
+            "index": 462
+        },
+        "@ Legendario Lugia Primigenio": {
+            "level": 97,
+            "item": "Lum Berry",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Rock Slide",
+                "Cross Chop",
+                "Shadow Bone",
+                "Shadow Sneak"
+            ],
+            "index": 468
+        }
+    },
+    "Kingdra-&": {
+        "@ Líder Gimnasio Valeria": {
+            "level": 86,
+            "item": "Lum Berry",
+            "nature": "Modest",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 30,
+                "at": 30,
+                "df": 30,
+                "sa": 252,
+                "sd": 30,
+                "sp": 252
+            },
+            "moves": [
+                "Dark Pulse",
+                "Clanging Scales",
+                "Sheer Cold",
+                "Sludge Bomb"
+            ],
+            "index": 325
+        }
+    },
+    "Kleavor": {
+        "@ Líder Gimnasio César": {
+            "level": 81,
+            "item": "Focus Sash",
+            "nature": "Jolly",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 0,
+                "df": 0,
+                "sa": 252,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Stone Edge",
+                "U-turn",
+                "Close Combat",
+                "Stealth Rock"
+            ],
+            "index": 314
+        },
+        "@ Alto Mando Torre Dun #2": {
+            "level": 98,
+            "item": "Leftovers",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 128,
+                "at": 252,
+                "df": 30,
+                "sa": 30,
+                "sd": 30,
+                "sp": 128
+            },
+            "moves": [
+                "Stone Edge",
+                "X-Scissor",
+                "Close Combat",
+                "Rock Slide"
+            ],
+            "index": 517
+        },
+        "@ Administrador Jefe Rocket Atlas #2": {
+            "level": 101,
+            "item": "Leftovers",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 0,
+                "df": 252,
+                "sa": 0,
+                "sd": 6,
+                "sp": 0
+            },
+            "moves": [
+                "Stealth Rock",
+                "X-Scissor",
+                "Stone Edge",
+                "Iron Head"
+            ],
+            "index": 563
+        }
+    },
+    "Kommo-o": {
+        "@ Capitán Barco Olivo": {
+            "level": 86,
+            "item": "Assault Vest",
+            "nature": "Serious",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 15,
+                "at": 252,
+                "df": 15,
+                "sa": 15,
+                "sd": 15,
+                "sp": 252
+            },
+            "moves": [
+                "Drain Punch",
+                "Iron Head",
+                "Dragon Claw",
+                ""
+            ],
+            "index": 362
+        }
+    },
+    "Kyogre-Primal": {
+        "@ Zeus": {
+            "level": 96,
+            "item": "Blue Orb",
+            "nature": "Hasty",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 0,
+                "df": 0,
+                "sa": 252,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Origin Pulse",
+                "Sheer Cold",
+                "Thunder",
+                "Fissure"
+            ],
+            "index": 473
+        }
+    },
+    "Kyurem": {
+        "@ Líder Gimnasio M": {
+            "level": 96,
+            "item": "Choice Specs",
+            "nature": "Modest",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 0,
+                "df": 0,
+                "sa": 252,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Ice Burn"
+            ],
+            "index": 447
+        }
+    },
+    "Kyurem-Primal": {
+        "@ Zeus": {
+            "level": 98,
+            "item": "Life Orb",
+            "nature": "Naive",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 128,
+                "df": 0,
+                "sa": 128,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Ice Burn",
+                "Blue Flare",
+                "Roost",
+                "Bolt Strike"
+            ],
+            "index": 476
+        }
+    },
+    "Lucario": {
+        "@ Líder Gimnasio Crom": {
+            "level": 86,
+            "item": "Focus Sash",
+            "nature": "Jolly",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Close Combat",
+                "Stone Edge",
+                "Meteor Mash",
+                "Extreme Speed"
+            ],
+            "index": 353
+        }
+    },
+    "Lugia-Primal": {
+        "@ Legendario Lugia Primigenio": {
+            "level": 99,
+            "item": "Salac Berry",
+            "nature": "Modest",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 128,
+                "at": 0,
+                "df": 0,
+                "sa": 128,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Psychic",
+                "Aeroblast",
+                "Origin Pulse",
+                "Recover"
+            ],
+            "index": 470
+        }
+    },
+    "Mamoswine-&": {
+        "@ Líder Gimnasio Fredo": {
+            "level": 95,
+            "item": "Choice Scarf",
+            "nature": "Timid",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 80,
+                "at": 252,
+                "df": 80,
+                "sa": 80,
+                "sd": 80,
+                "sp": 252
+            },
+            "moves": [
+                "Head Charge"
+            ],
+            "index": 430
+        }
+    },
+    "Mandibuzz": {
+        "@ Líder Gimnasio Valeria": {
+            "level": 82,
+            "item": "Rocky Helmet",
+            "nature": "Bold",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 0,
+                "df": 128,
+                "sa": 0,
+                "sd": 128,
+                "sp": 0
+            },
+            "moves": [
+                "Tailwind",
+                "Foul Play",
+                "Roost",
+                "Knock Off"
+            ],
+            "index": 320
+        }
+    },
+    "Manectric": {
+        "@ Ejecutivo Rocket Protón #2": {
+            "level": 89,
+            "item": "Manectite",
+            "nature": "Modest",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 30,
+                "at": 30,
+                "df": 30,
+                "sa": 252,
+                "sd": 30,
+                "sp": 252
+            },
+            "moves": [
+                "Thunderbolt",
+                "Flamethrower",
+                "Swagger",
+                "Hyper Voice"
+            ],
+            "index": 376
+        },
+        "@ Lt #2": {
+            "level": 103,
+            "item": "Manectite",
+            "nature": "Jolly",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 30,
+                "at": 30,
+                "df": 30,
+                "sa": 252,
+                "sd": 30,
+                "sp": 252
+            },
+            "moves": [
+                "Volt Switch",
+                "Overheat",
+                "Light Screen",
+                "Thunderbolt"
+            ],
+            "index": 576
+        }
+    },
+    "Meganium": {
+        "@ Profesor Elm": {
+            "level": 79,
+            "item": "Big Root",
+            "nature": "Modest",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 128,
+                "sa": 252,
+                "sd": 128,
+                "sp": 0
+            },
+            "moves": [
+                "Leech Seed",
+                "Giga Drain",
+                "Earthquake",
+                "Draining Kiss"
+            ],
+            "index": 304
+        }
+    },
+    "Milotic": {
+        "@ Capitán Barco Olivo": {
+            "level": 86,
+            "item": "Leftovers",
+            "nature": "Serious",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 0,
+                "df": 128,
+                "sa": 128,
+                "sd": 0,
+                "sp": 0
+            },
+            "moves": [
+                "Scald",
+                "Ice Beam",
+                "Moonblast",
+                "Recover"
+            ],
+            "index": 360
+        },
+        "@ Rival Andra #8": {
+            "level": 91,
+            "item": "Miloticite",
+            "nature": "Bold",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 30,
+                "at": 252,
+                "df": 30,
+                "sa": 30,
+                "sd": 30,
+                "sp": 252
+            },
+            "moves": [
+                "Moonblast",
+                "Surf",
+                "Ice Beam",
+                "Recover"
+            ],
+            "index": 380
+        },
+        "@ Rival Andra #9": {
+            "level": 100,
+            "item": "Miloticite",
+            "nature": "Modest",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 55,
+                "df": 252,
+                "sa": 55,
+                "sd": 55,
+                "sp": 55
+            },
+            "moves": [
+                "Scald",
+                "Recover",
+                "Toxic",
+                "Refresh"
+            ],
+            "index": 505
+        }
+    },
+    "Mismagius": {
+        "@ Ex Alto Mando Agatha": {
+            "level": 87,
+            "item": "Life Orb",
+            "nature": "Modest",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 0,
+                "df": 0,
+                "sa": 252,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Shadow Ball",
+                "Mystical Fire",
+                "Psychic",
+                "Energy Ball"
+            ],
+            "index": 390
+        }
+    },
+    "Missingno": {
+        "@ Dios Laireb": {
+            "level": 101,
+            "item": "Leftovers",
+            "nature": "Bold",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 0,
+                "df": 128,
+                "sa": 128,
+                "sd": 0,
+                "sp": 0
+            },
+            "moves": [
+                "Light of Ruin",
+                "Moongeist Beam",
+                "Mystical Fire",
+                "Hyperspace Hole"
+            ],
+            "index": 482
+        }
+    },
+    "Moltres-Galar": {
+        "@ Líder Gimnasio Valeria": {
+            "level": 84,
+            "item": "Leftovers",
+            "nature": "Modest",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 128,
+                "sa": 252,
+                "sd": 128,
+                "sp": 0
+            },
+            "moves": [
+                "Fiery Wrath",
+                "Oblivion Wing",
+                "Roost",
+                "Ancient Power"
+            ],
+            "index": 322
+        }
+    },
+    "Moltres-Primal": {
+        "@ Líder Gimnasio M": {
+            "level": 97,
+            "item": "Air Balloon",
+            "nature": "Modest",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 0,
+                "df": 0,
+                "sa": 252,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Dragon Pulse",
+                "Flamethrower",
+                "Solar Beam",
+                "Roost"
+            ],
+            "index": 445
+        }
+    },
+    "Nidoking": {
+        "@ Base Caoba": {
+            "level": 82,
+            "item": "Life Orb",
+            "nature": "Serious",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 100,
+                "at": 0,
+                "df": 100,
+                "sa": 100,
+                "sd": 100,
+                "sp": 110
+            },
+            "moves": [
+                "Sludge Bomb",
+                "Earth Power",
+                "Flamethrower",
+                "Thunderbolt"
+            ],
+            "index": 410
+        }
+    },
+    "Ninetales-Alola": {
+        "@ Líder Gimnasio Fredo": {
+            "level": 90,
+            "item": "Light Clay",
+            "nature": "Timid",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 6,
+                "sp": 252
+            },
+            "moves": [
+                "Freeze-Dry",
+                "Aurora Veil",
+                "Hypnosis",
+                "Hail"
+            ],
+            "index": 425
+        }
+    },
+    "Noivern": {
+        "@ Campeón Teselia Mirto": {
+            "level": 95,
+            "item": "Noivernite",
+            "nature": "Timid",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 45,
+                "at": 45,
+                "df": 45,
+                "sa": 252,
+                "sd": 45,
+                "sp": 252
+            },
+            "moves": [
+                "Dragon Pulse",
+                "Hurricane",
+                "Fire Blast",
+                "Focus Blast"
+            ],
+            "index": 435
+        }
+    },
+    "Overqwil": {
+        "@ Ejecutivo Rocket Protón #2": {
+            "level": 86,
+            "item": "Leftovers",
+            "nature": "Bold",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 6,
+                "df": 0,
+                "sa": 0,
+                "sd": 252,
+                "sp": 0
+            },
+            "moves": [
+                "Spikes",
+                "Aqua Jet",
+                "Crunch",
+                "Gunk Shot"
+            ],
+            "index": 371
+        },
+        "@ Líder Fucsia Koga": {
+            "level": 101,
+            "item": "Rocky Helmet",
+            "nature": "Bold",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 0,
+                "df": 252,
+                "sa": 0,
+                "sd": 6,
+                "sp": 0
+            },
+            "moves": [
+                "Spikes",
+                "Scald",
+                "Poison Jab",
+                "Toxic Spikes"
+            ],
+            "index": 594
+        }
+    },
+    "Palkia-Origin": {
+        "@ Legendario Lugia Primigenio": {
+            "level": 98,
+            "item": "Draco Plate",
+            "nature": "Timid",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 0,
+                "df": 0,
+                "sa": 252,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Spacial Rend",
+                "Surf",
+                "Aura Sphere",
+                "Earth Power"
+            ],
+            "index": 469
+        }
+    },
+    "Poliwrath-&": {
+        "@ Líder Gimnasio Aníbal": {
+            "level": 90,
+            "item": "Assault Vest",
+            "nature": "Impish",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 50,
+                "at": 252,
+                "df": 252,
+                "sa": 50,
+                "sd": 50,
+                "sp": 50
+            },
+            "moves": [
+                "Drain Punch",
+                "Ice Punch",
+                "Bullet Punch",
+                "Liquidation"
+            ],
+            "index": 370
+        }
+    },
+    "Rapidash-&": {
+        "@ Líder Gimnasio Pegaso": {
+            "level": 82,
+            "item": "Heavy-Duty Boots",
+            "nature": "Jolly",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 10,
+                "at": 252,
+                "df": 10,
+                "sa": 10,
+                "sd": 10,
+                "sp": 252
+            },
+            "moves": [
+                "Horn Leech",
+                "High Horsepower",
+                "Fly",
+                "Flare Blitz"
+            ],
+            "index": 301
+        },
+        "@ Líder Gimnasio Pegaso #2": {
+            "level": 100,
+            "item": "Heavy-Duty Boots",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 90,
+                "at": 252,
+                "df": 90,
+                "sa": 90,
+                "sd": 90,
+                "sp": 252
+            },
+            "moves": [
+                "Horn Leech",
+                "Flare Blitz",
+                "Fly",
+                "High Horsepower"
+            ],
+            "index": 495
+        }
+    },
+    "Rayquaza-Mega": {
+        "@ Viajero Zeus #2": {
+            "level": 86,
+            "item": "White Herb",
+            "nature": "Jolly",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Dragon Ascent",
+                "Draco Meteor",
+                "Extreme Speed",
+                "V-create"
+            ],
+            "index": 346
+        },
+        "@ Zeus": {
+            "level": 97,
+            "item": "White Herb",
+            "nature": "Lonely",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 252,
+                "df": 0,
+                "sa": 6,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Dragon Ascent",
+                "Draco Meteor",
+                "V-create",
+                "Extreme Speed"
+            ],
+            "index": 475
+        }
+    },
+    "Regidrago": {
+        "@ Líder Gimnasio M": {
+            "level": 95,
+            "item": "Focus Sash",
+            "nature": "Jolly",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 0,
+                "df": 0,
+                "sa": 252,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Outrage",
+                "Explosion",
+                "Hammer Arm",
+                "Scale Shot"
+            ],
+            "index": 443
+        }
+    },
+    "Regieleki": {
+        "@ Campeón Teselia Mirto": {
+            "level": 93,
+            "item": "Light Clay",
+            "nature": "Modest",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 0,
+                "df": 0,
+                "sa": 252,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Reflect",
+                "Light Screen",
+                "Volt Switch",
+                "Thunderbolt"
+            ],
+            "index": 431
+        }
+    },
+    "Reshiram": {
+        "@ Viajero Zeus #3": {
+            "level": 91,
+            "item": "White Herb",
+            "nature": "Timid",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 0,
+                "df": 0,
+                "sa": 252,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Blue Flare",
+                "Earth Power",
+                "Draco Meteor",
+                "Extrasensory"
+            ],
+            "index": 402
+        }
+    },
+    "Rey Unown": {
+        "@ Rey Unown": {
+            "level": 99,
+            "item": "Dread Plate",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Guillotine",
+                "Poison Tail"
+            ],
+            "index": 479
+        }
+    },
+    "Scizor": {
+        "@ Líder Gimnasio César": {
+            "level": 82,
+            "item": "Choice Band",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 6,
+                "sp": 0
+            },
+            "moves": [
+                "Bullet Punch"
+            ],
+            "index": 316
+        }
+    },
+    "Shiftry": {
+        "@ Base Caoba": {
+            "level": 80,
+            "item": "Life Orb",
+            "nature": "Serious",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 100,
+                "at": 100,
+                "df": 100,
+                "sa": 0,
+                "sd": 100,
+                "sp": 110
+            },
+            "moves": [
+                "Leaf Blade",
+                "X-Scissor",
+                "Knock Off",
+                "Rock Slide"
+            ],
+            "index": 407
+        }
+    },
+    "Silvally": {
+        "@ Viajero Zeus #2": {
+            "level": 84,
+            "item": "Assault Vest",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 6
+            },
+            "moves": [
+                "Multi-Attack",
+                "U-turn",
+                "Flame Charge",
+                "Crunch"
+            ],
+            "index": 341
+        }
+    },
+    "Silvally Acero": {
+        "@ Ejecutivo Rocket Protón #2": {
+            "level": 88,
+            "item": "Steel Memory",
+            "nature": "Jolly",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Multi-Attack",
+                "Flame Charge",
+                "Crunch",
+                "Thunder Fang"
+            ],
+            "index": 375
+        }
+    },
+    "Skarmory-&": {
+        "@ Líder Gimnasio Crom": {
+            "level": 86,
+            "item": "Leftovers",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 252,
+                "df": 40,
+                "sa": 40,
+                "sd": 40,
+                "sp": 40
+            },
+            "moves": [
+                "Brave Bird",
+                "Stomping Tantrum",
+                "Iron Head",
+                "Roost"
+            ],
+            "index": 358
+        }
+    },
+    "Slowking": {
+        "@ Pokemaníaco Louis": {
+            "level": 77,
+            "item": "Leftovers",
+            "nature": "Bold",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 0,
+                "df": 0,
+                "sa": 252,
+                "sd": 0,
+                "sp": 6
+            },
+            "moves": [
+                "Psychic",
+                "Slack Off",
+                "Scald",
+                "Flamethrower"
+            ],
+            "index": 312
+        },
+        "@ Ejecutivo Rocket Protón #2": {
+            "level": 85,
+            "item": "King\\'s Rock",
+            "nature": "Bold",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 0,
+                "df": 252,
+                "sa": 0,
+                "sd": 6,
+                "sp": 0
+            },
+            "moves": [
+                "Psyshock",
+                "Scald",
+                "Fire Blast",
+                "Ice Beam"
+            ],
+            "index": 373
+        }
+    },
+    "Staraptor": {
+        "@ Líder Gimnasio Pegaso": {
+            "level": 79,
+            "item": "Assault Vest",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Brave Bird",
+                "U-turn",
+                "Close Combat",
+                "Double-Edge"
+            ],
+            "index": 296
+        }
+    },
+    "Tangrowth": {
+        "@ Base Caoba #3": {
+            "level": 85,
+            "item": "Assault Vest",
+            "nature": "Serious",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 100,
+                "at": 0,
+                "df": 100,
+                "sa": 100,
+                "sd": 100,
+                "sp": 110
+            },
+            "moves": [
+                "Giga Drain",
+                "Ancient Power",
+                "Sludge Bomb",
+                "Knock Off"
+            ],
+            "index": 422
+        }
+    },
+    "Terrakion": {
+        "@ Líder Gimnasio Aníbal": {
+            "level": 88,
+            "item": "Muscle Band",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Rock Slide",
+                "Iron Head",
+                "Sacred Sword",
+                "Zen Headbutt"
+            ],
+            "index": 368
+        }
+    },
+    "Thundurus-Therian": {
+        "@ Líder Gimnasio Pegaso": {
+            "level": 80,
+            "item": "Life Orb",
+            "nature": "Timid",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 0,
+                "df": 0,
+                "sa": 252,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Thunderbolt",
+                "Psychic",
+                "Dark Pulse",
+                "Air Slash"
+            ],
+            "index": 299
+        },
+        "@ Líder Gimnasio Pegaso #2": {
+            "level": 98,
+            "item": "Life Orb",
+            "nature": "Modest",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 0,
+                "df": 0,
+                "sa": 252,
+                "sd": 252,
+                "sp": 0
+            },
+            "moves": [
+                "Thunderbolt",
+                "Focus Blast",
+                "Grass Knot",
+                "Sludge Bomb"
+            ],
+            "index": 491
+        }
+    },
+    "Togekiss": {
+        "@ Maestro Torre Bellsprout": {
+            "level": 78,
+            "item": "Leftovers",
+            "nature": "Modest",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 0,
+                "df": 0,
+                "sa": 252,
+                "sd": 0,
+                "sp": 6
+            },
+            "moves": [
+                "Thunder Wave",
+                "Air Slash",
+                "Flamethrower",
+                "Aura Sphere"
+            ],
+            "index": 294
+        },
+        "@ Alto Mando Torre Dun": {
+            "level": 96,
+            "item": "Leftovers",
+            "nature": "Bold",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 20,
+                "df": 252,
+                "sa": 20,
+                "sd": 20,
+                "sp": 20
+            },
+            "moves": [
+                "Air Slash",
+                "Moonblast",
+                "Roost",
+                "Aura Sphere"
+            ],
+            "index": 511
+        }
+    },
+    "Tornadus-Therian": {
+        "@ Líder Gimnasio Pegaso": {
+            "level": 81,
+            "item": "Rocky Helmet",
+            "nature": "Bold",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 0,
+                "df": 252,
+                "sa": 0,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Hurricane",
+                "Heat Wave",
+                "Roost",
+                "Foul Play"
+            ],
+            "index": 300
+        },
+        "@ Líder Gimnasio Pegaso #2": {
+            "level": 98,
+            "item": "Heavy-Duty Boots",
+            "nature": "Timid",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 6,
+                "sa": 252,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Hurricane",
+                "Focus Blast",
+                "Heat Wave",
+                "Tailwind"
+            ],
+            "index": 492
+        }
+    },
+    "Trxatu": {
+        "@ Campeón Teselia Mirto": {
+            "level": 94,
+            "item": "Expert Belt",
+            "nature": "Timid",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 35,
+                "at": 35,
+                "df": 35,
+                "sa": 252,
+                "sd": 35,
+                "sp": 252
+            },
+            "moves": [
+                "Psychic",
+                "Shadow Ball",
+                "Reflect",
+                "Dazzling Gleam"
+            ],
+            "index": 432
+        },
+        "@ Guardián Alfa #5": {
+            "level": 95,
+            "item": "Sky Plate",
+            "nature": "Timid",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Aeroblast",
+                "Psychic",
+                "Heat Wave",
+                "Giga Drain"
+            ],
+            "index": 458
+        },
+        "@ Unown Áureo": {
+            "level": 95,
+            "item": "Sky Plate",
+            "nature": "Timid",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 0,
+                "df": 252,
+                "sa": 6,
+                "sd": 0,
+                "sp": 0
+            },
+            "moves": [
+                "Aeroblast",
+                "Psychic",
+                "Mystical Fire",
+                "Giga Drain"
+            ],
+            "index": 461
+        }
+    },
+    "Unown-Gold": {
+        "@ Unown Áureo": {
+            "level": 96,
+            "item": "Mind Plate",
+            "nature": "Bold",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 0,
+                "df": 252,
+                "sa": 0,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Psychic",
+                "Dazzling Gleam",
+                "Aura Sphere",
+                "Mystical Fire"
+            ],
+            "index": 464
+        }
+    },
+    "Urshifu": {
+        "@ Líder Gimnasio Valeria": {
+            "level": 84,
+            "item": "Assault Vest",
+            "nature": "Careful",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 252,
+                "sp": 6
+            },
+            "moves": [
+                "Drain Punch",
+                "Iron Head",
+                "Ice Punch",
+                "Knock Off"
+            ],
+            "index": 324
+        }
+    },
+    "Urshifu-Rapid-Strike": {
+        "@ Campeón Teselia Mirto": {
+            "level": 92,
+            "item": "Assault Vest",
+            "nature": "Jolly",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Crunch",
+                "Drain Punch",
+                "Zen Headbutt",
+                "Liquidation"
+            ],
+            "index": 433
+        }
+    },
+    "Vikavolt": {
+        "@ Líder Gimnasio César": {
+            "level": 81,
+            "item": "Leftovers",
+            "nature": "Modest",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 0,
+                "df": 0,
+                "sa": 252,
+                "sd": 6,
+                "sp": 0
+            },
+            "moves": [
+                "Discharge",
+                "Volt Switch",
+                "Giga Drain",
+                "Bug Buzz"
+            ],
+            "index": 315
+        }
+    },
+    "Virizion": {
+        "@ Campeón Teselia Mirto": {
+            "level": 93,
+            "item": "Focus Sash",
+            "nature": "Modest",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 0,
+                "df": 0,
+                "sa": 252,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Giga Drain",
+                "Air Slash",
+                "Aura Sphere",
+                "Ancient Power"
+            ],
+            "index": 434
+        }
+    },
+    "Volcarona-&": {
+        "@ Campeón Teselia Mirto": {
+            "level": 96,
+            "item": "Coba Berry",
+            "nature": "Timid",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 90,
+                "at": 90,
+                "df": 90,
+                "sa": 252,
+                "sd": 90,
+                "sp": 252
+            },
+            "moves": [
+                "Fiery Dance",
+                "Giga Drain",
+                "Bug Buzz",
+                "Ancient Power"
+            ],
+            "index": 436
+        }
+    },
+    "Yveltal": {
+        "@ Líder Secta Laireb #2": {
+            "level": 97,
+            "item": "Assault Vest",
+            "nature": "Modest",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 128,
+                "sa": 252,
+                "sd": 128,
+                "sp": 0
+            },
+            "moves": [
+                "Dark Pulse",
+                "Oblivion Wing",
+                "Sucker Punch",
+                "Heat Wave"
+            ],
+            "index": 442
+        }
+    },
+    "Zapdos-Galar": {
+        "@ Líder Gimnasio Aníbal": {
+            "level": 88,
+            "item": "Flying Gem",
+            "nature": "Jolly",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Acrobatics",
+                "Roost",
+                "Thunderous Kick",
+                "High Horsepower"
+            ],
+            "index": 367
+        }
+    },
+    "Zekrom": {
+        "@ Viajero Zeus #3": {
+            "level": 91,
+            "item": "Wide Lens",
+            "nature": "Jolly",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Iron Head",
+                "Rock Slide",
+                "Dragon Claw",
+                "Bolt Strike"
+            ],
+            "index": 403
+        }
+    },
+    "Zoroark-Hisui": {
+        "@ Líder Gimnasio Jaden": {
+            "level": 90,
+            "item": "Focus Sash",
+            "nature": "Modest",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 0,
+                "df": 0,
+                "sa": 252,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Sludge Bomb",
+                "Night Daze",
+                "Flamethrower",
+                "U-turn"
+            ],
+            "index": 398
+        }
+    },
+    "Akueria": {
+        "@ Legendario Lago": {
+            "level": 100,
+            "item": "Lum Berry",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "moves": [
+                "Dragon Rush",
+                "Aqua Tail",
+                "Iron Tail",
+                "Draco Meteor"
+            ],
+            "index": 489
+        }
+    },
+    "Altaria": {
+        "@ Alto Mando Torre Dun": {
+            "level": 97,
+            "item": "Altarianite",
+            "nature": "Modest",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 40,
+                "at": 40,
+                "df": 40,
+                "sa": 252,
+                "sd": 40,
+                "sp": 252
+            },
+            "moves": [
+                "Hyper Voice",
+                "Fire Blast",
+                "Roost",
+                "Cotton Guard"
+            ],
+            "index": 512
+        }
+    },
+    "Armaldo": {
+        "@ Administrador Devon Rubí": {
+            "level": 100,
+            "item": "Assault Vest",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 252,
+                "df": 6,
+                "sa": 0,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "First Impression",
+                "Stone Edge",
+                "Aqua Jet",
+                "Superpower"
+            ],
+            "index": 543
+        }
+    },
+    "Basculegion-F": {
+        "@ Alto Mando Torre Dun #3": {
+            "level": 99,
+            "item": "Leftovers",
+            "nature": "Modest",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 128,
+                "at": 40,
+                "df": 40,
+                "sa": 252,
+                "sd": 40,
+                "sp": 128
+            },
+            "moves": [
+                "Agility",
+                "Hydro Pump",
+                "Ice Beam",
+                "Shadow Ball"
+            ],
+            "index": 523
+        }
+    },
+    "Booho": {
+        "@ Alto Mando Torre Dun #4": {
+            "level": 99,
+            "item": "Leftovers",
+            "nature": "Modest",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 50,
+                "df": 50,
+                "sa": 252,
+                "sd": 50,
+                "sp": 50
+            },
+            "moves": [
+                "Psychic",
+                "Heat Wave",
+                "Roost",
+                "Reflect"
+            ],
+            "index": 528
+        }
+    },
+    "Boohoo": {
+        "@ Viajero Eusine": {
+            "level": 99,
+            "item": "Life Orb",
+            "nature": "Bold",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 80,
+                "df": 252,
+                "sa": 80,
+                "sd": 80,
+                "sp": 80
+            },
+            "moves": [
+                "Psychic",
+                "Hurricane",
+                "Roost",
+                "Heat Wave"
+            ],
+            "index": 502
+        },
+        "@ Alto Mando Torre Dun": {
+            "level": 98,
+            "item": "Assault Vest",
+            "nature": "Timid",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 20,
+                "df": 252,
+                "sa": 20,
+                "sd": 20,
+                "sp": 20
+            },
+            "moves": [
+                "Hurricane",
+                "Heat Wave",
+                "Dark Pulse",
+                "Psychic"
+            ],
+            "index": 514
+        },
+        "@ Viajero Eusine #2": {
+            "level": 105,
+            "item": "Life Orb",
+            "nature": "Bold",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 252,
+                "sp": 0
+            },
+            "moves": [
+                "Shadow Ball",
+                "Psychic",
+                "Roost",
+                "Heat Wave"
+            ],
+            "index": 608
+        }
+    },
+    "Braviary-Hisui": {
+        "@ Alto Mando Torre Dun": {
+            "level": 95,
+            "item": "Life Orb",
+            "nature": "Modest",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 20,
+                "df": 20,
+                "sa": 20,
+                "sd": 20,
+                "sp": 252
+            },
+            "moves": [
+                "Psychic",
+                "Hurricane",
+                "Heat Wave",
+                "Shadow Ball"
+            ],
+            "index": 510
+        }
+    },
+    "Butterfree": {
+        "@ Alto Mando Torre Dun #2": {
+            "level": 99,
+            "item": "Butterfrite",
+            "nature": "Timid",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 60,
+                "at": 60,
+                "df": 60,
+                "sa": 252,
+                "sd": 60,
+                "sp": 252
+            },
+            "moves": [
+                "Air Slash",
+                "Bug Buzz",
+                "Psychic",
+                "Shadow Ball"
+            ],
+            "index": 519
+        }
+    },
+    "Delphox-&": {
+        "@ Alto Mando Torre Dun #4": {
+            "level": 101,
+            "item": "Colbur Berry",
+            "nature": "Timid",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 20,
+                "df": 252,
+                "sa": 20,
+                "sd": 20,
+                "sp": 20
+            },
+            "moves": [
+                "Mystical Fire",
+                "Psyshock",
+                "Dazzling Gleam",
+                "Grass Knot"
+            ],
+            "index": 532
+        }
+    },
+    "Deoxys-Skeleton": {
+        "@ Cabina Seguridad #5": {
+            "level": 98,
+            "item": "Light Clay",
+            "nature": "Timid",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 6,
+                "sp": 252
+            },
+            "moves": [
+                "Stealth Rock",
+                "Spikes",
+                "Reflect",
+                "Psychic"
+            ],
+            "index": 554
+        },
+        "@ Team Rocket Líder Giovanni #2": {
+            "level": 107,
+            "item": "Terrain Extender",
+            "nature": "Modest",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 0,
+                "df": 6,
+                "sa": 0,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Taunt",
+                "Stealth Rock",
+                "Spikes",
+                "Psyshock"
+            ],
+            "index": 632
+        }
+    },
+    "Dragón Sagrado": {
+        "@ Dragón Sagrado": {
+            "level": 105,
+            "item": "Psychic Seed",
+            "nature": "Modest",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 80,
+                "df": 252,
+                "sa": 80,
+                "sd": 80,
+                "sp": 80
+            },
+            "moves": [
+                "Luster Purge",
+                "Eternabeam",
+                "Aura Sphere",
+                "Ancient Power"
+            ],
+            "index": 503
+        }
+    },
+    "Dun": {
+        "@ Alto Mando Torre Dun #4": {
+            "level": 102,
+            "item": "Electric Seed",
+            "nature": "Bold",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 110,
+                "df": 252,
+                "sa": 110,
+                "sd": 110,
+                "sp": 110
+            },
+            "moves": [
+                "Psyshock",
+                "Dragon Pulse",
+                "Roost",
+                "Aura Sphere"
+            ],
+            "index": 533
+        },
+        "@ Gran Maestro Torre Dun": {
+            "level": 102,
+            "item": "Focus Sash",
+            "nature": "Modest",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 60,
+                "df": 60,
+                "sa": 60,
+                "sd": 60,
+                "sp": 252
+            },
+            "moves": [
+                "Psychic",
+                "Shadow Ball",
+                "Aura Sphere",
+                "Boomburst"
+            ],
+            "index": 534
+        }
+    },
+    "Electrode-Hisui": {
+        "@ Viajero Eusine": {
+            "level": 97,
+            "item": "Light Clay",
+            "nature": "Modest",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 6,
+                "sp": 252
+            },
+            "moves": [
+                "Thunderbolt",
+                "Reflect",
+                "Light Screen",
+                "Volt Switch"
+            ],
+            "index": 498
+        },
+        "@ Lt": {
+            "level": 98,
+            "item": "Choice Band",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 6,
+                "sp": 252
+            },
+            "moves": [
+                "Explosion"
+            ],
+            "index": 573
+        }
+    },
+    "Electrode-Y": {
+        "@ Primer Prototipo De Nivel Ii": {
+            "level": 98,
+            "item": "Light Clay",
+            "nature": "Modest",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 0,
+                "df": 0,
+                "sa": 252,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Reflect",
+                "Light Screen",
+                "Thunderbolt",
+                "Flash Cannon"
+            ],
+            "index": 557
+        },
+        "@ Lt #2": {
+            "level": 103,
+            "item": "Terrain Extender",
+            "nature": "Timid",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 0,
+                "df": 0,
+                "sa": 252,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Flash Cannon",
+                "Thunderbolt",
+                "Reflect",
+                "Electric Terrain"
+            ],
+            "index": 578
+        },
+        "@ Viajero Eusine #2": {
+            "level": 105,
+            "item": "Light Clay",
+            "nature": "Modest",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 6,
+                "sa": 252,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Reflect",
+                "Light Screen",
+                "Thunderbolt",
+                "Flash Cannon"
+            ],
+            "index": 606
+        }
+    },
+    "En": {
+        "@ Gran Maestro Torre Dun": {
+            "level": 103,
+            "item": "Life Orb",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 120,
+                "at": 252,
+                "df": 120,
+                "sa": 120,
+                "sd": 120,
+                "sp": 252
+            },
+            "moves": [
+                "Sacred Fire",
+                "Iron Head",
+                "Extreme Speed",
+                "Crunch"
+            ],
+            "index": 537
+        }
+    },
+    "Enamorus": {
+        "@ Líder Gimnasio Pegaso #2": {
+            "level": 99,
+            "item": "Choice Scarf",
+            "nature": "Modest",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 0,
+                "df": 0,
+                "sa": 252,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Fleur Cannon"
+            ],
+            "index": 494
+        }
+    },
+    "Farigiraf": {
+        "@ Viajero Eusine": {
+            "level": 98,
+            "item": "Leftovers",
+            "nature": "Modest",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 0,
+                "df": 252,
+                "sa": 0,
+                "sd": 6,
+                "sp": 0
+            },
+            "moves": [
+                "Hyper Voice",
+                "Psyshock",
+                "Calm Mind",
+                "Shadow Ball"
+            ],
+            "index": 501
+        },
+        "@ Alto Mando Torre Dun #4": {
+            "level": 100,
+            "item": "Leftovers",
+            "nature": "Modest",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 50,
+                "df": 50,
+                "sa": 50,
+                "sd": 50,
+                "sp": 252
+            },
+            "moves": [
+                "Psyshock",
+                "Thunderbolt",
+                "Hyper Voice",
+                "Future Sight"
+            ],
+            "index": 529
+        }
+    },
+    "Feraligatr-&": {
+        "@ Administrador Jefe Rocket Atlas #2": {
+            "level": 104,
+            "item": "Life Orb",
+            "nature": "Jolly",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 90,
+                "at": 252,
+                "df": 90,
+                "sa": 90,
+                "sd": 252,
+                "sp": 90
+            },
+            "moves": [
+                "Liquidation",
+                "Ice Punch",
+                "Crunch",
+                "Zen Headbutt"
+            ],
+            "index": 568
+        }
+    },
+    "Genesect": {
+        "@ Primer Prototipo De Nivel Ii": {
+            "level": 99,
+            "item": "Burn Drive",
+            "nature": "Jolly",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 0,
+                "df": 0,
+                "sa": 252,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Techno Blast",
+                "Flash Cannon",
+                "Thunderbolt",
+                "Bug Buzz"
+            ],
+            "index": 558
+        },
+        "@ Científico Miguel #4": {
+            "level": 106,
+            "item": "Life Orb",
+            "nature": "Jolly",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "U-turn",
+                "Iron Head",
+                "Extreme Speed",
+                "Explosion"
+            ],
+            "index": 626
+        }
+    },
+    "Golem-Alola": {
+        "@ Lt": {
+            "level": 98,
+            "item": "Focus Sash",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 6,
+                "sp": 252
+            },
+            "moves": [
+                "Explosion"
+            ],
+            "index": 570
+        },
+        "@ Motorista #3": {
+            "level": 98,
+            "item": "Focus Sash",
+            "nature": "Jolly",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 6,
+                "sp": 0
+            },
+            "moves": [
+                "Earthquake",
+                "Stone Edge",
+                "Body Slam",
+                "Stealth Rock"
+            ],
+            "index": 588
+        }
+    },
+    "Goodra-Hisui": {
+        "@ Gran Maestro Torre Dun": {
+            "level": 101,
+            "item": "Rocky Helmet",
+            "nature": "Bold",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 60,
+                "df": 252,
+                "sa": 60,
+                "sd": 60,
+                "sp": 60
+            },
+            "moves": [
+                "Steel Beam",
+                "Acid Armor",
+                "Flamethrower",
+                "Thunderbolt"
+            ],
+            "index": 536
+        },
+        "@ Científico Miguel #4": {
+            "level": 106,
+            "item": "Steel Gem",
+            "nature": "Careful",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 128,
+                "at": 0,
+                "df": 128,
+                "sa": 252,
+                "sd": 0,
+                "sp": 0
+            },
+            "moves": [
+                "Steel Beam",
+                "Dragon Pulse",
+                "Fire Blast",
+                "Hydro Pump"
+            ],
+            "index": 627
+        }
+    },
+    "Gorochu": {
+        "@ Lt #2": {
+            "level": 104,
+            "item": "Assault Vest",
+            "nature": "Modest",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 60,
+                "at": 60,
+                "df": 60,
+                "sa": 252,
+                "sd": 60,
+                "sp": 252
+            },
+            "moves": [
+                "Thunderbolt",
+                "Grass Knot",
+                "Focus Blast",
+                "Surf"
+            ],
+            "index": 579
+        }
+    },
+    "Ho-Oh": {
+        "@ Administrador Jefe Rocket Atlas #2": {
+            "level": 103,
+            "item": "Heavy-Duty Boots",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 128,
+                "at": 252,
+                "df": 128,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "moves": [
+                "Sacred Fire",
+                "Fly",
+                "Roost",
+                "Earthquake"
+            ],
+            "index": 565
+        }
+    },
+    "Kingambit": {
+        "@ Alto Mando Torre Dun #2": {
+            "level": 100,
+            "item": "Assault Vest",
+            "nature": "Careful",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 90,
+                "df": 252,
+                "sa": 90,
+                "sd": 90,
+                "sp": 90
+            },
+            "moves": [
+                "Sucker Punch",
+                "Iron Head",
+                "Megahorn",
+                "Psycho Cut"
+            ],
+            "index": 521
+        },
+        "@ Gran Maestro Torre Dun": {
+            "level": 100,
+            "item": "Assault Vest",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 60,
+                "at": 252,
+                "df": 60,
+                "sa": 60,
+                "sd": 252,
+                "sp": 60
+            },
+            "moves": [
+                "Megahorn",
+                "Sucker Punch",
+                "Iron Head",
+                "Knock Off"
+            ],
+            "index": 535
+        }
+    },
+    "Landorus-Therian": {
+        "@ Líder Gimnasio Pegaso #2": {
+            "level": 98,
+            "item": "Focus Sash",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Earthquake",
+                "Stone Edge",
+                "Knock Off",
+                "Stealth Rock"
+            ],
+            "index": 493
+        }
+    },
+    "Latias": {
+        "@ Administrador Devon Rubí": {
+            "level": 101,
+            "item": "Dragon Gem",
+            "nature": "Modest",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 0,
+                "df": 0,
+                "sa": 252,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Dragon Pulse",
+                "Mist Ball",
+                "Surf",
+                "Thunderbolt"
+            ],
+            "index": 542
+        }
+    },
+    "Latios": {
+        "@ Administrador Devon Amatista": {
+            "level": 97,
+            "item": "Life Orb",
+            "nature": "Timid",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 6,
+                "sa": 252,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Draco Meteor",
+                "Psyshock",
+                "Surf",
+                "Recover"
+            ],
+            "index": 485
+        }
+    },
+    "Madaamu": {
+        "@ Alto Mando Torre Dun": {
+            "level": 99,
+            "item": "Flying Gem",
+            "nature": "Jolly",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 80,
+                "df": 252,
+                "sa": 80,
+                "sd": 80,
+                "sp": 80
+            },
+            "moves": [
+                "Leaf Blade",
+                "Acrobatics",
+                "First Impression",
+                "Knock Off"
+            ],
+            "index": 515
+        }
+    },
+    "Mewtwo Armadura": {
+        "@ Proyectos De Mewtwo": {
+            "level": 100,
+            "item": "Leftovers",
+            "nature": "Modest",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 0,
+                "df": 0,
+                "sa": 252,
+                "sd": 6,
+                "sp": 0
+            },
+            "moves": [
+                "Psychic",
+                "Flash Cannon",
+                "Flamethrower",
+                "Recover"
+            ],
+            "index": 562
+        },
+        "@ Legendario Mewtwo Armadura": {
+            "level": 115,
+            "item": "",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Drain Punch",
+                "Psycho Cut",
+                "Rock Slide",
+                "Taunt"
+            ],
+            "index": 631
+        }
+    },
+    "Muk-Alola": {
+        "@ Motorista": {
+            "level": 98,
+            "item": "Dark Gem",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 6,
+                "sp": 0
+            },
+            "moves": [
+                "Gunk Shot",
+                "Drain Punch",
+                "Knock Off",
+                "Sucker Punch"
+            ],
+            "index": 582
+        },
+        "@ Líder Fucsia Koga": {
+            "level": 101,
+            "item": "Leftovers",
+            "nature": "Careful",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 6,
+                "df": 0,
+                "sa": 0,
+                "sd": 252,
+                "sp": 0
+            },
+            "moves": [
+                "Gunk Shot",
+                "Knock Off",
+                "Curse",
+                "Shadow Sneak"
+            ],
+            "index": 597
+        }
+    },
+    "Nidogod": {
+        "@ Primer Prototipo De Nivel Ii": {
+            "level": 100,
+            "item": "Air Balloon",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 252,
+                "df": 6,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "moves": [
+                "Gunk Shot",
+                "Meteor Mash",
+                "Cross Chop",
+                "Fissure"
+            ],
+            "index": 559
+        }
+    },
+    "Nidoqueen-Y": {
+        "@ Cabina Seguridad": {
+            "level": 98,
+            "item": "Assault Vest",
+            "nature": "Bold",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 0,
+                "df": 0,
+                "sa": 252,
+                "sd": 0,
+                "sp": 6
+            },
+            "moves": [
+                "Earth Power",
+                "Sludge Wave",
+                "Flamethrower",
+                "Thunderbolt"
+            ],
+            "index": 547
+        },
+        "@ Team Rocket Líder Giovanni #2": {
+            "level": 108,
+            "item": "Assault Vest",
+            "nature": "Bold",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 0,
+                "df": 6,
+                "sa": 252,
+                "sd": 0,
+                "sp": 0
+            },
+            "moves": [
+                "Earth Power",
+                "Sludge Wave",
+                "Flamethrower",
+                "Ice Beam"
+            ],
+            "index": 634
+        }
+    },
+    "Persian-Alola": {
+        "@ Motorista #3": {
+            "level": 99,
+            "item": "Assault Vest",
+            "nature": "Careful",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 128,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 128,
+                "sp": 0
+            },
+            "moves": [
+                "Gunk Shot",
+                "Foul Play",
+                "U-turn",
+                "Knock Off"
+            ],
+            "index": 589
+        }
+    },
+    "PorygonZ-X": {
+        "@ Coleccionista Bill #4": {
+            "level": 107,
+            "item": "Power Herb",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 6,
+                "sp": 252
+            },
+            "moves": [
+                "Double-Edge",
+                "Sky Attack",
+                "Reflect",
+                "Iron Tail"
+            ],
+            "index": 622
+        }
+    },
+    "PorygonZ-Y": {
+        "@ Coleccionista Bill #4": {
+            "level": 107,
+            "item": "Assault Vest",
+            "nature": "Timid",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 0,
+                "df": 0,
+                "sa": 252,
+                "sd": 0,
+                "sp": 252
+            },
+            "moves": [
+                "Tri Attack",
+                "Shadow Ball",
+                "Parabolic Charge",
+                "Aura Sphere"
+            ],
+            "index": 621
+        }
+    },
+    "Purakkusu": {
+        "@ Alto Mando Torre Dun #2": {
+            "level": 99,
+            "item": "Choice Band",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 30,
+                "at": 252,
+                "df": 30,
+                "sa": 30,
+                "sd": 30,
+                "sp": 252
+            },
+            "moves": [
+                "Megahorn"
+            ],
+            "index": 520
+        },
+        "@ Administrador Petrel": {
+            "level": 104,
+            "item": "Assault Vest",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 252,
+                "sp": 0
+            },
+            "moves": [
+                "Earthquake",
+                "Gunk Shot",
+                "Leech Life",
+                "Close Combat"
+            ],
+            "index": 602
+        }
+    },
+    "Rai": {
+        "@ Gran Maestro Torre Dun": {
+            "level": 103,
+            "item": "Light Clay",
+            "nature": "Timid",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 120,
+                "at": 120,
+                "df": 120,
+                "sa": 252,
+                "sd": 120,
+                "sp": 252
+            },
+            "moves": [
+                "Zap Cannon",
+                "Aura Sphere",
+                "Reflect",
+                "Scald"
+            ],
+            "index": 538
+        }
+    },
+    "Regice": {
+        "@ Administrador Devon Amatista": {
+            "level": 97,
+            "item": "Heavy-Duty Boots",
+            "nature": "Modest",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 0,
+                "df": 0,
+                "sa": 252,
+                "sd": 252,
+                "sp": 0
+            },
+            "moves": [
+                "Ice Beam",
+                "Thunderbolt",
+                "Iron Defense",
+                "Rock Polish"
+            ],
+            "index": 484
+        }
+    },
+    "Regirock": {
+        "@ Administrador Devon Rubí": {
+            "level": 101,
+            "item": "Focus Sash",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 6,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 252,
+                "sp": 0
+            },
+            "moves": [
+                "Stone Edge",
+                "Heavy Slam",
+                "Stealth Rock",
+                "Drain Punch"
+            ],
+            "index": 540
+        }
+    },
+    "Registeel": {
+        "@ Administrador Jefe Rocket Atlas #2": {
+            "level": 102,
+            "item": "Assault Vest",
+            "nature": "Timid",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 6,
+                "sp": 0
+            },
+            "moves": [
+                "Meteor Mash",
+                "Earthquake",
+                "Hammer Arm",
+                "Rock Slide"
+            ],
+            "index": 566
+        }
+    },
+    "Rotom Lavadora": {
+        "@ Científico Miguel #4": {
+            "level": 105,
+            "item": "Leftovers",
+            "nature": "Modest",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 108,
+                "at": 0,
+                "df": 0,
+                "sa": 184,
+                "sd": 0,
+                "sp": 216
+            },
+            "moves": [
+                "Hydro Pump",
+                "Volt Switch",
+                "Will-O-Wisp",
+                "Pain Split"
+            ],
+            "index": 625
+        }
+    },
+    "Shibirefugu": {
+        "@ Lt #2": {
+            "level": 101,
+            "item": "Terrain Extender",
+            "nature": "Bold",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 0,
+                "df": 128,
+                "sa": 0,
+                "sd": 128,
+                "sp": 0
+            },
+            "moves": [
+                "Hydro Pump",
+                "Volt Switch",
+                "Toxic Spikes",
+                "Spikes"
+            ],
+            "index": 574
+        }
+    },
+    "Sui": {
+        "@ Gran Maestro Torre Dun": {
+            "level": 103,
+            "item": "Leftovers",
+            "nature": "Modest",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 120,
+                "df": 252,
+                "sa": 120,
+                "sd": 120,
+                "sp": 120
+            },
+            "moves": [
+                "Dive",
+                "Ice Beam",
+                "Wish",
+                "Shadow Ball"
+            ],
+            "index": 539
+        }
+    },
+    "Suicune-&": {
+        "@ Viajero Eusine #2": {
+            "level": 107,
+            "item": "Leftovers",
+            "nature": "Modest",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 0,
+                "df": 0,
+                "sa": 128,
+                "sd": 128,
+                "sp": 0
+            },
+            "moves": [
+                "Hyper Voice",
+                "Surf",
+                "Aqua Ring",
+                "Reflect"
+            ],
+            "index": 611
+        }
+    },
+    "Taaban": {
+        "@ Alto Mando Torre Dun #3": {
+            "level": 98,
+            "item": "Assault Vest",
+            "nature": "Careful",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 40,
+                "at": 252,
+                "df": 40,
+                "sa": 40,
+                "sd": 252,
+                "sp": 40
+            },
+            "moves": [
+                "Poltergeist",
+                "Icicle Spear",
+                "Rock Blast",
+                "Liquidation"
+            ],
+            "index": 522
+        },
+        "@ Administrador Petrel": {
+            "level": 102,
+            "item": "Assault Vest",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 6,
+                "df": 0,
+                "sa": 0,
+                "sd": 252,
+                "sp": 0
+            },
+            "moves": [
+                "Liquidation",
+                "Rock Blast",
+                "Icicle Spear",
+                "Poltergeist"
+            ],
+            "index": 601
+        }
+    },
+    "Toxtricity": {
+        "@ Administrador Petrel": {
+            "level": 105,
+            "item": "Toxtricitite",
+            "nature": "Timid",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 50,
+                "at": 50,
+                "df": 50,
+                "sa": 252,
+                "sd": 50,
+                "sp": 252
+            },
+            "moves": [
+                "Boomburst",
+                "Overdrive",
+                "Snarl",
+                "Sludge Wave"
+            ],
+            "index": 604
+        }
+    },
+    "Typhlosion-Hisui": {
+        "@ Alto Mando Torre Dun #3": {
+            "level": 99,
+            "item": "Life Orb",
+            "nature": "Timid",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 40,
+                "at": 40,
+                "df": 40,
+                "sa": 252,
+                "sd": 40,
+                "sp": 252
+            },
+            "moves": [
+                "Mind Blown",
+                "Burn Up",
+                "Focus Blast",
+                "Shadow Ball"
+            ],
+            "index": 524
+        }
+    },
+    "Ursaluna": {
+        "@ Rival Andra #9": {
+            "level": 101,
+            "item": "Assault Vest",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 128,
+                "at": 252,
+                "df": 55,
+                "sa": 55,
+                "sd": 128,
+                "sp": 55
+            },
+            "moves": [
+                "Earthquake",
+                "Body Slam",
+                "Fire Punch",
+                "Drain Punch"
+            ],
+            "index": 507
+        },
+        "@ Motorista": {
+            "level": 99,
+            "item": "White Herb",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 6,
+                "sp": 0
+            },
+            "moves": [
+                "Thrash",
+                "Fissure",
+                "Close Combat",
+                "Stone Edge"
+            ],
+            "index": 583
+        }
+    },
+    "Volcarona": {
+        "@ Alto Mando Torre Dun #2": {
+            "level": 98,
+            "item": "Life Orb",
+            "nature": "Timid",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 30,
+                "at": 30,
+                "df": 30,
+                "sa": 252,
+                "sd": 30,
+                "sp": 252
+            },
+            "moves": [
+                "Fiery Dance",
+                "Bug Buzz",
+                "Quiver Dance",
+                "Psychic"
+            ],
+            "index": 518
+        }
+    },
+    "Wartillery": {
+        "@ Administrador Petrel": {
+            "level": 101,
+            "item": "Assault Vest",
+            "nature": "Modest",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 6,
+                "sa": 252,
+                "sd": 252,
+                "sp": 0
+            },
+            "moves": [
+                "Octazooka",
+                "Flash Cannon",
+                "Energy Ball",
+                "Dark Pulse"
+            ],
+            "index": 600
+        }
+    },
+    "Weezing-Galar": {
+        "@ Motorista #2": {
+            "level": 98,
+            "item": "Fairy Gem",
+            "nature": "Modest",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 6,
+                "sp": 252
+            },
+            "moves": [
+                "Strange Steam",
+                "Fire Blast",
+                "Sludge Bomb",
+                "Will-O-Wisp"
+            ],
+            "index": 586
+        },
+        "@ Administrador Petrel": {
+            "level": 106,
+            "item": "Gas Condenser",
+            "nature": "Modest",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 100,
+                "at": 100,
+                "df": 100,
+                "sa": 252,
+                "sd": 252,
+                "sp": 100
+            },
+            "moves": [
+                "Sludge Bomb",
+                "Strange Steam",
+                "Fire Blast",
+                "Dark Pulse"
+            ],
+            "index": 605
+        }
+    },
+    "Wrongsparce": {
+        "@ Científico Miguel #4": {
+            "level": 108,
+            "item": "Grassy Seed",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 100,
+                "df": 100,
+                "sa": 100,
+                "sd": 252,
+                "sp": 100
+            },
+            "moves": [
+                "Thousand Arrows",
+                "Amnesia",
+                "Power Whip",
+                "Roost"
+            ],
+            "index": 630
+        }
+    },
+    "Wyrdeer": {
+        "@ Viajero Eusine": {
+            "level": 98,
+            "item": "Leftovers",
+            "nature": "Adamant",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 252,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 6
+            },
+            "moves": [
+                "Double-Edge",
+                "Jump Kick",
+                "Megahorn",
+                "Sucker Punch"
+            ],
+            "index": 500
+        },
+        "@ Alto Mando Torre Dun #4": {
+            "level": 100,
+            "item": "Assault Vest",
+            "nature": "Timid",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 50,
+                "at": 50,
+                "df": 50,
+                "sa": 252,
+                "sd": 50,
+                "sp": 252
+            },
+            "moves": [
+                "Body Slam",
+                "Jump Kick",
+                "Megahorn",
+                "Psycho Cut"
+            ],
+            "index": 530
+        }
+    },
+    "Zapdos-Primal": {
+        "@ Ave Sagrada": {
+            "level": 100,
+            "item": "Electric Seed",
+            "nature": "Modest",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "moves": [
+                "Discharge",
+                "Fiery Wrath",
+                "Heat Wave",
+                "Roost"
+            ],
+            "index": 496
+        },
+        "@ Legendario Zapdos Primigenio": {
+            "level": 108,
+            "item": "Electric Seed",
+            "nature": "Modest",
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 252,
+                "at": 252,
+                "df": 252,
+                "sa": 252,
+                "sd": 252,
+                "sp": 252
+            },
+            "moves": [
+                "Discharge",
+                "Fiery Wrath",
+                "Heat Wave",
+                "Roost"
+            ],
+            "index": 569
         }
     }
 };
