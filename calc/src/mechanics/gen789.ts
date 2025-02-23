@@ -1481,7 +1481,8 @@ export function calculateAtModsSMSSSV(
       (attacker.hasItem('Deep Sea Tooth') &&
        attacker.named('Clamperl') &&
        move.category === 'Special') ||
-      (attacker.hasItem('Light Ball') && attacker.name.includes('Pikachu') && !move.isZ)
+      (attacker.hasItem('Light Ball') && attacker.name.includes('Pikachu') && !move.isZ) ||
+      (attacker.hasItem('Berserk Gene') && attacker.name.includes('Mewtwo') && move.category === 'Physical')
   ) {
     atMods.push(8192);
     desc.attackerItem = attacker.item;
