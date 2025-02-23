@@ -464,7 +464,17 @@ const SV = SM.concat([
   'Wellspring Mask',
 ]);
 
-const SS = SV.concat([
+const TRE = SV.concat([
+  'Black Augurite',
+  'Gas Condenser',
+  'Odd Keystone',
+  'Rainbow Wing',
+  'Red Scale',
+  'Silver Wing',
+  'Upgrade',
+]);
+
+const SS = TRE.concat([
   'Berry Sweet',
   'Blunder Policy',
   'Chipped Pot',

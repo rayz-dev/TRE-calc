@@ -516,7 +516,16 @@ var SV = SM.concat([
     'Unremarkable Teacup',
     'Wellspring Mask',
 ]);
-var SS = SV.concat([
+var TRE = SV.concat([
+    'Black Augurite',
+    'Gas Condenser',
+    'Odd Keystone',
+    'Rainbow Wing',
+    'Red Scale',
+    'Silver Wing',
+    'Upgrade',
+]);
+var SS = TRE.concat([
     'Berry Sweet',
     'Blunder Policy',
     'Chipped Pot',

@@ -1253,6 +1253,10 @@ export function calculateBPModsSMSSSV(
   // Items
 
   if (attacker.hasItem(`${move.type} Gem`)) {
+    bpMods.push(5734);
+    desc.attackerItem = attacker.item;
+  }
+  else if ((attacker.item && move.hasType(getItemBoostType(attacker.item)) && attacker.item.includes('Plate'))) {
     bpMods.push(5325);
     desc.attackerItem = attacker.item;
   } else if (
@@ -1272,7 +1276,7 @@ export function calculateBPModsSMSSSV(
     (attacker.hasItem('Soul Dew') &&
      attacker.named('Latios', 'Latias', 'Latios-Mega', 'Latias-Mega') &&
      move.hasType('Psychic', 'Dragon')) ||
-     attacker.item && move.hasType(getItemBoostType(attacker.item)) ||
+     attacker.item && move.hasType(getItemBoostType(attacker.item)) && !attacker.item.includes('Plate') ||
     (attacker.name.includes('Ogerpon-Cornerstone') && attacker.hasItem('Cornerstone Mask')) ||
     (attacker.name.includes('Ogerpon-Hearthflame') && attacker.hasItem('Hearthflame Mask')) ||
     (attacker.name.includes('Ogerpon-Wellspring') && attacker.hasItem('Wellspring Mask'))
@@ -1488,7 +1492,38 @@ export function calculateAtModsSMSSSV(
   ) {
     atMods.push(6144);
     desc.attackerItem = attacker.item;
+  } else if (attacker.hasItem('Lagging Tail') && move.category === 'Physical') {
+    atMods.push(5530);
+    desc.attackerItem = attacker.item;
+  } else if (
+    (attacker.hasItem('Odd Keystone') && attacker.named('Spiritomb') && move.category === 'Special') ||
+    (attacker.hasItem('Upgrade') && attacker.named('Porygon2') && move.category === 'Special') ||
+    (attacker.hasItem('Electirizer') && attacker.named('Electivire') && move.category === 'Physical') ||
+    (attacker.hasItem('Magmarizer') && attacker.named('Magmortar') && move.category === 'Special') ||
+    (attacker.hasItem('Dubious Disc') && attacker.named('Porygon-Z') && move.category === 'Special') ||
+    (attacker.hasItem('Reaper Cloth') && attacker.named('Dusknoir') && move.category === 'Physical') ||
+    (attacker.hasItem('Whipped Dream') && attacker.named('Slurpuff') && move.category === 'Special') ||
+    (attacker.hasItem('Deep Sea Scale') && attacker.named('Gorebyss') && move.category === 'Special') ||
+    (attacker.hasItem('Deep Sea Tooth') && attacker.named('Huntail') && move.category === 'Physical') ||
+    (attacker.hasItem('King\'s Rock') && attacker.named('Slowking', 'Politoed') && move.category === 'Special') ||
+    (attacker.hasItem('Metal Coat') && attacker.named('Steelix', 'Scizor') && move.category === 'Physical') ||
+    (attacker.hasItem('Razor Claw') && attacker.named('Weavile') && move.category === 'Physical') ||
+    (attacker.hasItem('Razor Fang') && attacker.named('Gliscor') && move.category === 'Physical') ||
+    (attacker.hasItem('Gas Condenser') && attacker.name.includes('Weezing') && move.category === 'Special') ||
+    (attacker.item?.includes('Memory') && attacker.name.includes('Silvally') && move.category === 'Physical')
+  ) {
+    atMods.push(5325);
+    desc.attackerItem = attacker.item;
+  } else if (
+    (attacker.hasItem('Silver Wing') && attacker.named('Lugia') && move.category === 'Special') ||
+    (attacker.hasItem('Rainbow Wing') && attacker.named('Ho-Oh') && move.category === 'Physical')
+  ) {
+    atMods.push(4915);
+    desc.attackerItem = attacker.item;
+  } else if ((attacker.hasItem('Gas Condenser') && attacker.name.includes('Weezing') && move.category === 'Physical')) {
+    atMods.push(2867);
   }
+
   return atMods;
 }
 
@@ -1621,7 +1656,38 @@ export function calculateDfModsSMSSSV(
   ) {
     dfMods.push(8192);
     desc.defenderItem = defender.item;
+  } else if (defender.hasItem('Iron Ball') && hitsPhysical) {
+    dfMods.push(5530);
+    desc.defenderItem = defender.item;
+  } else if (
+    (defender.hasItem('Odd Keystone') && defender.named('Spiritomb') && !hitsPhysical) ||
+    (defender.hasItem('Dragon Scale') && defender.named('Kingdra') && hitsPhysical) ||
+    (defender.hasItem('Protector') && defender.named('Rhyperior')) ||
+    (defender.hasItem('Electirizer') && defender.named('Electivire') && !hitsPhysical) ||
+    (defender.hasItem('Magmarizer') && defender.named('Magmortar') && !hitsPhysical) ||
+    (defender.hasItem('Dubious Disc') && defender.named('Porygon-Z') && hitsPhysical) ||
+    (defender.hasItem('Prism Scale') && defender.named('Milotic') && !hitsPhysical) ||
+    (defender.hasItem('Whipped Dream') && defender.named('Slurpuff') && !hitsPhysical) ||
+    (defender.hasItem('Sachet') && defender.named('Aromatisse')) ||
+    (defender.hasItem('Metal Coat') && defender.named('Steelix', 'Scizor') && hitsPhysical) ||
+    (defender.hasItem('Razor Claw') && defender.named('Weavile') && hitsPhysical) ||
+    (defender.hasItem('Razor Fang') && defender.named('Gliscor') && hitsPhysical) ||
+    (defender.hasItem('Red Scale') && defender.named('Gyarados')) ||
+    (defender.hasItem('Gas Condenser') && defender.name.includes('Weezing')) ||
+    (defender.hasItem('Black Augurite') && defender.named('Kleavor') && !hitsPhysical) ||
+    (defender.item?.includes('Drive') && defender.name.includes('Genesect')) ||
+    (defender.item?.includes('Memory') && defender.name.includes('Silvally') && !hitsPhysical)
+  ) {
+    dfMods.push(5325);
+    desc.defenderItem = defender.item;
+  } else if (
+    (defender.hasItem('Silver Wing') && defender.named('Lugia') && !hitsPhysical) ||
+    (defender.hasItem('Rainbow Wing') && defender.named('Ho-Oh') && hitsPhysical)
+  ) {
+    dfMods.push(4915);
+    desc.defenderItem = defender.item;
   }
+
   return dfMods;
 }
 

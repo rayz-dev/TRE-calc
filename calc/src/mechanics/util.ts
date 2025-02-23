@@ -121,6 +121,19 @@ export function getFinalSpeed(gen: Generation, pokemon: Pokemon, field: Field, s
     speedMods.push(2048);
   } else if (pokemon.hasItem('Quick Powder') && pokemon.named('Ditto')) {
     speedMods.push(8192);
+  } else if (pokemon.hasItem('Float Stone')) {
+    speedMods.push(5120);
+  } else if (
+    (pokemon.hasItem('Dragon Scale') && pokemon.named('Kingdra')) ||
+    (pokemon.hasItem('Upgrade') && pokemon.named('Porygon2')) ||
+    (pokemon.hasItem('Reaper Cloth') && pokemon.named('Dusknoir')) ||
+    (pokemon.hasItem('Prism Scale') && pokemon.named('Milotic')) ||
+    (pokemon.hasItem('Deep Sea Scale') && pokemon.named('Gorebyss')) ||
+    (pokemon.hasItem('Deep Sea Tooth') && pokemon.named('Huntail')) ||
+    (pokemon.hasItem('King\'s Rock') && pokemon.named('Slowking', 'Politoed')) ||
+    (pokemon.hasItem('Black Augurite') && pokemon.named('Kleavor'))
+  ) {
+    speedMods.push(5325);
   }
 
   speed = OF32(pokeRound((speed * chainMods(speedMods, 410, 131172)) / 4096));
