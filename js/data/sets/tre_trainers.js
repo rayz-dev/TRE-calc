@@ -7529,7 +7529,7 @@ var SETDEX_TRE = {
     "Starmie": {
         "@ Líder Gimnasio Misty": {
             "level": 47,
-            "item": "Eviolite",
+            "item": "Life Orb",
             "nature": "Timid",
             "ivs": {
                 "hp": 28,
