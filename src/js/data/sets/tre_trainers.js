@@ -17402,7 +17402,7 @@ var SETDEX_TRE = {
         },
         "@ Legendario Mewtwo Armadura": {
             "level": 115,
-            "item": "",
+            "item": "Berserk Gene",
             "nature": "Adamant",
             "ivs": {
                 "hp": 31,
